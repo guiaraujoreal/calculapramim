@@ -1,19 +1,26 @@
+
+
 /*Cabecalho*/
 
 #cabecalho{
     background-color: rgb(127, 191, 255);
     text-align: center;
     width: auto;
-    height: 10vh;
+    height: 13vh;
+
 }
 .titulo{
     color: white;
-    font-size: 8vw;
+    font-size: clamp(2em,8vw,5em);
+    position: absolute;
+    top: 1%;
 }
 
 
 #menu {
     z-index: 2;
+    position: absolute;
+    top:50%;
   }
   
   #menu-bar {
