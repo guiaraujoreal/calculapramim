@@ -6,21 +6,17 @@
     background-color: rgb(127, 191, 255);
     text-align: center;
     width: auto;
-    height: 13vh;
+    min-height: 10vh;
+    max-height: 13vh;
 
 }
-.titulo{
+#titulo{
     color: white;
     font-size: clamp(2em,8vw,4em);
     position: absolute;
     top: 1%;
 }
 
-@media (min-width: 405px) and (max-width: 767.98px){
-    #cabecalho{
-        height: 15vh;
-    }
-}
 
 
 #menu {
