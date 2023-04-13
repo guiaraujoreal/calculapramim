@@ -16,3 +16,18 @@
     top: 15%;
     left: 5%;
 }
+#img_cards{
+}
+#cards{
+    position: absolute;
+    top: 30%;
+    
+}
+#title_card{
+    font-size: 6vw;
+    text-align: center;
+}
+#bodtao_cards{
+    display: block;
+    align-items: center;
+}
