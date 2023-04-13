@@ -27,7 +27,7 @@
     font-size: 6vw;
     text-align: center;
 }
-#bodtao_cards{
+#card_body{
     display: block;
-    align-items: center;
+    justify-content: center;
 }
