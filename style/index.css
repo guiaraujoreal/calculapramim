@@ -68,9 +68,12 @@ body{
     width: 50vw;
     height: auto;
 }
-#mensagem{
-
+.animated{
+    color: white;
+    background-color: rgb(255, 79, 79);
+    border-radius: 5px;
 }
+
 #text{
     color: white;
     font-size: clamp(2em,3vw,4em);
