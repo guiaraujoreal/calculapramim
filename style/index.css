@@ -20,6 +20,12 @@ body{
     
     color: white;
     text-shadow: 2px 2px 4px #000000, -2px -2px 4px #FFFFFF;
+
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
 #card_geral{
     
@@ -27,17 +33,23 @@ body{
     background-color: rgb(124, 107, 190);
     border-radius: 10px;
 }
-#animation{
-   
-    width: 100vw;
-    height: auto;
+#animation_obj{
+    width: 300px; 
+    height: 300px;
 }
+
 @media (max-width: 520px) {
     #sub-1{
         text-align: center;
     }
-    #animation{
+    #animation_obj{
         width: 5vw;
+    }
+}
+@media (min-width: 1498px){
+    #animation_obj{
+        width: 500px;
+        height: 500px;
     }
 }
 
