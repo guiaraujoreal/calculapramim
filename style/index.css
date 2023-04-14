@@ -10,15 +10,25 @@ body{
     background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
 }
+.container{
+    
+    max-width: 100%;
+}
 #sub-1{
     text-align: left;
     font-size: clamp(2em,6vw,4em);
-    border: solid 2px palevioletred;
+    
     color: white;
     text-shadow: 2px 2px 4px #000000, -2px -2px 4px #FFFFFF;
 }
+#card_geral{
+    
+    max-width: 95%;
+    background-color: rgb(124, 107, 190);
+    border-radius: 10px;
+}
 #animation{
-    border: solid 2px green;
+   
     width: 100vw;
     height: auto;
 }
@@ -31,14 +41,6 @@ body{
     }
 }
 
-
-
-.container{
-    border-style: solid;
-    border-color: blue;
-    border-width: 2px;
-    max-width: 100%;
-}
 #coluna{
     margin: 20px;
     padding: 10px;
@@ -50,4 +52,17 @@ body{
 #carrossel{
     width: 50vw;
     height: auto;
+}
+#mensagem{
+
+}
+#text{
+    color: white;
+    font-size: clamp(2em,3vw,4em);
+      
+}
+@media (max-width:516px){
+    #text{
+        text-align: center;
+    }
 }
