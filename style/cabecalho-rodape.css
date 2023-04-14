@@ -24,14 +24,18 @@
     z-index: 2;
     position: absolute;
     top:50%;
+    left: 0;
     border: solid 2px yellow;
   }
   
   #menu-bar {
     width: 30px;
     height: 40px;
-    margin: 30px 0 20px 20px;
+    margin: 0;
     cursor: pointer;
+    position: absolute;
+    top:4vh;
+    left: 0;
   }
   
   .bar {
