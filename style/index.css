@@ -42,10 +42,6 @@ body{
     #sub-1{
         text-align: center;
     }
-    #animation_obj{
-        width: 5vw;
-    }
-}
 @media (min-width: 1498px){
     #animation_obj{
         width: 500px;
