@@ -90,8 +90,3 @@ body{
     border-radius: 5px;
     text-shadow: none;
 }
-@msedia (max-width:516px){
-    #text{
-        text-align: center;
-    }
-}
