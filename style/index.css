@@ -4,11 +4,11 @@
     font-family: 'Rubik', sans-serif;
 }
 body{
-    background: rgb(95,222,255);
-background: -moz-radial-gradient(circle, rgba(95,222,255,1) 0%, rgba(255,249,182,0.989233193277311) 100%);
-background: -webkit-radial-gradient(circle, rgba(95,222,255,1) 0%, rgba(255,249,182,0.989233193277311) 100%);
-background: radial-gradient(circle, rgba(95,222,255,1) 0%, rgba(255,249,182,0.989233193277311) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5fdeff",endColorstr="#fff9b6",GradientType=1);
+    background: rgb(238,174,202);
+    background: -moz-linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
 }
 #sub-1{
     text-align: left;
