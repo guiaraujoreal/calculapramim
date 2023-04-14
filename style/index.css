@@ -68,15 +68,11 @@ body{
     width: 50vw;
     height: auto;
 }
-.animated{
-    color: white;
-    background-color: rgb(255, 79, 79);
-    border-radius: 5px;
-}
 
 #text{
     color: white;
     font-size: clamp(2em,3vw,4em);
+    text-shadow: 2px 2px 4px #000000;
 
     display: inline-block;
     margin: 0 0.5rem;
@@ -85,7 +81,13 @@ body{
     animation-duration: 0.8s; /* don't forget to set a duration! */
       
 }
-@media (max-width:516px){
+.animated{
+    color: white;
+    background-color: rgb(255, 79, 79);
+    border-radius: 5px;
+    text-shadow: none;
+}
+@msedia (max-width:516px){
     #text{
         text-align: center;
     }
