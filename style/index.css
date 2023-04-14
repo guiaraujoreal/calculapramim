@@ -40,8 +40,8 @@ body{
     display: inline-block;
     margin: 0 0.5rem;
   
-    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 0.8s; /* don't forget to set a duration! */
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
 }
 
 @media (max-width: 520px) {
@@ -74,6 +74,12 @@ body{
 #text{
     color: white;
     font-size: clamp(2em,3vw,4em);
+
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 0.8s; /* don't forget to set a duration! */
       
 }
 @media (max-width:516px){
