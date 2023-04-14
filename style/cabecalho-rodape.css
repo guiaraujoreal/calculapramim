@@ -6,18 +6,25 @@
     background-color: rgb(127, 191, 255);
     text-align: center;
     width: auto;
-    min-height: 10vh;
-    max-height: 13vh;
+    height: 13vh;
     border: greenyellow;
+    margin: 0 auto;
 
 }
 #titulo{
     color: white;
-    font-size: clamp(3em,8vw,4em);
+    font-size: 3em;
+    height: 13%;
     border: 2px red solid;
     font-family: 'Dosis', sans-serif;
+    position: absolute;
+    top: 0;
 }
-
+@media (min-height: 750px){
+  #titulo{
+    font-size: 5em;
+  }
+}
 
 
 #menu {
