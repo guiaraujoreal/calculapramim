@@ -13,7 +13,7 @@
     width: 100vw;
     height: auto;
 }
-@media (max-width: 410px) {
+@media (max-width: 600px) {
     #sub-1{
         text-align: center;
     }
