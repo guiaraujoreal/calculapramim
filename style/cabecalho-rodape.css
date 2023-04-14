@@ -7,7 +7,6 @@
     text-align: center;
     width: auto;
     height: 13vh;
-    border: greenyellow;
     margin: 0 auto;
 
 }
@@ -15,7 +14,6 @@
     color: white;
     font-size: 3em;
     height: 13%;
-    border: 2px red solid;
     font-family: 'Dosis', sans-serif;
     position: absolute;
     top: 0;
@@ -26,7 +24,6 @@
   position: absolute;
   top:50%;
   left: 0;
-  border: solid 2px yellow;
 }
 
 #menu-bar {
