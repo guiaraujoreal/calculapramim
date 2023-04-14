@@ -15,6 +15,7 @@
     color: white;
     font-size: clamp(2em,8vw,4em);
     border: 2px red solid;
+    font-family: 'Dosis', sans-serif;
 }
 
 

@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet"> 
 
     <title>Bem-vindo ao Calcula Pra Mim</title>
 </head>
@@ -21,7 +24,7 @@
             <div class="row d-flex justify-content-around">
                 <div id="titulo" class="col-md-7 col-lg-5 col-xs-12">Math Learn</div>
 
-                <div id="menu" class="col-md-1 col-lg-1 col-xs-11">
+                <div id="menu" class="col">
                     <div id="menu-bar" onclick="menuOnClick()">
                         <div id="bar1" class="bar"></div>
                         <div id="bar2" class="bar"></div>
@@ -39,10 +42,18 @@
                 <div class="menu-bg" id="menu-bg"></div>
             </div>
         </div>
-        <div class="container" id="sub-1"><b>Olá! Bem vindo(a) ao Math Learn!</b></div>
+        <div class="container container-fluid">
+            <div class="row justify-content-around">
+                <div id="sub-1" class="col-xs-1 d-flex align-items-center"><b>Olá! Bem vindo(a) ao Math Learn!</b></div>
+                <div id="animation" class="col d-flex justify-content-center">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_neoi7cp3.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+                </div>
+            </div>
+        </div>
 
         <div class="container d-flex justify-content-center">
-            <div id="row"class="row justify-content-around h-100">
+            <div id="row" class="row justify-content-around h-100">
                 <div id="coluna" class="col-md-5 col-lg-3 col-xs-12">
                     <div id="cards" class="card text-center mx-auto" style="width: 18rem;">
                         <img class="card-img-top" src="../math-learn/imgs/frame.png" alt="Imagem de capa do card">

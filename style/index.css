@@ -3,12 +3,25 @@
     padding: 0;
     font-family: 'Rubik', sans-serif;
 }
-#subs-1{
-    text-align: center;
+#sub-1{
+    text-align: left;
     font-size: clamp(1.5em,6vw,4em);
-    position: absolute;
-    top: 15%;
-    left: 5%;
+    border: solid 2px palevioletred;
+}
+#animation{
+    border: solid 2px green;
+    width: 100vw;
+    height: auto;
+}
+@media (max-width: 410px) {
+    #sub-1{
+        text-align: center;
+    }
+    #animation{
+        width: 5vw;
+    }
+}
+@media (max-width: 1310px){
 }
 
 .container{
