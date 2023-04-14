@@ -5,7 +5,7 @@
 }
 #sub-1{
     text-align: left;
-    font-size: clamp(1.5em,6vw,4em);
+    font-size: clamp(2em,6vw,4em);
     border: solid 2px palevioletred;
 }
 #animation{
@@ -21,8 +21,7 @@
         width: 5vw;
     }
 }
-@media (max-width: 1310px){
-}
+
 
 .container{
     border-style: solid;
