@@ -116,3 +116,12 @@
     height: 460px;
     transform: translate(-60%,-30%);
   }
+  #rodape{
+    background-color: rgb(127, 191, 255);
+    width: auto;
+    min-height: 15vh;
+  }
+  #copy{
+    color: white;
+    text-align: center;
+  }
