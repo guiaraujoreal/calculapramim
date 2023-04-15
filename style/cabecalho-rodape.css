@@ -118,7 +118,11 @@
   height: 460px;
   transform: translate(-60%,-30%);
 }
-
+#cols_menu{
+  border: solid 2px yellow;
+  position: absolute;
+  top: 20%
+}
 
 @media (min-height: 750px){
   #titulo{
