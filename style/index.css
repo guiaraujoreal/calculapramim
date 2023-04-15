@@ -124,3 +124,7 @@ body{
     border-radius: 5px;
     text-shadow: none;
 }
+.title_contcard{
+    text-align: center;
+    border: solid 2px yellow;
+}
