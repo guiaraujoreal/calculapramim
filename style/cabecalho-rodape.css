@@ -27,7 +27,7 @@
 }
 
 #menu-bar {
-  width: 30px;
+  width: 40px;
   height: 40px;
   margin: 0;
   cursor: pointer;
@@ -148,6 +148,12 @@
 @media (max-height: 310px){
   #titulo{
     font-size: 1.5em;
+  }
+}
+@media (min-width: 570px){
+  #menu{
+    width: 5rem;
+    height: auto;
   }
 }
 

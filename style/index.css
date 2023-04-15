@@ -34,6 +34,26 @@ body{
     border-radius: 10px;
     margin-bottom: 20px;
 }
+#cards{
+    width: 18rem;
+    height: auto;
+    transition: transform 0.3s ease-out;
+
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    --animate-delay: 3s;
+}
+#cards:hover{
+    transform: scale(1.1);
+}
+@media (max-width:1240px){
+    #cards{
+        width: 15rem;
+    }
+}
 #animation_obj{
     width: 300px; 
     height: 300px;
@@ -84,9 +104,13 @@ body{
     animation-duration: 0.8s; /* don't forget to set a duration! */
       
 }
-
 #mensagem{
     max-width: 97%;
+}
+@media (min-width:405px) and (max-width:450px){
+    #mensagem{
+        margin-left: 30px;
+    }
 }
 .animated{
     color: white;
