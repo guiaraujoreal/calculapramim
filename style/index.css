@@ -51,7 +51,7 @@ body{
 }
 @media (max-width:1240px){
     #cards{
-        width: 15rem;
+        width: 16rem;
     }
 }
 #animation_obj{
@@ -100,7 +100,7 @@ body{
     display: inline-block;
     margin: 0 0.5rem;
   
-    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 0.8s; /* don't forget to set a duration! */
       
 }
