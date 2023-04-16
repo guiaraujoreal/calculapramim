@@ -5,10 +5,15 @@ html, body{
 }
 
 /*Cabecalho*/
-
+#logo{
+  width: 10rem;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 2%;
+}
 #cabecalho{
     background-color: rgb(105, 139, 249);
-    text-align: center;
     width: auto;
     height: 13vh;
     margin: 0 auto;
@@ -17,11 +22,12 @@ html, body{
 }
 #titulo{
     color: white;
-    font-size: 3em;
+    font-size: 5rem;
+    text-align: center;
     width: 50%;
     font-family: 'Dosis', sans-serif;
     position: absolute;
-    top: 0;
+    top: 1%;
     padding: 0;
 }
 
@@ -29,59 +35,73 @@ html, body{
 
 
 
-@media (min-height: 750px){
+#rodape{
+  background-color: rgb(105, 139, 249);
+  width: auto;
+  min-height: 15vh;
+}
+#copy{
+  color: white;
+  text-align: center;
+}
+
+/*Media Query #titulo*/
+
+@media (max-width: 800px),(max-height: 870px){
   #titulo{
-    font-size: 5em;
-  }
-  #menu{
+    font-size: 4rem;
     position: absolute;
     top: 2%;
   }
 }
-@media (max-width: 430px) and (min-height: 500px){
+@media (max-width: 750px),(max-height: 680px){
   #titulo{
-    font-size: 3em;
-    position: absolute;
-    top: 1%;
-  }
-  #menu{
+    font-size: 3rem;
     position: absolute;
     top: 2%;
   }
 }
-@media (max-height: 460px){
+@media (max-width: 430px),(max-height: 490px){
   #titulo{
-    font-size: 2em;
-  }
-}
-@media (max-height: 310px){
-  #titulo{
-    font-size: 1.5em;
-  }
-}
-@media (min-width: 570px){
-  #menu{
-    width: 5rem;
-    height: auto;
-  }
-}
-@media (max-width:380px){
-  #titulo{
-    font-size: 2.5em;
+    font-size: 2rem;
     position: absolute;
-    top:3%;
-    left: 25%
+    top: 2%;
+  }
+}
+@media (max-width: 300px),(max-height: 300px){
+  #titulo{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 3%;
   }
 }
 
-
-
-  #rodape{
-    background-color: rgb(105, 139, 249);
-    width: auto;
-    min-height: 15vh;
+/* Media Query #logo */
+@media (max-width: 800px),(max-height: 930px){
+  #logo{
+    width: 8em;
+    position: absolute;
+    top:2%
   }
-  #copy{
-    color: white;
-    text-align: center;
+}
+@media (max-width: 600px),(max-height: 710px){
+  #logo{
+    width: 6em;
+    position: absolute;
+    top: 3%;
   }
+}
+@media (max-width:390px),(max-height: 460px){
+  #logo{
+    width: 5em;
+    position: absolute;
+    top: 2%;
+  }
+}
+@media (max-height: 370px){
+  #logo{
+    width: 4em;
+    position: absolute;
+    top: 2%;
+  }
+}
