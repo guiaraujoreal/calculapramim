@@ -6,7 +6,7 @@ html, body{
 
 /*Cabecalho*/
 #logo{
-  width: 10rem;
+  width: 25rem;
   height: auto;
   display: block;
   position: absolute;
@@ -44,63 +44,38 @@ html, body{
   color: white;
   text-align: center;
 }
-
-/*Media Query #titulo*/
-
-@media (max-width: 800px),(max-height: 870px){
-  #titulo{
-    font-size: 4rem;
-    position: absolute;
-    top: 2%;
-  }
-}
-@media (max-width: 750px),(max-height: 680px){
-  #titulo{
-    font-size: 3rem;
-    position: absolute;
-    top: 2%;
-  }
-}
-@media (max-width: 430px),(max-height: 490px){
-  #titulo{
-    font-size: 2rem;
-    position: absolute;
-    top: 2%;
-  }
-}
-@media (max-width: 300px),(max-height: 300px){
-  #titulo{
-    font-size: 1.5rem;
-    position: absolute;
-    top: 3%;
-  }
-}
-
 /* Media Query #logo */
 @media (max-width: 800px),(max-height: 930px){
   #logo{
-    width: 8em;
+    width: 23em;
     position: absolute;
     top:2%
   }
 }
 @media (max-width: 600px),(max-height: 710px){
   #logo{
-    width: 6em;
+    width: 17em;
     position: absolute;
     top: 3%;
   }
 }
-@media (max-width:390px),(max-height: 460px){
+@media (max-width:390px),(max-height: 580px){
   #logo{
-    width: 5em;
+    width: 15em;
     position: absolute;
     top: 2%;
   }
 }
-@media (max-height: 370px){
+@media (max-height: 440px){
   #logo{
-    width: 4em;
+    width: 12em;
+    position: absolute;
+    top: 2%;
+  }
+}
+@media (max-height: 350px){
+  #logo{
+    width: 8em;
     position: absolute;
     top: 2%;
   }
