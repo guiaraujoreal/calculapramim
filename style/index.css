@@ -109,10 +109,16 @@ body{
 }
 #mensagem{
     max-width: 97%;
+    margin-left: 4%;
 }
 @media (min-width:405px) and (max-width:450px){
     #mensagem{
-        margin-left: 30px;
+        margin-left: 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
     }
 }
 .animated{
