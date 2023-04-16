@@ -22,6 +22,9 @@ body{
     animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
+#col_title{
+    padding: 0;
+}
 #card_geral{
     
     max-width: 95%;
@@ -114,6 +117,10 @@ body{
 #mensagem{
     max-width: 97%;
     margin-left: 2%;
+    position: relative;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%)
 }
 @media (min-width:330px) and (max-width:450px){
     #mensagem{
