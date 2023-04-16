@@ -25,10 +25,10 @@ body{
 }
 #card_geral{
     
-    max-width: 90%;
+    max-width: 95%;
     background-color: #9aafd6;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 #cards{
     width: 18rem;
@@ -108,8 +108,8 @@ body{
       
 }
 #mensagem{
-    max-width: 97%;
-    margin-left: 4%;
+    max-width: 95%;
+    margin-left: 1.5%;
 }
 @media (min-width:405px) and (max-width:450px){
     #mensagem{

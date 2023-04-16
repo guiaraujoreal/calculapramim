@@ -64,12 +64,13 @@ html, body{
 }
 
 .nav ul {
-  padding: 0 22px;
+  padding: 0 20px;
 }
 
 .nav li {
   list-style: none;
   padding: 12px 0;
+  
 }
 
 .nav li a {
@@ -83,8 +84,8 @@ html, body{
 }
 
 .menu-bg, #menu {
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: 20px;
   position: absolute;
 }
 
@@ -125,8 +126,6 @@ html, body{
 }
 #cols_menu{
   border: solid 2px yellow;
-  position: absolute;
-  top: 20%
 }
 
 @media (min-height: 750px){
