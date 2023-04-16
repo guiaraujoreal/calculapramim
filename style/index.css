@@ -26,7 +26,7 @@ body{
 #card_geral{
     
     max-width: 95%;
-    background-color: rgb(124, 107, 190);
+    background-color: #9aafd6;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -54,6 +54,14 @@ body{
     #cards{
         width: 16rem;
     }
+}
+#botao_card01{
+    background-color: rgb(255, 169, 232);
+    color: white;
+    border: 0;
+}
+#botao_card01:hover{
+    background-color: rgb(248, 97, 208);
 }
 #animation_obj{
     width: 300px; 
@@ -123,4 +131,13 @@ body{
 .title_contcard{
     text-align: center;
     border: solid 2px yellow;
+}
+#card-body01{
+    background-color: rgb(250, 229, 244);
+}
+#card-body02{
+    background-color: rgb(229, 250, 244)
+}
+#card-body03{
+    background-color: rgb(246, 250, 229)
 }
