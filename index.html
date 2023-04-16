@@ -24,16 +24,30 @@
 </head>
 <body>
     <main>
-
-        <div id="cabecalho" class="container container-fluid">
-            <div id="col_logo" class="row d-flex align-items-center">
-                <div><img id="logo" class="col" src="imgs/logo.png" alt="logotipo"></div>
-            </div>
-            <div id="col_title" class="row d-flex justify-content-around">
-                <div id="menu" class="col">
+        <header>
+            <div id="cabecalho" class="container container-fluid">
+                <div id="col_logo" class="row d-flex align-items-center">
+                    <div><img id="logo" class="col" src="imgs/logo.png" alt="logotipo"></div>
+                    <div id="menu">
+                      <div id="menu-bar" onclick="menuOnClick()">
+                          <div id="bar1" class="bar"></div>
+                          <div id="bar2" class="bar"></div>
+                          <div id="bar3" class="bar"></div>
+                      </div>
+                  <nav class="nav" id="nav">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="api/calc.php">About</a></li>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">Blog</a></li>
+                      </ul>
+                  </nav> 
+                  </div>
+                  <div class="menu-bg" id="menu-bg"></div>
+              </div>
                 </div>
             </div>
-        </div>
+        </header>
 
         <div class="container container-fluid">
             <div class="row justify-content-around">
@@ -111,7 +125,8 @@
             <p id="copy">&copy; 2023 Meu Site</p>
         </footer>
     </main>
-    <script src="js/mobile-navbar.js"></script>
+    <script src="js/menu_responsivo.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/animate_index.js"></script>
     <script src="js/acionar_modalpage.js"></script>
 
