@@ -5,20 +5,21 @@ html, body{
 }
 
 /*Cabecalho*/
+header{
+  background-color: rgb(105, 139, 249);
+  width: 100%;
+  height: 13vh;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
 #logo{
   width: 25rem;
   height: auto;
   display: block;
   position: absolute;
   top: 2%;
-}
-#cabecalho{
-    background-color: rgb(105, 139, 249);
-    width: auto;
-    height: 13vh;
-    margin: 0 auto;
-    max-width: 100%;
-
 }
 #titulo{
     color: white;
@@ -42,7 +43,8 @@ html, body{
 #menu-bar {
   width: 40px;
   height: 50px;
-  margin: 25px 0 20px 20px;
+  margin: 0;
+  padding-top: 5vh;
   cursor: pointer;
   text-align: end;
 }
@@ -136,7 +138,7 @@ html, body{
   z-index: 1;
   width: 0;
   height: 0;
-  margin: 30px 0 20px 20px;
+  margin: 50px 0 20px 20px;
   background: radial-gradient(circle, rgb(25, 77, 247), rgb(25, 77, 247));
   border-radius: 50%;
   transition: 0.2s ease;
@@ -178,38 +180,45 @@ html, body{
   text-align: center;
 }
 /* Media Query #logo */
+@media (min-height: 931px){
+  #logo{
+    width: 23em;
+    position: absolute;
+    top:25%
+  }
+}
 @media (max-width: 800px),(max-height: 930px){
   #logo{
     width: 23em;
     position: absolute;
-    top:2%
+    top:20%
   }
 }
-@media (max-width: 600px),(max-height: 710px){
+@media (max-width: 600px),(max-height: 780px){
   #logo{
     width: 17em;
     position: absolute;
-    top: 3%;
+    top: 30%;
   }
 }
-@media (max-width:390px),(max-height: 580px){
+@media (max-width:390px),(max-height: 650px){
   #logo{
     width: 15em;
     position: absolute;
-    top: 2%;
+    top: 20%;
   }
 }
-@media (max-height: 440px){
+@media (max-height: 480px){
   #logo{
     width: 12em;
     position: absolute;
-    top: 2%;
+    top: 10%;
   }
 }
 @media (max-height: 350px){
   #logo{
     width: 8em;
     position: absolute;
-    top: 2%;
+    top: 20%;
   }
 }
