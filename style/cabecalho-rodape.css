@@ -75,8 +75,8 @@ header{
 
   margin: 0 0.5rem;
   
-   animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s; /* don't forget to set a duration! */
+   animation: fadeInRight;
+  animation-duration: 1s; 
   --animate-delay: 3s;
 }
 
@@ -126,9 +126,43 @@ header{
     left:117%;
   }
 }
-@media (min-width: 1000px){
+/*Ocultar/Mostrar Menu*/
+@media (min-width: 1099px){
   #menu{
     display: none;
+  }
+}
+
+.nav02{
+  display: flex;
+  align-items: center;
+}
+.nav02 ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  position: absolute;
+  top: 4vh;
+  right: 2%;
+}
+.item_menu {
+  color: white;
+  font-size: 3vh;
+  display: inline-block;
+  margin: 0 35px;
+}
+.item_menu:hover{
+  color: yellow;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/*Ocultar/Mostrar Itens do Menu*/
+@media (max-width:1100px){
+  .nav02 ul{
+    display: none;
+  
   }
 }
 
