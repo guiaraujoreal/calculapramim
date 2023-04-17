@@ -23,40 +23,41 @@
     <title>Bem-vindo ao MathLearn!</title>
 </head>
 <body>
-    <main>
-        <header>
-            <div id="cabecalho" class="container container-fluid">
-                <div id="col_logo" class="row d-flex align-items-center">
-                    <div><img id="logo" class="col" src="imgs/logo.png" alt="logotipo"></div>
-                    <div id="menu">
-                <div id="menu-bar" onclick="menuOnClick()">
-                    <div id="bar1" class="bar"></div>
-                    <div id="bar2" class="bar"></div>
-                    <div id="bar3" class="bar"></div>
-                </div>
-            <nav class="nav" id="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#mensagem">Funcionalidades</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </nav> 
+    <header>
+        <div id="cabecalho" class="container container-fluid">
+            <div id="col_logo" class="row d-flex align-items-center">
+                <div><img id="logo" class="col" src="imgs/logo.png" alt="logotipo"></div>
+                <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
             </div>
-            <div class="menu-bg" id="menu-bg"></div>
-          </div>
-                </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#mensagem">Funcionalidades</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav> 
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
+      </div>
             </div>
-            <nav class="nav02">
-              <ul>
-                  <li><a class="item_menu" href="index.html">Home</a></li>
-                  <li><a class="item_menu" href="index.html#mensagem">Funcionalidades</a></li>
-                  <li><a class="item_menu" href="#">Contact</a></li>
-                  <li><a class="item_menu" href="#">Blog</a></li>
-              </ul>
-          </nav> 
-        </header>
+        </div>
+        <nav class="nav02">
+          <ul>
+              <li><a class="item_menu" href="index.html">Home</a></li>
+              <li><a class="item_menu" href="index.html#mensagem">Funcionalidades</a></li>
+              <li><a class="item_menu" href="#">Contact</a></li>
+              <li><a class="item_menu" href="#">Blog</a></li>
+          </ul>
+      </nav> 
+    </header>
 
+    <main>
+        
         <div id="container01" class="container container-fluid">
             <div class="row justify-content-around">
                 <div id="sub-1" class="col-xs-1 d-flex align-items-center"><b>Olá! Bem vindo(a) ao MathLearn!</b></div>
@@ -108,7 +109,7 @@
             </div>
         </div>
 
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+        <div class="modal fade" id="mysModal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -129,10 +130,11 @@
           </div>
 
         
-        <footer id="rodape" class="container">
-            <p id="copy">&copy; 2023 Meu Site</p>
-        </footer>
+       
     </main>
+    <footer id="rodape" class="container">
+        <p id="copy">&copy; 2023 Meu Site</p>
+    </footer>
     <script src="js/menu_responsivo.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/animate_index.js"></script>
