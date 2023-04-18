@@ -1,0 +1,27 @@
+{
+    "name": "vendor/mathlearn",
+    "description": "null",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Mathlearn\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "guiaraujo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "openai/openai": "dev-main",
+        "openai-php/client": "dev-main",
+        "symfony/http-client": "6.3.x-dev",
+        "nyholm/psr7": "^1.6@dev"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
