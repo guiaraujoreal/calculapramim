@@ -11,7 +11,7 @@ $result = $client->completions()->create([
     'prompt' => 'passo a passo '.$texto,
     'max_tokens' => 200,
     'temperature' => 0.5,
-]);
+]); 
 
 echo $result['choices'][0]['text']; // an open-source, widely-used, server-side scripting language.
 ?>
