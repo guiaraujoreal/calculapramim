@@ -14,6 +14,16 @@ header{
   top: 0;
   z-index: 100;
 }
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+.container{
+  max-width: 100%;
+  border: solid 2px blue
+}
+
 #logo{
   width: 25rem;
   height: auto;

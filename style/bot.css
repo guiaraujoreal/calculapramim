@@ -1,0 +1,26 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: #373e55
+}
+#container01{
+    font-size: 4em;
+    color: white;
+    padding-top: 30vh;
+    max-widsth: 100%;
+}
+.col{
+    border: solid 2px yellow;
+}
+#animation{
+    width: 500px; 
+    height: 500px;
+}
+#sub_title{
+    text-align: center;
+    font-size: 1em
+}
+#col_subtitle{
+    width: 200vw;
+    height: auto;
+}
