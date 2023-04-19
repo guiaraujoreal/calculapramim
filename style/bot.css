@@ -1,26 +1,50 @@
 html,body{
     padding: 0;
     margin: 0;
-    background-color: #373e55
+    background-color: #22292f
+}
+.cosl{
+    border: solid 2px yellow
 }
 #container01{
     font-size: 4em;
     color: white;
-    padding-top: 30vh;
-    max-widsth: 100%;
-}
-.col{
-    border: solid 2px yellow;
+    padding-top: 25vh;
+    max-width: 100%;
+    
 }
 #animation{
     width: 500px; 
-    height: 500px;
+    height: 400px;
+    background: rgb(238,174,174);
+    background: -moz-linear-gradient(326deg, rgba(238,174,174,1) 0%, rgba(65,125,252,1) 100%);
+    background: -webkit-linear-gradient(326deg, rgba(238,174,174,1) 0%, rgba(65,125,252,1) 100%);
+    background: linear-gradient(326deg, rgba(238,174,174,1) 0%, rgba(65,125,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeae",endColorstr="#417dfc",GradientType=1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
 #sub_title{
-    text-align: center;
-    font-size: 1em
+    font-size: 3rem;
+    font-family: 'Chakra Petch', sans-serif;
 }
 #col_subtitle{
     width: 200vw;
     height: auto;
+    border: solid 2px rgba(238,174,174,1);
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: black;
+}
+#container02{
+    padding-top: 20px;
+    background-color: white;
+}
+#texto_cont02{
+    color: black;
+    font-size: 3vw;
+    text-align: center
 }

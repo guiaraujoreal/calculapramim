@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" crossorigin="anonymous"></script>
@@ -57,21 +60,25 @@
 
     <main>
     <div id="container01" class="container container-fluid">
-        <div id="col_subtitle" class="row ">
-            <div class="col col-md-6 col-lg-3 col-xs-12">
-            <span id="sub_title" class="animated"></span>
+            <div class="row justify-content-around">
+                <div id="col_subtitle" class="col "><b><span id="sub_title" class="animated"></span></b></div>
+                <div id="animation" class="col d-flex justify-content-center">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player id="anim_obj" src="https://assets3.lottiefiles.com/private_files/lf30_dksns46f.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
+                </div>
             </div>
         </div>
     </div>
     <div id="container02" class="container container-fluid">
-    <div id="animation_cont" class="col d-flex justify-content-center">
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player id="animation" src="https://assets4.lottiefiles.com/private_files/lf30_ssm93drs.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
-    </div>
+        <div class="row">
+            <div class="col">
+            <p id="texto_cont02"><b>Pergunte algo ao Math👇</b></p>
+            </div>
+        </div>
     </div>
     </main>
 
-    <footer id="rosdape" class="container">
+    <footer id="rodape" class="container">
         <p id="copy">&copy; 2023 Meu Site</p>
     </footer>
 
