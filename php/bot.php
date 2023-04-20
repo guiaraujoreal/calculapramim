@@ -63,17 +63,44 @@
    <div id="container01" class="container container-fluid">
             <div class="row justify-content-around">
                 <div class="col">
-                <div class="form-group">
+                <form action="" method="post" class="form-group">
                     <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite algo, como: 'me mostre como calcular a expressão 3x-27²=0'"></textarea>
+                    <textarea name="pergunta" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite algo, como: 'me mostre como calcular a expressão 3x-27²=0'"></textarea>
+                    <div class="col"><button type="submit">Enviar</div>
+                </form>
                 </div>
-                </div>
-                <div class="col">
-                <div class="form-group">
+                <?php
+                require_once '../vendor/autoload.php';
+
+                use OpenAI\Client;
+                if(isset($_POST['pergunta'])){
+
+                $client = OpenAI::client('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');
+
+                $texto = $_POST['pergunta'];
+
+                $result = $client->completions()->create([
+                    'model' => 'text-davinci-003',
+                    'prompt' => 'passo a passo '.$texto,
+                    'max_tokens' => 200,
+                    'temperature' => 0.5,
+                ]);
+                $paragrafo = explode("\n", $result['choices'][0]['text']);
+                $resposta = '';
+                echo '<div class="col">
+                <form id="resposta" class="form-group">
                     <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea name="resposta" class="form-control" id="exampleFormControlTextarea1" rows="3" readonly>';
+                foreach ($paragrafo as $paragrafo) {
+                    $resposta .= $paragrafo . "\n";
+                    }
+                echo $resposta;
+                echo '</textarea>';
+                }
+                    ?>
+                </form>
                 </div>
-                </div>
+                
             </div>
         </div>
     
@@ -91,3 +118,4 @@
     
 </body>
 </html>
+

@@ -48,3 +48,6 @@ html,body{
     font-size: 3vw;
     text-align: center
 }
+#resposta{
+    height: auto;
+}

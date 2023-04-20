@@ -1,13 +1,6 @@
 <?php
 require_once '../vendor/autoload.php';
-?>
 
-<form method="POST" action="">
-  <input type="text" name="texto" placeholder="Digite seu texto aqui">
-  <button type="submit">Enviar</button>
-</form>
-
-<?php
 use OpenAI\Client;
 if(isset($_POST['texto'])){
 
