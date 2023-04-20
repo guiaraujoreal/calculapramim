@@ -69,10 +69,6 @@
     <div id="container01" class="container container-fluid">
             <div class="row justify-content-around">
                 <div id="col_subtitle" class="col "><b><span id="sub_title" class="animated"></span></b></div>
-                <div id="animation" class="col d-flex justify-content-center">
-                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                    <lottie-player id="anim_obj" src="https://assets3.lottiefiles.com/private_files/lf30_dksns46f.json"  background="transparent"  speed="1"   loop  autoplay></lottie-player>
-                </div>
             </div>
         </div>
     </div>
