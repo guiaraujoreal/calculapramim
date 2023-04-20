@@ -59,19 +59,23 @@
     </header>
 
     <main>
-    <div id="container02" class="container container-fluid">
-        <div class="row">
-            <div class="col">
-            <p id="texto_cont02"><b>Pergunte algo ao Math👇</b></p>
-            </div>
-        </div>
-    </div>
-    <div id="container01" class="container container-fluid">
+
+   <div id="container01" class="container container-fluid">
             <div class="row justify-content-around">
-                <div id="col_subtitle" class="col "><b><span id="sub_title" class="animated"></span></b></div>
+                <div class="col">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite algo, como: 'me mostre como calcular a expressão 3x-27²=0'"></textarea>
+                </div>
+                </div>
+                <div class="col">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                </div>
             </div>
         </div>
-    </div>
     
     </main>
 
