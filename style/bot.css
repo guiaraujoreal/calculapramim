@@ -43,11 +43,36 @@ html,body{
     padding-top: 15vh;
     background-color: white;
 }
+#form_resp{
+    
+}
+#form_perg, #form_resp{
+    text-align: center;
+}
 #texto_cont02{
     color: black;
     font-size: 3vw;
     text-align: center
 }
-#resposta{
-    height: auto;
+.label_resposta{
+    color: white;
+    font-size: 3rem;
 }
+.label_pergunta{
+    font-size: 3rem;
+}
+#container03{
+    padding-top: 10vh;
+}
+#box_resposta{
+    height: 50vh;
+}
+
+.animt_load{
+    width: 600px; 
+    height: 600px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+  
