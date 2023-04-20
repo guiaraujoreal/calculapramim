@@ -105,15 +105,6 @@
                     echo '</textarea>';
                     echo '</form>';
                     echo '</div>';
-
-                    // A partir daqui, a animação TypeIt será aplicada após a criação do <textarea>
-                    echo '<script>';
-                    echo 'new TypeIt("#box_resposta", {';
-                    echo '  strings: "'.$resposta.'",';
-                    echo '  speed: 50,';
-                    echo '  waitUntilVisible: true';
-                    echo '}).go();';
-                    echo '</script>';
                 }
                 ?>
         </div>
