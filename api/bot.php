@@ -65,7 +65,7 @@
                 <div class="col">
                 <form id="form_perg" action="" method="post" class="form-group">
                     <label class="label_pergunta" for="exampleFormControlTextarea1">Exemplo de textarea</label>
-                    <textarea name="pergunta" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite algo, como: 'me mostre como calcular a expressão 3x-27²=0'"></textarea>
+                    <textarea name="pergunta" class="form-control" id="box_pergunta" rows="3" placeholder="Pergunte algo, como: 'me mostre como calcular a expressão 3x-27²=0'"></textarea>
                     <div class="col"><button class="btn btn-success" type="submit">Enviar</div>
                 </form>
                 </div>
@@ -93,19 +93,28 @@
                 ]);
                 $paragrafo = explode("\n", $result['choices'][0]['text']);
                 $resposta = '';
-                echo'<div class="col">;
-                <form id="form_resp" class="form-group">
-                    <label class="label_resposta" for="exampleFormControlTextarea1">Exemplo de textarea</label>
-                    <textarea name="resposta" class="form-control " id="box_resposta" oninput="ajustarAltura(this)" readonly>';
+                echo '<div class="col">';
+                echo '<form id="form_resp" class="form-group">';
+                echo '<label class="label_resposta" for="exampleFormControlTextarea1">Exemplo de textarea</label>';
+                echo '<textarea name="resposta" class="form-control" id="box_resposta" readonly>';
                 foreach ($paragrafo as $paragrafo) {
                     $resposta .= $paragrafo . "\n";
                     }
-                echo $resposta;
-                echo '</textarea>';
+                    echo $resposta;
+
+                    echo '</textarea>';
+                    echo '</form>';
+                    echo '</div>';
+
+                    // A partir daqui, a animação TypeIt será aplicada após a criação do <textarea>
+                    echo '<script>';
+                    echo 'new TypeIt("#box_resposta", {';
+                    echo '  strings: "'.$resposta.'",';
+                    echo '  speed: 50,';
+                    echo '  waitUntilVisible: true';
+                    echo '}).go();';
+                    echo '</script>';
                 }
-                    
-                echo '</form>';
-                echo '</div>';
                 ?>
         </div>
         </div>

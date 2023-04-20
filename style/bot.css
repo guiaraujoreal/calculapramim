@@ -66,13 +66,42 @@ html,body{
 }
 #box_resposta{
     height: 50vh;
+    color: black;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#box_pergunta{
+    background-color: #535353;
+    color: white;
+}
+#box_pergunta:focus{
+    background-color: #535353;
+    color: white;
 }
 
-.animt_load{
-    width: 600px; 
-    height: 600px;
-    position: absolute;
-    top: 10%;
-    left: 30%;
+
+#cn{
+   color: white;
+   border-right: 4px solid;
+   overflow: hidden;
+   width: 300ch;
+   
+   animation: digitando 2s steps(10),
+   bliking 0.5s infinite step-end alternate;
 }
+/* Definir as propriedades de animação */
+
+  
+  /* Definir a chave da animação */
+  @keyframes digitando {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes blinking{
+    50%{
+        border-color: transparent;
+
+    }
+  }
+  
   
