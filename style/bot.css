@@ -65,9 +65,10 @@ html,body{
     padding-top: 10vh;
 }
 #box_resposta{
-    height: 50vh;
+    height: auto;
     color: black;
     font-family: 'Chakra Petch', sans-serif;
+    text-align: start;
 }
 #box_pergunta{
     background-color: #535353;
@@ -77,31 +78,19 @@ html,body{
     background-color: #535353;
     color: white;
 }
-
-
-#cn{
-   color: white;
-   border-right: 4px solid;
-   overflow: hidden;
-   width: 300ch;
-   
-   animation: digitando 2s steps(10),
-   bliking 0.5s infinite step-end alternate;
+#resposta{
+    color: white;
+    font-size: 20px;
 }
-/* Definir as propriedades de animação */
+#label_resp{
+    color: white;
+}
 
-  
-  /* Definir a chave da animação */
-  @keyframes digitando {
-    from {
-      width: 0;
-    }
-  }
-  @keyframes blinking{
-    50%{
-        border-color: transparent;
 
-    }
-  }
+
+
+
+
+
   
   

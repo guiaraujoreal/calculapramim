@@ -75,6 +75,9 @@
 
         <div id="container03" class="container container-fluid">
         <div class="row justify-content-around">
+        <div id="resposta"></div>
+
+
         <?php
                 require_once '../vendor/autoload.php';
 
@@ -93,20 +96,20 @@
                 ]);
                 $paragrafo = explode("\n", $result['choices'][0]['text']);
                 $resposta = '';
-                echo '<div class="col">';
-                echo '<form id="form_resp" class="form-group">';
-                echo '<label class="label_resposta" for="exampleFormControlTextarea1">Exemplo de textarea</label>';
-                echo '<textarea name="resposta" class="form-control" id="box_resposta" readonly>';
+                echo '<div class="col">
+                <form id="form_resp" class="form-group">
+                    <label class="label_resposta" for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                    <div id="label_resp">Você: ' . $texto . '</div>';
+                    echo '<div name="resposta" class="form-control" id="box_resposta" readonly>';
+                
                 foreach ($paragrafo as $paragrafo) {
-                    $resposta .= $paragrafo . "\n";
+                    $resposta .= '<p>' . $paragrafo . '<p>';
                     }
-                    echo $resposta;
-
-                    echo '</textarea>';
-                    echo '</form>';
-                    echo '</div>';
-                }
-                ?>
+                 echo $resposta . '</div>
+                </form>
+                </div>';
+            }
+            ?>
         </div>
         </div>
 
@@ -137,4 +140,3 @@
     
 </body>
 </html>
-
