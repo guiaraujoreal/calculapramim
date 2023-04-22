@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" content-type="UTF-8">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,25 +60,16 @@
 
     <main>
 
-        <div id="container01" class="container container-fluid">
+        <div id="container02" class="container container-fluid">
             <div class="row justify-content-around">
-                <div class="col">
-                <form id="form_perg" action="" method="post" class="form-group">
-                    <label class="label_pergunta" for="exampleFormControlTextarea1">Exemplo de textarea</label>
-                    <textarea name="pergunta" class="form-control" id="box_pergunta" rows="3" placeholder="Pergunte algo, como: 'me mostre como calcular a expressão 3x-27²=0'"></textarea>
-                    <div class="col"><button class="btn btn-success" type="submit">Enviar</div>
-                </form>
-                </div>
-                
+                <span id="titulo_page"></span>
             </div>
         </div>
 
-        <div id="container03" class="container container-fluid">
-        <div class="row justify-content-around">
-        <div id="resposta"></div>
-
-
-        <?php
+        <div id="container01" class="container container-fluid" >
+            <div class="row">
+                
+                <?php
                 require_once '../vendor/autoload.php';
 
                 use OpenAI\Client;
@@ -90,33 +81,46 @@
 
                 $result = $client->completions()->create([
                     'model' => 'text-davinci-003',
-                    'prompt' => 'passo a passo '.$texto,
-                    'max_tokens' => 200,
-                    'temperature' => 0.5,
+                    'prompt' => $texto,
+                    'max_tokens' => 700,
+                    'temperature' => 0.1,
                 ]);
                 $paragrafo = explode("\n", $result['choices'][0]['text']);
                 $resposta = '';
-                echo '<div class="col">
-                <form id="form_resp" class="form-group">
-                    <label class="label_resposta" for="exampleFormControlTextarea1">Exemplo de textarea</label>
-                    <div id="label_resp">Você: ' . $texto . '</div>';
-                    echo '<div name="resposta" class="form-control" id="box_resposta" readonly>';
+                echo '<div id="resp_geral" class="col col-sm-11 col-md-5 col-11">
+                <div id="area_sub">
+                <div class="label_ label_math"><p class="tag_sub"><b>👤Você enviou:</b></p></div>
+                        <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
+                        </div>
+                <div id="area_resp">
+                        <div class="label_ label_math"><p class="tag_math"><b>🤖Math:</b></p></div>
+                        <div  name="resposta" class="" id="box_resposta">';
                 
                 foreach ($paragrafo as $paragrafo) {
                     $resposta .= '<p>' . $paragrafo . '<p>';
                     }
-                 echo $resposta . '</div>
-                </form>
-                </div>';
-            }
+                 
+            
+            echo $resposta . '</div>
+                        </div>
+                        </div>';
+                }
             ?>
-        </div>
+                <div id="col_perg" class="col col-sm-12 col-md-5 col-12">
+                <form id="form_perg" action="" method="post" class="form-group">
+                    <div id="area_perg">
+                        <div class="label_ label_voce"><p class="tag_voce"><b>👤Você:</b></p></div>
+                        <textarea name="pergunta" class="" id="box_pergunta" rows="3" placeholder="Que bom ter você por aqui :)! Pergunte-me algo, como: 'me mostre como calcular a expressão 3x-27²=0'." required></textarea>
+                        <div id="botao_send" class="col"><button class="btn btn-success" type="submit">Enviar</div>
+                    </div>
+                </form>
+                </div>
+                
+            </div>
         </div>
 
-        '<div class="load_animation">
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lotstie-player class="animt_load" src="https://assets6.lottiefiles.com/packages/lf20_e8ESDXD2HV.json"  background="transparent"  speed="1"  loop  autoplay></lotstie-player>
-            </div>'
+        <div id="container03" class="container">
+        </div>
     
     </main>
 
@@ -126,14 +130,12 @@
 
 
     <script src="../js/aumentar_box.js"></script>
-
-    <script>
-        window.addEventListener('load', function() {
-        document.querySelector('.animt_load').style.display = 'none';
-        });
-    </script>
+    <script src="../js/menu_responsivo.js"></script>
+    <script src="../js/functions.js"></script>
 
 
+    
+    <script src="../js/animate_bot.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
