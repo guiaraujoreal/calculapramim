@@ -1,3 +1,3 @@
 <?php
-$api_key = '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';
+$api_key = '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';
 ?>
