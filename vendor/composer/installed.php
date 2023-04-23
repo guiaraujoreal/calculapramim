@@ -3,28 +3,37 @@
         'name' => 'vendor/mathlearn',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '982c4b4d862edd8308c5f4c18c8f9e8098584c6c',
+        'reference' => 'e26d45f0eddbcdae6407f61b7563f126dbaa00f9',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'graham-campbell/result-type' => array(
+            'pretty_version' => '1.1.x-dev',
+            'version' => '1.1.9999999.9999999-dev',
+            'reference' => '60c5f57bee20beb1a4a3cc5fe9170de4a64521d2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../graham-campbell/result-type',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'nyholm/psr7' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '07c455ab0563b67b98d16e838d43cbd6dcffdb9c',
+            'reference' => '7f77c0eaefdb849630df611ba2204ce92dfe5ef5',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nyholm/psr7',
             'aliases' => array(
-                0 => '1.6.x-dev',
+                0 => '1.7.x-dev',
             ),
             'dev_requirement' => false,
         ),
         'openai-php/client' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '4030f05df48478648087e16d394ec43ef3d9e22c',
+            'reference' => 'e4611dfa3d0b966d5c72e5f95aaee5d1efa23835',
             'type' => 'library',
             'install_path' => __DIR__ . '/../openai-php/client',
             'aliases' => array(
@@ -92,6 +101,17 @@
             ),
             'dev_requirement' => false,
         ),
+        'phpoption/phpoption' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'dd3a383e599f49777d8b628dadbb90cae435b87e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoption/phpoption',
+            'aliases' => array(
+                0 => '1.9.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'psr/container' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
@@ -135,8 +155,8 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/http-message' => array(
@@ -151,8 +171,8 @@
         'psr/http-message-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '*',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/log' => array(
@@ -180,7 +200,7 @@
         'symfony/http-client' => array(
             'pretty_version' => '6.3.x-dev',
             'version' => '6.3.9999999.9999999-dev',
-            'reference' => '3c38f89b6e53013add32b894cb784ca030c42775',
+            'reference' => '3491918b606ffe502441d104c844d10d59153802',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/http-client',
             'aliases' => array(),
@@ -203,6 +223,39 @@
                 0 => '3.0',
             ),
         ),
+        'symfony/polyfill-ctype' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-ctype',
+            'aliases' => array(
+                0 => '1.28.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-mbstring' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'f9c7affe77a00ae32ca127ca6833d034e6d33f25',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
+            'aliases' => array(
+                0 => '1.28.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-php80' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '6caa57379c4aec19c0a12a38b59b26487dcfe4b5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-php80',
+            'aliases' => array(
+                0 => '1.28.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'symfony/service-contracts' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
@@ -217,10 +270,21 @@
         'vendor/mathlearn' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '982c4b4d862edd8308c5f4c18c8f9e8098584c6c',
+            'reference' => 'e26d45f0eddbcdae6407f61b7563f126dbaa00f9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'vlucas/phpdotenv' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '1a7ea2afc49c3ee6d87061f5a233e3a035d0eae7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/phpdotenv',
+            'aliases' => array(
+                0 => '5.5.x-dev',
+            ),
             'dev_requirement' => false,
         ),
     ),
