@@ -38,8 +38,8 @@
             </div>
         <nav class="nav" id="nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#mensagem">Funcionalidades</a></li>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="bot.php">Funcionalidades</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
@@ -50,8 +50,8 @@
         </div>
         <nav class="nav02">
           <ul>
-              <li><a class="item_menu" href="index.html">Home</a></li>
-              <li><a class="item_menu" href="index.html#mensagem">Funcionalidades</a></li>
+              <li><a class="item_menu" href="../html/index.html">Home</a></li>
+              <li><a class="item_menu" href="bot.php">Funcionalidades</a></li>
               <li><a class="item_menu" href="#">Contact</a></li>
               <li><a class="item_menu" href="#">Blog</a></li>
           </ul>
