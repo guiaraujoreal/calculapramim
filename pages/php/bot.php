@@ -109,6 +109,7 @@
                         </div>';
                 }
             ?>
+            
                 <div id="col_perg" class="col col-sm-12 col-md-5 col-12">
                 <form id="form_perg" action="" method="post" class="form-group">
                     <div id="area_perg">
