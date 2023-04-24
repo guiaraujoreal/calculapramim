@@ -1,17 +1,19 @@
 html,body{
     padding: 0;
     margin: 0;
-    background-color: #22292f
+    background-color: #0f1533;
+    height: 100vh;
+ 
 }
-.col{
+.csol{
     border: solid 2px yellow
 }
 #container01{
     font-size: 4em;
     color: white;
-    max-width: 100%;
-    padding-top: 20vh;
-    
+    max-width: 97%;
+    background-color: #28378b;
+    border-radius: 15px;
 }
 #animation{
     width: 500px; 
@@ -25,29 +27,32 @@ html,body{
     margin-bottom: 20px;
     margin-right: 10px;
 }
-#sub_title{
-    font-size: 3rem;
-    font-family: 'Chakra Petch', sans-serif;
-}
-#col_subtitle{
-    width: 200vw;
-    height: auto;
-    border: solid 2px rgba(238,174,174,1);
-    margin-right: 20px;
+#titulo_page{
+    font-size: clamp(1.5em,2vw,4em);
+    color: white;
+    text-align: center;
+    background: rgb(255,104,104);
+    background: -moz-linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
+    background: linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6868",endColorstr="#4a41fc",GradientType=1);
     border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    background-color: black;
 }
+
 #container02{
-    padding-top: 15vh;
-    background-color: white;
+    padding-top: 25vh;
+    padding-bottom: 10vh;
 }
-#form_resp{
-    
+#box_pergunta::placeholder{
+    color: rgb(100, 100, 100);
+    font-size: 1.3rem;
+    text-align: center;
 }
 #form_perg, #form_resp{
     text-align: center;
+}
+#form_perg{
+    width: 90%;
 }
 #texto_cont02{
     color: black;
@@ -64,46 +69,242 @@ html,body{
 #container03{
     padding-top: 10vh;
 }
+#area_sub{
+    padding-top: 20px;
+}
+#area_perg {
+    border: solid 2px white;
+    border-radius: 5px;
+    padding-top: 20px;
+    background-color: #3d54db;
+    margin-top: 20px;
+    box-shadow: 10px 8px 6px rgba(0, 0, 0, 0.3);
+    width: 40vw;
+      
+}
+#resp_geral{
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 5px;
+    background-color: #3d54db;
+    margin-bottom: 20px;
+    width: 100vw;
+    margin-left: 5vw;
+    box-shadow: 10px 8px 6px rgba(0, 0, 0, 0.3);
+    
+}
 #box_resposta{
-    height: 50vh;
-    color: black;
+    width: 100%;
+    min-height: 17vh;
+    border: solid 2px #ef5797;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
     font-family: 'Chakra Petch', sans-serif;
 }
+#box_resposta_sub{
+    width: 100%;
+    min-height: 10vh;
+    border: solid 2px white;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    border: solid 2px rgb(176, 255, 193);
+}
+
+
 #box_pergunta{
     background-color: #535353;
     color: white;
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+    padding-left: 10px;
+    border: solid 2px white;
+    min-height: 25vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
+
 #box_pergunta:focus{
-    background-color: #535353;
+    background-color: black;
     color: white;
+    border: solid 2px white;
 }
-::placeholder{
-    color: #858585
+#label_voce{
+    border: solid 2px white;
+    border-radius: 5px;
+    height: auto;
+    background-color: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.tag_voce{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+}
+.tag_math{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: rgb(255,104,104);
+    background: -moz-linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
+    background: linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6868",endColorstr="#4a41fc",GradientType=1);
+    color: white;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+}
+.tag_sub{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(176, 255, 193);
+    color: rgb(0, 95, 14);
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1rem;
+}
+#area_perg, .tag_voce{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#area_resp{
+    margin-top: 20px;
+}
+#resposta{
+    color: white;
+    font-size: 20px;
 }
 
-#cn{
-   color: white;
-   border-right: 4px solid;
-   overflow: hidden;
-   width: 300ch;
-   
-   animation: digitando 2s steps(10),
-   bliking 0.5s infinite step-end alternate;
-}
-/* Definir as propriedades de animação */
 
+/*botao send*/
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: rgb(65, 225, 105);
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+  }
   
-  /* Definir a chave da animação */
-  @keyframes digitando {
-    from {
-      width: 0;
-    }
+  button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
   }
-  @keyframes blinking{
-    50%{
-        border-color: transparent;
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
 
+  button:hover{
+    cursor: pointer;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  button:hover span {
+    transform: translateX(5em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
     }
   }
+  
+  
+#col_perg{
+    margin: 0 auto;
+}
+.row::before, .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (min-width: 768px) {
+    #col_perg {
+      float: left;
+    }
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
+
+
+
+@media (max-width: 767px){
+    #resp_geral{
+        margin-left: 3%;
+    }
+    #area_perg{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 410px){
+    #area_perg{
+        width: 88vw;
+    }
+    #box_pergunta,#box_pergunta::placeholder,#box_resposta{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
   
   
