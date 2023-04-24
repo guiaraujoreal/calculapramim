@@ -23,7 +23,7 @@
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="../../imgs/ico.png" type="image/x-icon">
-    <title>Prazer! Sou o Math!</title>
+    <title>Prazer! Sou a Mathê!</title>
 </head>
 <body>
 <header>
@@ -96,7 +96,7 @@
                         <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
                         </div>
                 <div id="area_resp">
-                        <div class="label_ label_math"><p class="tag_math"><b>🤖Math:</b></p></div>
+                        <div class="label_ label_math"><p class="tag_math"><b>🤖Mathê:</b></p></div>
                         <div  name="resposta" class="" id="box_resposta">';
                 
                 foreach ($paragrafo as $paragrafo) {
@@ -115,7 +115,18 @@
                     <div id="area_perg">
                         <div class="label_ label_voce"><p class="tag_voce"><b>👤Você:</b></p></div>
                         <textarea name="pergunta" class="" id="box_pergunta" rows="3" placeholder="Que bom ter você por aqui :)! Pergunte-me algo, como: 'me mostre como calcular a expressão 3x-27²=0'." required></textarea>
-                        <div id="botao_send" class="col"><button class="btn btn-success" type="submit">Enviar</div>
+                        <div id="botao_send" class="col d-flex justify-content-center"><button>
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                                    </svg>
+                                    </div>
+                                </div>
+                                <span>Enviar</span>
+                            </button>
+                        </div>
                     </div>
                 </form>
                 </div>
