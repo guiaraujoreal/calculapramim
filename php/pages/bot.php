@@ -7,7 +7,6 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../../style/bot.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../../style/cabecalho-rodape.css" media="screen" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,55 +22,29 @@
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="../../imgs/ico.png" type="image/x-icon">
-    <title>Prazer! Sou a Mathê!</title>
+    <title>Prazer! Sou a Mafê!</title>
 </head>
 <body>
-<header>
-        <div id="cabecalho" class="container container-fluid">
-            <div id="col_logo" class="row d-flex align-items-center">
-                <div><img id="logo" class="col" src="../../imgs/logo.png" alt="logotipo"></div>
-                <div id="menu">
-            <div id="menu-bar" onclick="menuOnClick()">
-                <div id="bar1" class="bar"></div>
-                <div id="bar2" class="bar"></div>
-                <div id="bar3" class="bar"></div>
-            </div>
-        <nav class="nav" id="nav">
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="bot.php">Funcionalidades</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav> 
-        </div>
-        <div class="menu-bg" id="menu-bg"></div>
-            </div>
-        </div>
-        <nav class="nav02">
-          <ul>
-              <li><a class="item_menu" href="../../index.html">Home</a></li>
-              <li><a class="item_menu" href="bot.php">Funcionalidades</a></li>
-              <li><a class="item_menu" href="#">Contact</a></li>
-              <li><a class="item_menu" href="#">Blog</a></li>
-          </ul>
-      </nav> 
+    <header>
+        <?php include('../includes/cabecalho.php') ?>
     </header>
 
     <main>
 
-        <div id="container02" class="container container-fluid">
-            <div class="row justify-content-around">
-                <span id="titulo_page"></span>
+        <section id="sec01">
+            <div id="container02" class="container container-fluid">
+                <div class="row justify-content-around">
+                    <span id="titulo_page"></span>
+                </div>
             </div>
-        </div>
 
+        
         <div id="container01" class="container container-fluid" >
             <div class="row">
                 
                 <?php
                 require_once '../../vendor/autoload.php';
-                include_once('api/api.php');
+                include_once('../includes/api/api.php');
 
                 use OpenAI\Client;
 
@@ -85,7 +58,7 @@
                 $result = $client->completions()->create([
                     'model' => 'text-davinci-003',
                     'prompt' => $texto,
-                    'max_tokens' => 700,
+                    'max_tokens' => 1000,
                     'temperature' => 0.1,
                 ]);
                 $paragrafo = explode("\n", $result['choices'][0]['text']);
@@ -96,7 +69,7 @@
                         <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
                         </div>
                 <div id="area_resp">
-                        <div class="label_ label_math"><p class="tag_math"><b>🤖Mathê:</b></p></div>
+                        <div class="label_ label_math"><p class="tag_math"><b>🤖Mafê:</b></p></div>
                         <div  name="resposta" class="" id="box_resposta">';
                 
                 foreach ($paragrafo as $paragrafo) {
@@ -133,16 +106,65 @@
                 
             </div>
         </div>
+        </section>
 
-        <div id="container03" class="container">
-        </div>
+        <section>
+            <div id="container03" class="container">
+                <div id="title_infos" class="d-flex justify-content-center">Tire dúvidas sobre a Mafê👇</div>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Grupo de itens colapsável #1
+                            </button>
+                        </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non alemanha 0 x 2 coreia do sul cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Grupo de itens colapsável #2
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Grupo de itens colapsável #3
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+            </div>
+        </section>
     
     </main>
 
-    <footer id="rodape" class="container">
-        <p id="copy">&copy; 2023 Meu Site</p>
+    <footer>
+        <?php include('../includes/rodape.php'); ?>
     </footer>
-
 
     <script src="../../js/aumentar_box.js"></script>
     <script src="../../js/menu_responsivo.js"></script>

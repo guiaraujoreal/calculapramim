@@ -209,7 +209,7 @@ html,body{
 button {
     font-family: inherit;
     font-size: 20px;
-    background: rgb(65, 225, 105);
+    background: rgb(37, 176, 72);
     color: white;
     padding: 0.7em 1em;
     padding-left: 0.9em;
@@ -273,6 +273,40 @@ button {
     display: table;
     clear: both;
 }
+#container03{
+    padding-bottom: 40px;
+}
+#title_infos{
+    color: white;
+    font-size: clamp(1.5em,2vw,4em);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #28378b;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+.card{
+    border:0
+}
+.card-header{
+    background-color: #2f66c6;
+}
+.buttons_cards{
+    color: yellow;
+    transition: transform 0.3s ease-in-out;
+}
+.buttons_cards:hover{
+    text-decoration: none;
+    color: white;
+    transform: scale(1.1);
+}
+.card-body{
+    color: white;
+    background-color: #6094ee;
+}
+
+/*Media Queries*/
 @media (min-width: 768px) {
     #col_perg {
       float: left;
@@ -283,9 +317,6 @@ button {
         clear: both;
       }
 }
-
-
-
 @media (max-width: 767px){
     #resp_geral{
         margin-left: 3%;
@@ -301,6 +332,14 @@ button {
     }
     #box_pergunta,#box_pergunta::placeholder,#box_resposta{
         font-size: 1.2rem;
+    }
+}
+@media (max-width:310px){
+    .buttons_cards:hover{
+        transform: scale(1.0);
+    }
+    .buttons_cards{
+        text-align: left;
     }
 }
 
