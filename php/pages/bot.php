@@ -65,11 +65,11 @@
                 $resposta = '';
                 echo '<div id="resp_geral" class="col col-sm-11 col-md-5 col-11">
                 <div id="area_sub">
-                <div class="label_ label_math"><p class="tag_sub"><b>👤Você enviou:</b></p></div>
+                <div class="label_ label_math"><p class="tag_sub"><b><img class="img_user_response" src="../../imgs/user_img_response.png"> Você enviou:</b></p></div>
                         <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
                         </div>
                 <div id="area_resp">
-                        <div class="label_ label_math"><p class="tag_math"><b>🤖Mafê:</b></p></div>
+                        <div class="label_ label_math"><p class="tag_math"><b>IA:</b></p></div>
                         <div  name="resposta" class="" id="box_resposta">';
                 
                 foreach ($paragrafo as $paragrafo) {
@@ -86,7 +86,7 @@
                 <div id="col_perg" class="col col-sm-12 col-md-5 col-12">
                 <form id="form_perg" action="" method="post" class="form-group">
                     <div id="area_perg">
-                        <div class="label_ label_voce"><p class="tag_voce"><b>👤Você:</b></p></div>
+                        <div class="label_ label_voce"><p class="tag_voce"><b><img class="img_user" src="../../imgs/user_img.png">  Você:</b></p></div>
                         <textarea name="pergunta" class="" id="box_pergunta" rows="3" placeholder="Que bom ter você por aqui :)! Pergunte-me algo, como: 'me mostre como calcular a expressão 3x-27²=0'." required></textarea>
                         <div id="botao_send" class="col d-flex justify-content-center"><button>
                                 <div class="svg-wrapper-1">

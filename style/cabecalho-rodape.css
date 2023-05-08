@@ -23,9 +23,14 @@ header{
 }
 .container{
   max-width: 100%;
-  bosrder: solid 2px blue
+  border: solid 2px blue
 }
-
+.container-fluid{
+  border: solid 2px blue
+}
+.col{
+  border: solid yellow 2px;
+}
 #logo{
   width: 25rem;
   height: auto;
@@ -214,18 +219,31 @@ a:hover{
   transform: translate(-60%,-30%);
 }
 
-#rodape{
+footer{
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   min-height: 15vh;
   width: 100%;
   clear: both;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
 }
-#copy{
+#tags_footer{
+  margin-top: 20px;
+}
+#rodape{
+  border-top: solid 1px white;
+}
+.copy{
   color: white;
   text-align: center;
 }
-/* Media Query #logo */
+#logo_footer{
+  width: 13em;
+  height: auto;
+}
+
+/* Media Query #logo #logo_footer */
 @media (min-height: 931px){
   #logo{
     width: 23em;

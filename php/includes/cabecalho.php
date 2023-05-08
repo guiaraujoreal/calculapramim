@@ -14,8 +14,8 @@
         <nav class="nav" id="nav">
             <ul>
                 <li><a href="../pages/index.php">Home</a></li>
-                <li><a href="../pages/bot.php">Fale com a Mafê</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="../pages/bot.php">Fale com nossa IA</a></li>
+                <li><a href="#">Quem somos nós</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
         </nav> 
@@ -27,8 +27,8 @@
         <nav class="nav02">
           <ul>
               <li><a class="item_menu" href="../pages/index.php">Home</a></li>
-              <li><a class="item_menu" href="../pages/bot.php">Fale com a Mafê</a></li>
-              <li><a class="item_menu" href="#">Contact</a></li>
+              <li><a class="item_menu" href="../pages/bot.php">Fale com nossa IA</a></li>
+              <li><a class="item_menu" href="#">Quem somos nós</a></li>
               <li><a class="item_menu" href="#">Blog</a></li>
           </ul>
       </nav>
