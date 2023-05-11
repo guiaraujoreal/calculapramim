@@ -22,7 +22,7 @@
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="../../imgs/ico.png" type="image/x-icon">
-    <title>Prazer! Sou a Mafê!</title>
+    <title>Converse com nossa IA!</title>
 </head>
 <body>
     <header>
@@ -69,7 +69,7 @@
                         <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
                         </div>
                 <div id="area_resp">
-                        <div class="label_ label_math"><p class="tag_math"><b>IA:</b></p></div>
+                        <div class="label_ label_math"><p class="tag_math"><b><img class="img_ia" src="../../imgs/ai_response.png">IA:</b></p></div>
                         <div  name="resposta" class="" id="box_resposta">';
                 
                 foreach ($paragrafo as $paragrafo) {

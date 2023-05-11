@@ -5,9 +5,7 @@ html,body{
     height: 100vh;
  
 }
-.csol{
-    border: solid 2px yellow
-}
+
 #container01{
     font-size: 4em;
     color: white;
@@ -97,7 +95,7 @@ html,body{
 #box_resposta{
     width: 100%;
     min-height: 17vh;
-    border: solid 2px #ef5797;
+    border: solid 2px #0093E9;
     background-color: black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -167,11 +165,8 @@ html,body{
 .tag_math{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    background: rgb(255,104,104);
-    background: -moz-linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
-    background: linear-gradient(45deg, rgba(255,104,104,1) 0%, rgba(74,65,252,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6868",endColorstr="#4a41fc",GradientType=1);
+    background-color: #0093E9;
+    background-image: linear-gradient(93deg, #0093E9 0%, #80D0C7 100%);
     color: white;
     text-align: left;
     margin-bottom: 0;
@@ -206,6 +201,10 @@ html,body{
 .img_user_response{
     width: 20px;
     height: 20px;
+}
+.img_ia{
+    width: 35px;
+    height: 35px;
 }
 
 
