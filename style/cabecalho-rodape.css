@@ -247,11 +247,18 @@ footer{
   background-color: rgb(29, 29, 96);
 }
 .icons_rs{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  margin-left: 3vw;
 }
-.col{
+.cols{
   border: solid yellow 2px;
+}
+.col_icons{
+  margin-right: 10px;
+}
+.copy_bot{
+  background-color: rgb(21, 21, 69);
 }
 /* Media Query #logo #logo_footer */
 @media (min-height: 931px){
