@@ -220,29 +220,39 @@ a:hover{
 }
 
 footer{
-  background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-color: rgb(39, 39, 133);
   min-height: 15vh;
   width: 100%;
   clear: both;
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
+  border-top: solid 1px white;
 }
 #tags_footer{
   margin-top: 20px;
 }
-#rodape{
-  border-top: solid 1px white;
+.dev_tag{
+  color: rgb(179, 179, 179);
 }
 .copy{
   color: white;
-  text-align: center;
+  margin-top: 20px;
 }
 #logo_footer{
-  width: 13em;
+  margin-top: 5vh;
+  width: 15em;
   height: auto;
 }
-
+.top-footer{
+  background-color: rgb(29, 29, 96);
+}
+.icons_rs{
+  width: 30px;
+  height: 30px;
+}
+.col{
+  border: solid yellow 2px;
+}
 /* Media Query #logo #logo_footer */
 @media (min-height: 931px){
   #logo{

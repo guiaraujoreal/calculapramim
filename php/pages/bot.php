@@ -69,7 +69,7 @@
                         <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
                         </div>
                 <div id="area_resp">
-                        <div class="label_ label_math"><p class="tag_math"><b><img class="img_ia" src="../../imgs/ai_response.png">IA:</b></p></div>
+                        <div class="label_ label_math"><p class="tag_math"><b><img class="img_ia" src="../../imgs/ai_response.png">I.A:</b></p></div>
                         <div  name="resposta" class="" id="box_resposta">';
                 
                 foreach ($paragrafo as $paragrafo) {
@@ -110,7 +110,7 @@
 
         <section>
             <div id="container03" class="container">
-                <div id="title_infos" class="d-flex justify-content-center">Tire dúvidas sobre a Mafê👇</div>
+                <div id="title_infos" class="d-flex justify-content-center">Tire dúvidas sobre a I.A👇</div>
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="headingOne">
