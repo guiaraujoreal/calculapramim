@@ -13,10 +13,9 @@
             </div>
         <nav class="nav" id="nav">
             <ul>
-                <li><a href="../pages/index.php">Home</a></li>
-                <li><a href="../pages/bot.php">Fale com nossa I.A</a></li>
-                <li><a href="#">Quem somos nós</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a class="item_menu_shot" href="../pages/index.php">Home</a></li>
+                <li><a class="item_menu_shot" href="../pages/bot.php">Converse com nossa I.A</a></li>
+                <li><a class="item_menu_shot" href="#">Artigos Matemáticos</a></li>
             </ul>
         </nav> 
         </div>
@@ -27,9 +26,8 @@
         <nav class="nav02">
           <ul>
               <li><a class="item_menu" href="../pages/index.php">Home</a></li>
-              <li><a class="item_menu" href="../pages/bot.php">Fale com nossa I.A</a></li>
-              <li><a class="item_menu" href="#">Quem somos nós</a></li>
-              <li><a class="item_menu" href="#">Blog</a></li>
+              <li><a class="item_menu" href="../pages/bot.php">Converse com nossa I.A</a></li>
+              <li><a class="item_menu" href="#">Artigos Matemáticos</a></li>
           </ul>
       </nav>
  
