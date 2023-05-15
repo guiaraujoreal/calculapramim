@@ -206,6 +206,13 @@ html,body{
     width: 35px;
     height: 35px;
 }
+.link_card{
+    color: yellow;
+}
+.link_card:hover{
+    color: yellow;
+    text-decoration: underline;
+}
 
 
 
@@ -299,15 +306,20 @@ button {
 .buttons_cards{
     color: yellow;
     transition: transform 0.3s ease-in-out;
+    text-decoration: none;
 }
 .buttons_cards:hover{
     text-decoration: none;
     color: white;
     transform: scale(1.1);
 }
+
 .card-body{
     color: white;
-    background-color: #6094ee;
+    background-color: #2b5296;
+}
+.list_card{
+    margin-top: 10px;
 }
 
 /*Media Queries*/
@@ -344,6 +356,21 @@ button {
     }
     .buttons_cards{
         text-align: left;
+    }
+}
+@media (max-width:450px){
+    .title_card{
+        font-size: 15px;
+    }
+}
+@media (max-width:400px){
+    .title_card{
+        font-size: 12px;
+    }
+}
+@media (max-width:350px){
+    .title_card{
+        font-size: 11px;
     }
 }
 

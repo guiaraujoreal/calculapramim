@@ -34,39 +34,7 @@
                 <p class="text_link"><a href="#">#Credenciais e uso de dados</a></p>
         </div>
     </div>
-
-    <div class="row row_email">
-        <div class="col d-flex justify-content-center">
-            <div class="area_title_form">
-                <img class="email_icon"  src="../../imgs/email_icon.png">
-                <label class="label_div_form d-flex align-items-center justify-content-center">Deixe seu recado!</label>
-            </div>
-            <div class="div_form">
-                <form action="" method="post">
-                    <div class="area_input">
-                        <div class="input-group">
-                            <input required="" type="text" name="name_user" autocomplete="off" class="input" required>
-                            <label class="user-label">Qual o seu nome?</label>
-                        </div>
-                    </div>
-                    <div class="area_input">
-                        <div class="input-group">
-                            <textarea class="input" name="message" placeholder="Digite sua mensagem aqui :)" required></textarea>
-                        </div>
-                    </div>
-
-                    <div class="col_button d-flex justify-content-center">
-                        <div class="uiverse d-flex justify-content-center">
-                            <span class="tooltip">Opa, valeu!</span>
-                            <span>
-                                Enviar
-                            </span>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+    
     <div class="row">
         <div class="col text_id">
             <p>-- Turma 9° ano 01 do Colégio Tiradentes da PMMG unidade Curvelo --</p>

@@ -116,14 +116,15 @@
                         <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Grupo de itens colapsável #1
+                            <p class="title_card">> 01. O que significa "I.A"?</p>
                             </button>
                         </h5>
                         </div>
 
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non alemanha 0 x 2 coreia do sul cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            "I.A" é a abreviação de <b>Inteligência Artificial</b>. A Inteligência Artificial é um mecanismo artificial onde um meio digital/virtual atua com comportamentos
+                            semelhantes aos dos humanos. <a class="link_card" href="#"> Clique aqui</a> para saber mais sobre a I.A usada pelo MathLearn. 
                         </div>
                         </div>
                     </div>
@@ -131,13 +132,24 @@
                         <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Grupo de itens colapsável #2
+                            <p class="title_card">> 02. O que posso perguntar para a I.A?</p>
                             </button>
                         </h5>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            Como Inteligência Artificial, você pode perguntar o que quiser, ela não foi especificamente treinada apenas para a matemática. <br>Mas lembre-se!
+                             Tenha ciência de que este é um site educativo e apenas coisas relacionadas ao nicho devem ser pesquisadas. Por ser uma I.A terceirizada, não nos
+                             responsabilizamos por qualquer tipo de pergunta que você perguntar a ela.
+                             <br> Mas, veja alguns exemplos de perguntas:
+                             <ul class="list_card" >
+                                <li>'Passo a passo raiz cúbica de 27';</li>
+                                <li>'Como fazer teorema de Pitágoras?';</li>
+                                <li>'Qual o resultado da expressão 3x + 27 = 0?';</li>
+                                <li>'Qual a origem do número PI?'.</li>
+                             </ul>
+                             <br>Lembre-se! Esta inteligência ainda é recente e pode gerar erros. Confira
+                             mais informações <a class="link_card" href="#">clicando aqui</a>. Aproveite sem moderação ;) .
                         </div>
                         </div>
                     </div>
@@ -145,19 +157,60 @@
                         <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Grupo de itens colapsável #3
+                            <p class="title_card">> 03. Obtive erros na resposta. É normal?</p>
                             </button>
                         </h5>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            A princípio, não. Porém, esta I.A ainda está em treinamento e possíveis erros podem ocorrer. Por certificação, pergunte a mesma
+                            coisa mais de uma vez. Se o erro persistir, diga a I.A a possível resposta correta, caso saiba. Nossa I.A possui a capacidade
+                            de aprender as formas corretas com seus próprios erros.
+                            <br> Mas lembre-se! Nunca confie diretamente na resposta dela em casos de operações matemáticas mais complexas, certifique-se confirmar mais de uma vez.
+                            Estamos aperfeiçoando mais a cada dia.😊
                         </div>
                         </div>
                     </div>
-                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <p class="title_card">> 04. É normal a resposta vim em outro idioma?</p>
+                            </button>
+                        </h5>
+                        </div>
 
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            A princípio, não. Porém, nossa I.A responde você conforme o idioma que você direciona uma pergunta ou frase qualquer a ele.
+                            Por isso, é recomendável que você faça perguntas <b>específicas e diretas</b>, não envolvendo perguntas muito curtas ou confusas.
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="TituloModalCentralizado">Ooops! Tudo muito quieto por aqui...👀</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="animation d-flex justify-content-center">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_KqyKvM.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+                    </div>
+                  Esta página ficou muito tempo parada. Por favor, recarregue-a para prosseguir.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="location.reload()" ><img src="../../imgs/icon_refresh_img.png" style="width: 25px; height: 25px" > Recarregar!</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
     
     </main>
@@ -169,6 +222,7 @@
     <script src="../../js/aumentar_box.js"></script>
     <script src="../../js/menu_responsivo.js"></script>
     <script src="../../js/functions.js"></script>
+    <script src="../../js/page_inative.js" ></script>
 
 
     
@@ -176,6 +230,20 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     
+    <script>
+      window.addEventListener('blur', function() {
+        setTimeout(function() {
+          document.title = "Ei! Não demore muito...";
+        }, 1000); // Altere o valor em milissegundos para personalizar o tempo de espera
+      });
+      
+      window.addEventListener('focus', function() {
+        document.title = "Converse com nossa IA!";
+      });
+  
+    </script>
+
 </body>
 </html>
