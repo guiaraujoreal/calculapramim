@@ -46,10 +46,10 @@
                 <p class="copy"><tag class="dev_tag">&copy;2023 Copyright - Todos os direitos reservados | Desenvolvido por </tag> João Guilherme</p>
             </div>
             <div class="col_icons col d-flex justify-content-end align-items-center">
-                <div class="row">
-                    <a href="https://www.instagram.com/guiaraujo.real" target="_blank"><img class="icons_rs" src="../../imgs/instagram.png"></a>
-                    <a href="https://www.linkedin.com/in/jo%C3%A3o-guilherme-ara%C3%BAjo-viana-aab649221/" target="_blank"><img class="icons_rs" src="../../imgs/linkedin.png"></a>
-                    <a href="https://wa.me/553899612613" target="_blank"><img class="icons_rs" src="../../imgs/whatsapp.png"></a>
+                <div class="row justify-content-around">
+                    <a class="col col-2" href="https://www.instagram.com/guiaraujo.real" target="_blank"><img class="icons_rs" src="../../imgs/instagram.png"></a>
+                    <a class="col col-2" href="https://www.linkedin.com/in/jo%C3%A3o-guilherme-ara%C3%BAjo-viana-aab649221/" target="_blank"><img class="icons_rs" src="../../imgs/linkedin.png"></a>
+                    <a class="col col-2" href="https://wa.me/553899612613" target="_blank"><img class="icons_rs" src="../../imgs/whatsapp.png"></a>
                 </div>
             </div>
     </div>

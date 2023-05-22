@@ -5,9 +5,13 @@ body{
 .container{
     max-width: 100%;
 }
-#container01{
-    padding-top: 30vh;
+#sec01{
+    padding-top: 14vh;
 }
+.carousel {
+    border-left: none;
+    border-right: none;
+  }
 #sub-1{
     text-align: left;
     font-size: clamp(2em,6vw,4em);
