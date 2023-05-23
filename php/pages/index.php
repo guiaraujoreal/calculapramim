@@ -16,15 +16,17 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     
     <link rel="shortcut icon" href="../../imgs/ico.png" type="image/x-icon">
-    <title>Bem-vindo ao MathLearn!</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
     <link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
     <link href="../../style/carousel.css" rel="stylesheet">
     <link href="../../style/index.css" rel="stylesheet">
+
+    <title>Bem-vindo ao MathLearn!</title>
   </head>
 
   <body>
@@ -32,22 +34,6 @@
     <header>
     <?php include('../includes/cabecalho.php') ?>
     </header>
-
-      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="check2" viewBox="0 0 16 16">
-          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-        </symbol>
-        <symbol id="circle-half" viewBox="0 0 16 16">
-          <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
-        </symbol>
-        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
-          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
-        </symbol>
-        <symbol id="sun-fill" viewBox="0 0 16 16">
-          <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
-        </symbol>
-      </svg>
 
   <main>
     <section id="sec01">
@@ -59,7 +45,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+            <img class="bd-placeholder-img" width="100%" height="100%" src="../../imgs/side01.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1>Example headline.</h1>
@@ -69,7 +55,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <img class="bd-placeholder-img" width="100%" height="100%" src="../../imgs/side02.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Another example headline.</h1>
@@ -79,7 +65,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <img class="bd-placeholder-img" width="100%" height="100%" src="../../imgs/side03.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>One more for good measure.</h1>
@@ -110,44 +96,131 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <div id="sections_info" class="container-fluid d-flex justify-content-center">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1 text_card">Você pergunta, <span class="animated"></span></h2>
+              <p class="lead text_card">Nossa Inteligência Artificial pode ajudar você a sanar várias questões matemáticas, elaborando
+                métodos eficazes e economizando seu tempo na hora de resolver uma expressão matemática complexa. Venha conhecer!
+              </p>
+            </div>
+            <div class="col-md-5">
+              <div id="animation" class="col d-flex justify-content-center">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player id="anim_obj" src="https://assets3.lottiefiles.com/packages/lf20_itilDAyVNt.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+              </div>
+            </div>
+            <div class="row botao_sec">
+              <button class="btn_sec" onclick="window.location.href='bot.php'">
+                <span>Conhecer</span>
+              </button>
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
           </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <div id="sections_info" class="container-fluid d-flex justify-content-center">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1 text_card">Games - para <span class="txt_aprend"> aprender</span> da melhor forma possivel.</h2>
+              <p class="lead text_card">Os games possuem grandes atribuições no comportamento em relação ao aprendizado,
+                deixando a forma de aprender mais intuitiva e aprimorada. Ao final de cada artigo matemático, há sempre 
+              um gamer para o usuario colocar o conteúdo em prática. Conheça os Artigos Matemáticos!
+              </p>
+            </div>
+            <div class="col-md-3">
+              <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
+            
+</div>
+            <div class="row botao_sec">
+              <button class="btn_sec" onclick="window.location.href='bot.php'">
+                <span>Conhecer</span>
+              </button>
           </div>
-          <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
           </div>
         </div>
 
+
+        
+        <!--
+        <div id="sections_info" class="container-fluid d-flex justify-content-center">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1 text_card">Games - para <span class="txt_aprend"> aprender</span> da melhor forma possivel.</h2>
+              <p class="lead text_card">Os games possuem grandes atribuições no comportamento em relação ao aprendizado,
+                deixando a forma de aprender mais intuitiva e aprimorada. Ao final de cada artigo matemático, há sempre 
+              um gamer para o usuario colocar o conteúdo em prática. Conheça os Artigos Matemáticos!</p>
+            </div>
+            <div class="col-md-5">
+              <div id="animation" class="col d-flex justify-content-center">
+                <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
+              </div>
+            </div>
+            <div class="row botao_sec btn_sec02 order-md-3">
+              <button class="btn_sec" onclick="window.location.href=''">
+                <span>Vamos lá!</span>
+              </button>
+            </div>
+          </div>
+          
+      </div>
+-->
+  
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <div id="sections_info" class="container-fluid d-flex justify-content-center">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1 text_card title_sec03">Aprimorar nunca é demais</span></h2>
+              <p class="lead text_card">Pensando no aprendizado de nossos usuários, não dermarcando um público alvo específico,
+                nós separamos algumas vídeo-aulas de terceiros para que sintetize e otimize o tempo de estudo e encontre tudo
+                em um só lugar. Você os encontrará na sessão "Artigos Matemáticos" de acordo com o tema escolhido. Aproveite!
+              </p>
+            </div>
+            <div class="col-md-5">
+              <div id="animation" class="col d-flex justify-content-center">
+              <img id="animation_obj" src="../../imgs/online-courses.svg">
+              </div>
+            </div>
+            <div class="row botao_sec">
+              <button class="btn_sec" onclick="window.location.href='bot.php'">
+                <span>Explorar</span>
+              </button>
           </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
           </div>
         </div>
+
 
         <hr class="featurette-divider">
 
       </div><!-- /.container -->
     </section>
+
+    <!--Modal-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="TituloModalCentralizado">Olá visitante! :)</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="anim_modal d-flex justify-content-center">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_F2Mv1p.json"  background="transparent"  speed="1"  style="width: 300px; height: 200px;" loop   autoplay></lottie-player>
+                  </div>
+                  Estamos felizes em te ver! Nós, alunos do 9° ano 01 do CTPM Curvelo, elaboramos este site 
+                  para facilitar sua relação com alguns cálculos matemáticos no seu dia. Aproveite!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Vamos lá!</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
   </main>
@@ -161,11 +234,50 @@
       <script src="../../js/functions.js"></script>
       <script src="../../js/animate_index.js"></script>
       <script src="../../js/acionar_modalpage.js"></script>
+      <script src="../../js/marca-text_index.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-        
+      <script>
+      window.addEventListener('blur', function() {
+        setTimeout(function() {
+          document.title = "Ei! Não demore muito...";
+        }, 1000); // Altere o valor em milissegundos para personalizar o tempo de espera
+      });
+      
+      window.addEventListener('focus', function() {
+        document.title = "Bem-vindo ao MathLearn!";
+      });
+  
+    </script>
+
+    <script>
+      LottieInteractivity.create({
+          player:'#anim_sec02',
+          mode:"scroll",
+          actions: [
+              {
+              visibility: [0.50, 1.0],
+              type: "play"
+              }
+          ]
+      });
+      </script>
+
+    <script>
+          LottieInteractivity.create({
+              player:'#anim_obj',
+              mode:"scroll",
+              actions: [
+                  {
+                  visibility: [0.50, 1.0],
+                  type: "play"
+                  }
+              ]
+          });
+      </script>
+            
   </body>
 </html>
