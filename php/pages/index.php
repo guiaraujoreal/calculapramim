@@ -120,19 +120,20 @@
 
         <hr class="featurette-divider">
 
-        <div id="sections_info" class="container-fluid d-flex justify-content-center">
+        <div id="sections_info" class="container-fluid d-flex justify-content-center sec_02">
           <div class="row featurette">
-            <div class="col-md-7">
+            <div class="col-md-7 col_body_sec02">
               <h2 class="featurette-heading fw-normal lh-1 text_card">Games - para <span class="txt_aprend"> aprender</span> da melhor forma possivel.</h2>
               <p class="lead text_card">Os games possuem grandes atribuições no comportamento em relação ao aprendizado,
                 deixando a forma de aprender mais intuitiva e aprimorada. Ao final de cada artigo matemático, há sempre 
               um gamer para o usuario colocar o conteúdo em prática. Conheça os Artigos Matemáticos!
               </p>
             </div>
-            <div class="col-md-3">
-              <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
-            
-</div>
+            <div class="col_img_sec col   d-flex justify-content-center">
+              <div class="col-md- col-sm-5 d-flex justify-content-center">
+                  <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
+              </div>
+            </div>
             <div class="row botao_sec">
               <button class="btn_sec" onclick="window.location.href='bot.php'">
                 <span>Conhecer</span>
@@ -253,31 +254,6 @@
   
     </script>
 
-    <script>
-      LottieInteractivity.create({
-          player:'#anim_sec02',
-          mode:"scroll",
-          actions: [
-              {
-              visibility: [0.50, 1.0],
-              type: "play"
-              }
-          ]
-      });
-      </script>
-
-    <script>
-          LottieInteractivity.create({
-              player:'#anim_obj',
-              mode:"scroll",
-              actions: [
-                  {
-                  visibility: [0.50, 1.0],
-                  type: "play"
-                  }
-              ]
-          });
-      </script>
             
   </body>
 </html>
