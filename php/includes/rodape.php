@@ -22,8 +22,8 @@
         </div>
         <div class="col col_ftext">
                 <p class="sub_text_flogo">Conteúdo</p>
-                <p class="text_link"><a href="#">#Converse com nossa I.A</a></p>
-                <p class="text_link"><a href="#">#Artigos matemáticos</a></p>
+                <p class="text_link"><a href="../pages/bot.php">#Converse com nossa I.A</a></p>
+                <p class="text_link"><a href="../pages/art-mat.php">#Artigos matemáticos</a></p>
                 <p class="text_link"><a href="#">#A tecnologia e a educação</a></p>
         </div>
         <div class="col col_ftext">

@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="pt" data-bs-theme="auto">
-  <head><script src="../assets/js/color-modes.js"></script>
-
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -23,7 +22,6 @@
     <link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom styles for this template -->
-    <link href="../../style/carousel.css" rel="stylesheet">
     <link href="../../style/index.css" rel="stylesheet">
 
     <title>Bem-vindo ao MathLearn!</title>
@@ -122,6 +120,11 @@
 
         <div id="sections_info" class="container-fluid d-flex justify-content-center sec_02">
           <div class="row featurette">
+          <div class="col_img_sec col-md-4 d-flex justify-content-center">
+              <div class="col-md-5 d-flex justify-content-center">
+                  <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
+              </div>
+            </div>
             <div class="col-md-7 col_body_sec02">
               <h2 class="featurette-heading fw-normal lh-1 text_card">Games - para <span class="txt_aprend"> aprender</span> da melhor forma possivel.</h2>
               <p class="lead text_card">Os games possuem grandes atribuições no comportamento em relação ao aprendizado,
@@ -129,45 +132,14 @@
               um gamer para o usuario colocar o conteúdo em prática. Conheça os Artigos Matemáticos!
               </p>
             </div>
-            <div class="col_img_sec col   d-flex justify-content-center">
-              <div class="col-md- col-sm-5 d-flex justify-content-center">
-                  <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
-              </div>
-            </div>
-            <div class="row botao_sec">
-              <button class="btn_sec" onclick="window.location.href='bot.php'">
-                <span>Conhecer</span>
+            <div class="row botao_sec btn_sec02">
+              <button class="btn_sec" onclick="window.location.href='art-mat.php'">
+                <span>Vamos lá!</span>
               </button>
           </div>
           </div>
         </div>
 
-
-        
-        <!--
-        <div id="sections_info" class="container-fluid d-flex justify-content-center">
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading fw-normal lh-1 text_card">Games - para <span class="txt_aprend"> aprender</span> da melhor forma possivel.</h2>
-              <p class="lead text_card">Os games possuem grandes atribuições no comportamento em relação ao aprendizado,
-                deixando a forma de aprender mais intuitiva e aprimorada. Ao final de cada artigo matemático, há sempre 
-              um gamer para o usuario colocar o conteúdo em prática. Conheça os Artigos Matemáticos!</p>
-            </div>
-            <div class="col-md-5">
-              <div id="animation" class="col d-flex justify-content-center">
-                <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
-              </div>
-            </div>
-            <div class="row botao_sec btn_sec02 order-md-3">
-              <button class="btn_sec" onclick="window.location.href=''">
-                <span>Vamos lá!</span>
-              </button>
-            </div>
-          </div>
-          
-      </div>
--->
-  
         <hr class="featurette-divider">
 
         <div id="sections_info" class="container-fluid d-flex justify-content-center">
@@ -181,11 +153,11 @@
             </div>
             <div class="col-md-5">
               <div id="animation" class="col d-flex justify-content-center">
-              <img id="animation_obj" src="../../imgs/online-courses.svg">
+                <img id="img_sec03" src="../../imgs/online-courses.svg">
               </div>
             </div>
             <div class="row botao_sec">
-              <button class="btn_sec" onclick="window.location.href='bot.php'">
+              <button class="btn_sec" onclick="window.location.href='art-mat.php'">
                 <span>Explorar</span>
               </button>
           </div>

@@ -15,7 +15,7 @@
             <ul>
                 <li><a class="item_menu_shot" href="../pages/index.php">Home</a></li>
                 <li><a class="item_menu_shot" href="../pages/bot.php">Converse com nossa I.A</a></li>
-                <li><a class="item_menu_shot" href="#">Artigos Matemáticos</a></li>
+                <li><a class="item_menu_shot" href="../pages/art-mat.php">Artigos Matemáticos</a></li>
             </ul>
         </nav> 
         </div>
@@ -27,7 +27,7 @@
           <ul>
               <li><a class="item_menu" href="../pages/index.php">Home</a></li>
               <li><a class="item_menu" href="../pages/bot.php">Converse com nossa I.A</a></li>
-              <li><a class="item_menu" href="#">Artigos Matemáticos</a></li>
+              <li><a class="item_menu" href="../pages/art-mat.php">Artigos Matemáticos</a></li>
           </ul>
       </nav>
  
