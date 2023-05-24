@@ -20,6 +20,9 @@
     <link rel="shortcut icon" href="../../imgs/ico.png" type="image/x-icon">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
     <link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Tema-->
+    <link rel="stylesheet" href="../../style/themes/tema-escuro_index.css"  id="estilo-tema">
     
     <!-- Custom styles for this template -->
     <link href="../../style/index.css" rel="stylesheet">
@@ -226,6 +229,19 @@
   
     </script>
 
+    <!--Tema-->
+    <script>
+      function alternarTema() {
+      var estiloTema = document.getElementById("estilo-tema");
+      if (estiloTema.getAttribute("href") === "../../style/themes/tema-escuro_index.css") {
+        estiloTema.setAttribute("href", "../../style/themes/tema-claro_index.css");
+      } else {
+        estiloTema.setAttribute("href", "../../style/themes/tema-escuro_index.css");
+      }
+        
+      document.body.classList.remove("../../style/themes/tema-claro_index.css"); // Remova a classe "dark-theme" do body para retornar ao tema claro
+    }
+    </script>
             
   </body>
 </html>

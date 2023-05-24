@@ -17,9 +17,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap" rel="stylesheet">
+
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" crossorigin="anonymous"></script>
+
+    <!--Tema-->
+    <link rel="stylesheet" href="#"  id="estilo-tema">
 
     <link rel="shortcut icon" href="../../imgs/ico.png" type="image/x-icon">
     <title>Converse com nossa IA!</title>
@@ -191,22 +195,47 @@
             </div>
         </section>
 
+        <!--Modal tempo excedido-->
         <section>
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">Ooops! Tudo muito quieto por aqui...👀</h5>
+                        </div>
+                    <div class="modal-body">
+                        <div class="animation d-flex justify-content-center">
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_KqyKvM.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+                        </div>
+                    Esta página ficou muito tempo parada. Por favor, recarregue-a para prosseguir.
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="location.reload()" ><img src="../../imgs/icon_refresh_img.png" style="width: 25px; height: 25px" > Recarregar!</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Modal Tema infuncional-->
+        <section>
+            <!--Modal-->
+    <div class="modal fade" id="myModal_theme" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="TituloModalCentralizado">Ooops! Tudo muito quieto por aqui...👀</h5>
+                  <h5 class="modal-title" id="TituloModalCentralizado">Desculpe, vamos ficar te devendo essa...</h5>
                 </div>
                 <div class="modal-body">
-                    <div class="animation d-flex justify-content-center">
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_KqyKvM.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
-                    </div>
-                  Esta página ficou muito tempo parada. Por favor, recarregue-a para prosseguir.
+                  <div class="anim_modal d-flex justify-content-center">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_aiwdh2wk.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+                  </div>
+                  No momento, esta página não permite alternar o tema do layout. Não fique triste com a gente! Iremos resolver isto em breve.
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="location.reload()" ><img src="../../imgs/icon_refresh_img.png" style="width: 25px; height: 25px" > Recarregar!</button>
+                  <div id="contagem"></div>
                 </div>
               </div>
             </div>
@@ -223,6 +252,7 @@
     <script src="../../js/menu_responsivo.js"></script>
     <script src="../../js/functions.js"></script>
     <script src="../../js/page_inative.js" ></script>
+    <script src="../../js/alternar-tema.js" ></script>
 
 
     
@@ -244,6 +274,54 @@
       });
   
     </script>
+
+    <!--Aciona o Modal de tema indefinido do layout e mostra tempo"-->
+    <script>
+        function alternarTema() {
+            var estiloTema = document.getElementById("estilo-tema");
+            if (estiloTema.getAttribute("href") === "#") {
+
+                // Defina a quantidade de segundos para a contagem regressiva
+                var segundosTotais = 7; // Altere este valor para a quantidade desejada de segundos
+
+                // Converte os segundos para milissegundos
+                var milissegundosTotais = segundosTotais * 1000;
+
+                // Atualiza a contagem regressiva a cada segundo
+                var contador = setInterval(function() {
+                // Obtém a quantidade de segundos restantes
+                var segundosRestantes = Math.floor(milissegundosTotais / 1000);
+
+                // Exibe a contagem regressiva na página
+                document.getElementById("contagem").innerHTML = "Fechando este aviso em " + segundosRestantes + " segundos";
+
+                // Verifica se a contagem regressiva terminou
+                if (segundosRestantes <= 0) {
+                    clearInterval(contador);
+                    document.getElementById("contagem").innerHTML = "Iniciando contagem...";
+                }
+
+                // Reduz a quantidade de milissegundos restantes em 1 segundo
+                milissegundosTotais -= 1000;
+                }, 1000);
+
+                var myModal = new bootstrap.Modal(document.getElementById('myModal_theme'), {
+                keyboard: false
+                });
+                myModal.show();
+
+                // Fechar o modal após 3 segundos
+                setTimeout(function() {
+                myModal.hide();
+                }, 8000);
+            }
+            }
+    </script>
+
+<script>
+  
+</script>
+
 
 </body>
 </html>

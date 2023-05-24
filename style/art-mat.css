@@ -1,23 +1,16 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #373e55;
-}
 a{
     text-decoration: none;
 }
 .featurette-divider {
     margin: 2rem 0; /* Space out the Bootstrap <hr> more */
-    color: white;
     width: 90%;
   }
 
 #sec01{
-    margin-top: 100px;
+    margin-top: 10vw;
     text-align: center;
 }
 .txt-title01{
-    color: white;
     font-size: clamp(2em,4vw,3em);;
 }
 #sec02{

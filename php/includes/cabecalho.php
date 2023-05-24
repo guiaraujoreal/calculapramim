@@ -16,6 +16,11 @@
                 <li><a class="item_menu_shot" href="../pages/index.php">Home</a></li>
                 <li><a class="item_menu_shot" href="../pages/bot.php">Converse com nossa I.A</a></li>
                 <li><a class="item_menu_shot" href="../pages/art-mat.php">Artigos Matemáticos</a></li>
+                <li><label class="switch">
+                    <input type="checkbox" onclick="alternarTema()" id="themeCheckbox">
+                    <span class="slider"></span>
+                    </label>
+                </li>
             </ul>
         </nav> 
         </div>
@@ -28,6 +33,11 @@
               <li><a class="item_menu" href="../pages/index.php">Home</a></li>
               <li><a class="item_menu" href="../pages/bot.php">Converse com nossa I.A</a></li>
               <li><a class="item_menu" href="../pages/art-mat.php">Artigos Matemáticos</a></li>
+              <li><label class="switch">
+                    <input type="checkbox" onclick="alternarTema()" id="themeCheckbox">
+                    <span class="slider"></span>
+                    </label>
+                </li>
           </ul>
       </nav>
  
