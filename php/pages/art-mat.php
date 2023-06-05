@@ -38,7 +38,8 @@
   <main>
 
   <section id="sec01" class="container-fluid">
-    <h1 class="txt-title01" >Artigos Matemáticos</h1>
+    <h1 class="txt-title01">Artigos Matemáticos</h1>
+    <h2 class="subtitle_sec">Conteúdos, Vídeos, Games Educacionais - Tudo isso em apenas um lugar. Escolha abaixo o conteúdo que deseja aprender.😎</h2>
   </section>
 
   <div class="divisory d-flex justify-content-center">
@@ -52,7 +53,7 @@
                     <div id="cards" class="card text-center mx-auto shadow bg-white rounded">
                         <img class="card-img-top" src="../../imgs/card01.png" alt="Imagem de capa do card">
                         <div id="card-body01" class="card-body">
-                          <h5 class="card-title">Potenciação</h5>
+                          <h5 class="card-title"><b>Potenciação</b></h5>
                           <a href="potenciacao.php" id="botao_card01" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Descubra o resultado de um número elevado ao seu fator expoente!">Vamos Aprender!</a>
                         </div>
                     </div>
@@ -61,8 +62,8 @@
                     <div id="cards" class="card text-center mx-auto shadow bg-white rounded" data-toggle="tooltip" data-placement="bottom" title="Determine e encontre a raiz quadrada de algum número!">
                         <img class="card-img-top" src="../../imgs/card02.png" alt="Imagem de capa do card">
                         <div id="card-body02" class="card-body">
-                          <h5 class="card-title">Radiciação</h5>
-                          <a href="#" id="botao_card02" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                          <h5 class="card-title"><b>Radiciação</b></h5>
+                          <a href="radiciacao.php" id="botao_card02" class="btn btn-primary btn-block">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -70,8 +71,26 @@
                     <div id="cards" class="card text-center mx-auto shadow bg-white rounded" data-toggle="tooltip" data-placement="bottom" title="Calcule e/ou simplifique uma expressão envolvendo Notação Científica!" >
                         <img class="card-img-top" src="../../imgs/card03.png" alt="Imagem de capa do card">
                         <div id="card-body03" class="card-body">
-                          <h5 class="card-title">Notação Científica</h5>
-                          <a href="#" id="botao_card03" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                          <h5 class="card-title"><b>Notação Científica</b></h5>
+                          <a href="notacao-cientifica.php" id="botao_card03" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="coluna" class="col-md-5 col-lg-3 col-xs-12">
+                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded" data-toggle="tooltip" data-placement="bottom" title="Aprenda como calcular uma operação envolvendo regra de 3!" >
+                        <img class="card-img-top" src="../../imgs/card04.png" alt="Imagem de capa do card">
+                        <div id="card-body04" class="card-body">
+                          <h5 class="card-title"><b>Regra de Três</b></h5>
+                          <a href="notacao-cientifica.php" id="botao_card04" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="coluna" class="col-md-5 col-lg-3 col-xs-12">
+                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded" data-toggle="tooltip" data-placement="bottom" title="Aprenda como calcular uma operação envolvendo regra de 3!" >
+                        <img class="card-img-top" src="../../imgs/card05.png" alt="Imagem de capa do card">
+                        <div id="card-body05" class="card-body">
+                          <h5 class="card-title"><b>Fração</b></h5>
+                          <a href="notacao-cientifica.php" id="botao_card05" class="btn btn-primary btn-block">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +123,7 @@
       <script>
       window.addEventListener('blur', function() {
         setTimeout(function() {
-          document.title = "Ei! Não demore muito...";
+          document.title = "Ei! Volta aqui!!!🤨";
         }, 1000); // Altere o valor em milissegundos para personalizar o tempo de espera
       });
       

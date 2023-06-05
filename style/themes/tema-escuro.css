@@ -5,3 +5,10 @@ body{
     color: white;
     transition: background-color 0.5s ease;
 }
+.span_game{
+    color: white
+}
+.art-body{
+    color: white;
+    background-color: #252832;
+}

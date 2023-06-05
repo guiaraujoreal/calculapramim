@@ -265,7 +265,7 @@
     <script>
       window.addEventListener('blur', function() {
         setTimeout(function() {
-          document.title = "Ei! Não demore muito...";
+          document.title = "Ei! Volta aqui!!!🤨";
         }, 1000); // Altere o valor em milissegundos para personalizar o tempo de espera
       });
       

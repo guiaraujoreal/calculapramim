@@ -1,9 +1,6 @@
 <link rel="stylesheet" href="../../style/cabecalho-rodape.css">
 
-<div id="tags_footer" class="container-fluid">
-    <div class="row">
-    </div>
-</div>
+
 
 <div id="rodape" class="container-fluid">
     <div class="row">

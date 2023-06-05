@@ -179,9 +179,6 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="TituloModalCentralizado">Olá visitante! :)</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
                 </div>
                 <div class="modal-body">
                   <div class="anim_modal d-flex justify-content-center">
@@ -219,7 +216,7 @@
       <script>
       window.addEventListener('blur', function() {
         setTimeout(function() {
-          document.title = "Ei! Não demore muito...";
+          document.title = "Ei! Volta aqui!!!🤨";
         }, 1000); // Altere o valor em milissegundos para personalizar o tempo de espera
       });
       

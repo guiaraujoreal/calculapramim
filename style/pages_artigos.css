@@ -1,0 +1,74 @@
+a{
+    text-decoration: none;
+}
+.space{
+    padding-left: 10px;
+}
+.featurette-divider {
+    margin-top: 2rem ; /* Space out the Bootstrap <hr> more */
+    margin-bottom: 1rem;
+    width: 90%;
+}
+#sec01{
+    margin-top: 20vh;
+    text-align: center;
+}
+.txt-title01{
+    font-size: clamp(2em,4vw,3em);
+}
+.img-top{
+    width: auto;
+    height: auto;
+    max-height: 20em;
+    border-radius: 10px;
+    margin-bottom: 3vh;
+}
+#sec02{
+    max-width: 97%;
+    font-size: 20px;
+}
+.title_sec{
+    font-size: clamp(2em,3vw,2em);
+    text-align: center;
+}
+.subtitle_sec{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.featurette-divider-sub02{
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.games{
+    margin-top: 20px;
+}
+.span_game{
+    margin-bottom: 20px;
+}
+#sec04{
+    margin-bottom: 30px;
+}
+aside{
+    border-left: 1px solid rgba(138, 138, 138, 0.451);
+}
+@media(max-width: 540px){
+    aside{
+        border-left: none;
+    }
+}
+.list-title {
+    font-size: 20px;
+    background-image: linear-gradient( 300deg, #9995ff 10%, #3813C2 100%);
+    border: none;
+}
+.list-aside{
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+}
+
+
+
+
+
