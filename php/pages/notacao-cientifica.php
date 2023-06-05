@@ -163,7 +163,7 @@
               </p>
               <a href="potenciacao.php" class="list-group-item list-group-item-action art-body">> Potenciação</a>
               <a href="radiciacao.php" class="list-group-item list-group-item-action art-body">> Radiciação</a>
-              <a href="#" class="list-group-item list-group-item-action art-body">> Regra de Três</a>
+              <a href="regra-3.php" class="list-group-item list-group-item-action art-body">> Regra de Três</a>
               <a href="#" class="list-group-item list-group-item-action art-body">> Fração</a>
             </div>
         </aside>

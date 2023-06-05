@@ -81,7 +81,7 @@
                         <img class="card-img-top" src="../../imgs/card04.png" alt="Imagem de capa do card">
                         <div id="card-body04" class="card-body">
                           <h5 class="card-title"><b>Regra de Três</b></h5>
-                          <a href="notacao-cientifica.php" id="botao_card04" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                          <a href="regra-3.php" id="botao_card04" class="btn btn-primary btn-block">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
