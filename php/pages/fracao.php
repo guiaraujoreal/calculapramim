@@ -38,7 +38,7 @@
       <div class="row">
         <main class="col-sm-8">
           <section id="sec01" class="container-fluid">
-            <h1 class="txt-title01">Regra de Três</h1>
+            <h1 class="txt-title01">Fração</h1>
           </section>
 
           <div class="divisory d-flex justify-content-center">
@@ -48,73 +48,48 @@
             <section id="sec02" class="container-fluid">
               <div class="row d-flex justify-content-center ">
                 <div class="col">
-                  <p class="entrada"><span class="space"></span>Não vamos negar que a cada dia que passa percebemos a presença da matemática mais e mais
-                  no nosso dia a dia. Já imaginou como um restaurante consegue estimar sua produção semanal ou mensal de alimentos? Ou medir a porção de 
-                  comida em relação a quantia de pessoas? Para isso, usa-se a <b>Regra de Três</b>. Neste artigo, você conhecerá e aprenderá como calcular 
-                  a Regra de Três em poucos passos. Vamos lá!😉
+                  <p class="entrada"><span class="space"></span>Você vai em um rodízio de pizzas com os amigos. A pizza chega a mesa; é hora de repartir! Mas e aí?
+                  Quantos pedaços dará para cada um? Alguém ficará com mais que outro? Terá que fazer uma divisão "imperfeita" para algum? Para isso, denota-se a Fração.
+                  Neste artigo, você conhecerá e aprenderá sobre o processo de cálculo das frações e seu uso no dia a dia. Pra cima!🎈
                   </p>
                 </div>
               </div>
               
               <div class="row">
                 <div class="col d-flex justify-content-center">
-                  <img src="../../imgs/regra-3-img.jpg" class="img-fluid img-top" alt="Imagem sobre radiciação">
+                  <img src="../../imgs/fracao-img.jpg" class="img-fluid img-top" alt="Imagem sobre fracao">
                 </div>
               </div>
 
               <div class="row d-flex justify-content-center ">
                 <div class="col">
                   <p class="entrada txt">
-                  <span class="space"></span>A ideia básica por trás da regra de três é que, se existe uma proporção entre duas grandezas, essa proporção também se mantém quando a terceira grandeza é incluída. Em outras palavras, se duas grandezas são proporcionais entre si, a terceira grandeza também será proporcional a elas.
-                          <br>
-                          <br><span class="space"></span>Existem dois tipos comuns de regra de três: direta e inversa.
-                          <br>
-                          <br><span class="space"></span>A regra de três direta é usada quando as grandezas variam diretamente, o que significa que elas aumentam ou diminuem juntas. Nesse caso, a proporção é direta: se uma grandeza aumenta, a outra também aumenta na mesma proporção, e se uma grandeza diminui, a outra também diminui na mesma proporção.
+                  <span class="space"></span>Uma fração é uma forma de representar uma parte de um todo. Ela é composta por dois números: um numerador e um denominador. O numerador indica quantas partes temos, enquanto o denominador indica em quantas partes o todo foi dividido. A fração é escrita na forma a/b, onde "a" é o numerador e "b" é o denominador.
 
-                          <br><span class="space"></span>Por exemplo, digamos que você esteja comprando maçãs e saiba que 5 maçãs custam R$10. Se você quiser descobrir quanto custariam 8 maçãs, você pode usar a regra de três direta. A proporção entre o número de maçãs e o custo é de 5 para R$10. Assim, podemos estabelecer a seguinte proporção:
-                          <br>
-                          <br>
-                          <br><b>5 maçãs / R$10 = 8 maçãs / x</b>
-                          <br>
-                          <br><span class="space"></span>Agora, basta resolver a proporção para encontrar o valor desconhecido 'x'. Nesse caso, multiplicaríamos o número de maçãs pelo valor em reais e dividiríamos pelo número de maçãs desejado:
-                          <br>
-                          <br><b>(5 * x) = (8 * R$10)</b>
-                          <br>
-                          <br><b>x = (8 * R$10) / 5</b>
-                          <br>
-                          <br><b>x = R$16</b>
-                          <br>
-                          <br>
-                          <br><span class="space"></span>Portanto, 8 maçãs custariam R$16.
-                          <br>
-                          <br><span class="space"></span>A regra de três inversa é usada quando as grandezas variam inversamente, ou seja, quando uma grandeza aumenta enquanto a outra diminui. Nesse caso, a proporção é inversa: se uma grandeza aumenta, a outra diminui na mesma proporção, e vice-versa.
+                      <br>Por exemplo, considere a fração 3/4. Nessa fração, o numerador é 3, o que significa que temos 3 partes do todo, e o denominador é 4, indicando que o todo foi dividido em 4 partes iguais. A fração 3/4 representa três quartos do todo.
+                      <br>
+                      <br>
+                      <br>Agora, vamos falar sobre os cálculos com frações:
+                      <br>
+                      <br><b>Adição e Subtração de Frações:</b>
+                      <br><span class="space"></span>Para somar ou subtrair frações, é necessário que os denominadores sejam iguais. Se os denominadores forem diferentes, é necessário encontrar um denominador comum, chamado de denominador comum mínimo, para fazer as operações.
 
-                          <br><span class="space"></span>Por exemplo, suponha que você precise encher um tanque de água e sabe que uma torneira enche o tanque em 4 horas. Se você quiser saber quanto tempo demoraria para encher o tanque com duas torneiras, pode usar a regra de três inversa. A proporção entre o número de torneiras e o tempo necessário para encher o tanque é de 1 para 4 horas. A proporção seria a seguinte:
-                          <br>
-                          <br>
-                          <br><b>1 torneira / 4 horas = 2 torneiras / x horas</b>
-                          <br>
-                          <br>
-                          <br><span class="space"></span>Agora, podemos resolver a proporção para encontrar o valor desconhecido 'x'. Nesse caso, multiplicaríamos o número de torneiras pelo tempo em horas e dividiríamos pelo número de torneiras desejado:
-                          <br>
-                          <br>
-                          <br><b>(1 * x) = (2 * 4 horas)</b>
-                          <br>
-                          <br><b>x = (2 * 4 horas) / 1</b>
-                          <br>
-                          <br><b>x = 8 horas</b>
-                          <br>
-                          <br>
-                          <br><span class="space"></span><br>Portanto, com duas torneiras, o tanque seria preenchido em 8 horas.
-                          <br>
-                          <br><span class="space"></span>Esses são apenas exemplos simples para ilustrar o conceito básico da regra de três. 
-                          Na prática, a regra de três pode ser aplicada a problemas mais complexos envolvendo diferentes grandezas e proporções.
-                          <br><span class="space"></span>Vale ressaltar que, em alguns casos, pode ser necessário ajustar as unidades das grandezas para que sejam comparáveis. Por exemplo, se você estiver trabalhando com uma grandeza em quilogramas e outra em libras, será necessário converter uma delas para a mesma unidade antes de aplicar a regra de três.
-                          <br><span class="space"></span>Além disso, é importante ter cuidado ao lidar com problemas que envolvem múltiplas proporções ou quando as grandezas não variam de forma linear. Nestes casos, outras técnicas matemáticas mais avançadas podem ser necessárias.
-                          <br><span class="space"></span>A regra de três é amplamente utilizada em várias áreas, como matemática, física, economia, engenharia e até mesmo no dia a dia para resolver problemas de proporção. Ela fornece uma maneira simples e eficaz de encontrar valores desconhecidos com base em relações proporcionais estabelecidas entre outras grandezas conhecidas.
-                          <br>
-                          <br>
-                          <br><span class="space"></span>⚠️Fique atento! Neste artigo explicamos sobre a Regra de Três <b>Simples</b>. Abaixo, na sessão "Para aprimorar", estamos trazendo dois vídeos sobre os dois tipos existentes. Aproveite!
+                      <br><span class="space"></span>Por exemplo, para somar 1/4 e 3/8, podemos encontrar o denominador comum mínimo, que é 8. Em seguida, ajustamos as frações para terem o denominador 8 e somamos os numeradores: 1/4 + 3/8 = 2/8 + 3/8 = 5/8.
+                      <br>
+                      <br>
+                      <br><b>Multiplicação de Frações:</b>
+                      <br><span class="space"></span>Para multiplicar frações, basta multiplicar os numeradores e multiplicar os denominadores. O resultado será uma fração simplificada, se possível.
+
+                      <br><span class="space"></span>Por exemplo, para multiplicar 2/3 por 1/5, multiplicamos os numeradores (2 * 1 = 2) e multiplicamos os denominadores (3 * 5 = 15). Portanto, o resultado é 2/15.
+                      <br>
+                      <br>
+                      <br><b>Divisão de Frações:</b>
+                      <br><span class="space"></span>Para dividir uma fração por outra, é necessário multiplicar a primeira fração pelo inverso da segunda fração.
+
+                      <br><span class="space"></span>Por exemplo, para dividir 2/3 por 1/4, multiplicamos 2/3 pelo inverso de 1/4, que é 4/1. Assim, temos (2/3) * (4/1) = 8/3.
+                      <br>
+                      <br>
+                      <br><span class="space"></span>Essas são algumas das operações básicas envolvendo frações. É importante simplificar as frações sempre que possível, dividindo o numerador e o denominador pelo máximo divisor comum entre eles, para obter a forma mais simples da fração.
                       </p>
                   </div>
                 </div>
@@ -126,19 +101,15 @@
 
             <section id="sec03" class="container-fluid">
               <h1 class="title_sec"><b>Para aprimorar</b></h1>
-              <h2 class="subtitle_sec" >Separamos para você duas explicações mais detalhadas sobre <b>Regra de Três</b>. Aproveite bastante!</h2>
+              <h2 class="subtitle_sec" >Separamos para você uma explicação mais detalhada sobre <b>Fração</b>. Aproveite bastante!</h2>
 
               <div class="media d-flex justify-content-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/alLifth7gxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
-
-              <div class="media media-2 d-flex justify-content-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/buYey1YGJhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YJyY6A_MOQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
 
               <h2 class="subtitle_sec">Caso queira, veja mais vídeos deste conteúdo no YouTube!</h2>
               <div class="btn_yt d-flex justify-content-center">
-                <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=regra+de+tres" target="_blank">Vamos para o YouTube!</a>
+                <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=fra%C3%A7%C3%A3o" target="_blank">Vamos para o YouTube!</a>
               </div>
 
 
