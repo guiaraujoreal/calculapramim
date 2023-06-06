@@ -90,7 +90,7 @@
                         <img class="card-img-top" src="../../imgs/card05.png" alt="Imagem de capa do card">
                         <div id="card-body05" class="card-body">
                           <h5 class="card-title"><b>Fração</b></h5>
-                          <a href="notacao-cientifica.php" id="botao_card05" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                          <a href="fracao.php" id="botao_card05" class="btn btn-primary btn-block">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>

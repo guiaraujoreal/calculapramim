@@ -25,7 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="../../style/pages_artigos.css" rel="stylesheet">
 
-    <title>MathLearn | Regra de Três</title>
+    <title>MathLearn | Fração</title>
   </head>
 
   <body>
@@ -202,7 +202,7 @@
               <a href="potenciacao.php" class="list-group-item list-group-item-action art-body">> Potenciação</a>
               <a href="notacao-cientifica.php" class="list-group-item list-group-item-action art-body">> Notação Científica</a>
               <a href="radiciacao.php" class="list-group-item list-group-item-action art-body">> Radiciação</a>
-              <a href="fracao.php" class="list-group-item list-group-item-action art-body">> Fração</a>
+              <a href="regra-3.php" class="list-group-item list-group-item-action art-body">> Regra de Três</a>
             </div>
         </aside>
       </div>
@@ -229,7 +229,7 @@
       });
       
       window.addEventListener('focus', function() {
-        document.title = "MathLearn | Regra de Três";
+        document.title = "MathLearn | Fração";
       });
   
     </script>
