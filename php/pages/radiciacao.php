@@ -127,17 +127,17 @@
               <div class="row games">
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/21085230/radiciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/e32143c9c4b54426a989c814c18bef31_23b" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center"><b>Radiciação e Conceitos</b></span></a>
+                    <a target="_blank" href="https://wordwall.net/pt/resource/21085230/radiciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/e32143c9c4b54426a989c814c18bef31_23b" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Radiciação e Conceitos</b></span></a>
                   </div>
                 </div>
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/3902282/potenciação-e-radiciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/966271da12974db6a7096c068b18bfd4" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center"><b>Jogo das Cartas</b></span></a>
+                    <a target="_blank" href="https://wordwall.net/pt/resource/3902282/potenciação-e-radiciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/966271da12974db6a7096c068b18bfd4" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Jogo das Cartas</b></span></a>
                   </div>
                 </div>
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/12230257/radiciação-e-potenciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/2e55568b63a840ad9d054d19390da1dc_0" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center"><b>Quiz</b></span></a>
+                    <a target="_blank" href="https://wordwall.net/pt/resource/12230257/radiciação-e-potenciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/2e55568b63a840ad9d054d19390da1dc_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quiz</b></span></a>
                   </div>
                 </div>
               </div>

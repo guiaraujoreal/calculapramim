@@ -43,6 +43,8 @@ a{
 }
 .games{
     margin-top: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
 }
 .span_game{
     margin-bottom: 20px;

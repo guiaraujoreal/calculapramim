@@ -164,17 +164,17 @@
               <div class="row games">
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/38028065/regra-de-três-simples-7º-ano?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/f473c0bddf6f446e8b88fba2184fb61e_0" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center">Quiz para os amigos</span></a>
+                    <a target="_blank" href="https://wordwall.net/pt/resource/38028065/regra-de-três-simples-7º-ano?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/f473c0bddf6f446e8b88fba2184fb61e_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center">Quiz para os amigos</span></a>
                   </div>
                 </div>
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/5016259/regra-de-três-simples?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/8abd0582739b451abb27a4ee502caa36_2" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center">Regra de três simples</span></a>
+                    <a target="_blank" href="https://wordwall.net/pt/resource/5016259/regra-de-três-simples?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/8abd0582739b451abb27a4ee502caa36_2" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center">Regra de três simples</span></a>
                   </div>
                 </div>
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/32622679/regra-de-3-simples?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/e42bc246a5c4463294b3d3d4597ee154_0" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center">No Espaço</span></a>
+                    <a target="_blank" href="https://wordwall.net/pt/resource/32622679/regra-de-3-simples?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/e42bc246a5c4463294b3d3d4597ee154_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center">No Espaço</span></a>
                   </div>
                 </div>
               </div>

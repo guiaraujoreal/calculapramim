@@ -129,17 +129,17 @@
             <div class="row games">
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                  <a target="_blank" href="https://wordwall.net/resource/22571253/potenciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/9c4b4859fec042feb7ef94f67ff22080" width="200" height="150" style="border:1px solid grey;display:block;" /><span class="span_game d-flex justify-content-center"><b>Jogo das Cartas</b></span></a>
+                  <a target="_blank" href="https://wordwall.net/resource/22571253/potenciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/9c4b4859fec042feb7ef94f67ff22080" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Jogo das Cartas</b></span></a>
                 </div>
               </div>
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                  <a target="_blank" href="https://wordwall.net/resource/28967948/descubra-a-potenciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/0e967c3c1d6e4bd7936ea30bc27bf439_23b" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center"><b>Descubra a Potenciação</b></span></a>
+                  <a target="_blank" href="https://wordwall.net/resource/28967948/descubra-a-potenciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/0e967c3c1d6e4bd7936ea30bc27bf439_23b" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Descubra a Potenciação</b></span></a>
                 </div>
               </div>
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                  <a target="_blank" href="https://wordwall.net/pt/resource/16810569/potenciação-?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/22dbe52b881b49b99e5b282a1bc0da77_0" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center"><b>Quiz TV</b></span></a>
+                  <a target="_blank" href="https://wordwall.net/pt/resource/16810569/potenciação-?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/22dbe52b881b49b99e5b282a1bc0da77_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quiz TV</b></span></a>
                 </div>
               </div>
             </div>

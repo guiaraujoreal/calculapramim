@@ -104,7 +104,7 @@
               <h2 class="subtitle_sec" >Separamos para você uma explicação mais detalhada sobre <b>Fração</b>. Aproveite bastante!</h2>
 
               <div class="media d-flex justify-content-center">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/YJyY6A_MOQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YJyY6A_MOQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
 
               <h2 class="subtitle_sec">Caso queira, veja mais vídeos deste conteúdo no YouTube!</h2>
@@ -124,7 +124,7 @@
               <h2 class="subtitle_sec" >E aí? Que tal colocarmos em prática o que aprendemos hoje? Escolha um game abaixo.</h2>
 
               <div class="media d-flex justify-content-center">
-                <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/c4716bae8254472e835b892cbc7908a4?themeId=48&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/74daebd93c7d43f38b77b136c01b6cac?themeId=21&templateId=30&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
               </div>
 
               <h2 class="subtitle_sec">Mais jogos para explorar.</h2>
@@ -132,20 +132,22 @@
               <div class="divisory d-flex justify-content-center">
                 <hr class="featurette-divider-sub02">
               </div>
-              <div class="row games">
-                <div class="col">
-                  <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/38028065/regra-de-três-simples-7º-ano?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/f473c0bddf6f446e8b88fba2184fb61e_0" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center">Quiz para os amigos</span></a>
+              <div class="games">
+                <div class="row">
+                  <div class="col">
+                    <div class="media d-flex justify-content-center">
+                      <a target="_blank" href="https://wordwall.net/pt/resource/52748107/show-do-milhão-fração?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/f8ad0ceac8784a0081fc35d010c05c22_21" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Show do Milhão - Fração</b></span></a>
+                    </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/5016259/regra-de-três-simples?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/8abd0582739b451abb27a4ee502caa36_2" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center">Regra de três simples</span></a>
+                  <div class="col">
+                    <div class="media d-flex justify-content-center">
+                      <a target="_blank" href="https://wordwall.net/pt/resource/52744929/fração?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/e62c5dbe2c234c1289608c65a92604b7_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Acerte a Topeira</b></span></a>
+                    </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/32622679/regra-de-3-simples?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/e42bc246a5c4463294b3d3d4597ee154_0" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center">No Espaço</span></a>
+                  <div class="col">
+                    <div class="media d-flex justify-content-center">
+                    <a target="_blank" href="https://wordwall.net/pt/resource/4647482/fração?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/3820ccebd6454bfab23eed5a5f6b9160_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quiz nas núvens</b></span></a>
+                    </div>
                   </div>
                 </div>
               </div>

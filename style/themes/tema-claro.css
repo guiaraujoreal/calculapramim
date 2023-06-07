@@ -1,21 +1,24 @@
 body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(217, 227, 255);
-    color: black;
-    transition: background-color 0.5s ease;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(217, 227, 255);
+  color: black;
+  transition: background-color 0.5s ease;
 }
 .switch:checked + .slider {
-    background-color: #2196F3;
-  }
+  background-color: #2196F3;
+}
   
-  .switch:checked + .slider:before {
-    transform: translateX(26px);
-  }
+.switch:checked + .slider:before {
+  transform: translateX(26px);
+}
 .span_game{
   color: black
 }
 .art-body{
   color: black;
   background-color: rgb(255, 240, 217);
+}
+.games{
+  background-color: rgb(139, 199, 255);
 }

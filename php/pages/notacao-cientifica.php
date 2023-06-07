@@ -126,17 +126,17 @@
               <div class="row games">
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/14050639/exercício-1-notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/2b0c36e8b3d145ce969d1f731b4655d4_0" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center"><b>Perguntas Teóricas</b></span></a>
+                    <a target="_blank" href="https://wordwall.net/pt/resource/14050639/exercício-1-notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/2b0c36e8b3d145ce969d1f731b4655d4_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Perguntas Teóricas</b></span></a>
                   </div>
                 </div>
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/17597140/notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/d50f102ed458400bbdd1cea353cb0b7f_0" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center"><b>Labirinto Mágico</b></span></a>
+                    <a target="_blank" href="https://wordwall.net/pt/resource/17597140/notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/d50f102ed458400bbdd1cea353cb0b7f_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Labirinto Mágico</b></span></a>
                   </div>
                 </div>
                 <div class="col">
                   <div class="media d-flex justify-content-center">
-                  <a target="_blank" href="https://wordwall.net/pt/resource/17232296/notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/bb79bdb3efd7417c9c43373e8adb6ab0_22" width="200" height="150" style="border:1px solid grey;display:block" /><span class="span_game d-flex justify-content-center"><b>Pesquisa  Científica</b></span></a>
+                  <a target="_blank" href="https://wordwall.net/pt/resource/17232296/notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/bb79bdb3efd7417c9c43373e8adb6ab0_22" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Pesquisa  Científica</b></span></a>
                   </div>
                 </div>
               </div>
