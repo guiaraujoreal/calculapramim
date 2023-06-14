@@ -7,6 +7,10 @@ a{
 }
 #sec01{
     padding-top: 13vh;
+    background-image: url('../imgs/logo - opaco.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 90%;
 }
 #sub-1{
     text-align: left;
@@ -20,6 +24,19 @@ a{
   
     animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
+}
+.bd-imgs{
+    height: auto;
+    width: 100%;
+}
+@media(max-width: 1000px){
+    .bd-imgs{
+        height: 100%;
+        width: auto;
+    }
+}
+.txt-slide, .subtxt-slide{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 #TituloModalCentralizado, .modal-body{
     color: black;
@@ -50,7 +67,11 @@ a{
         justify-content: center;
     }
 }
-
+@media(max-width: 620px){
+    #sec01{
+        background-size: auto 90vw;
+    }
+}
 @media(max-width: 600px){
     #animation_obj, #img_sec03{
     width: 400px; 
@@ -336,9 +357,29 @@ a{
   
   /* Featurettes
   ------------------------- */
+.border-section01{
+    background: linear-gradient(to right, rgb(155, 93, 255), rgb(255, 131, 245));
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 98%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.border-section02{
+    background: linear-gradient(to right, rgb(105, 255, 110), rgb(181, 184, 1));
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 98%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.border-section03{
+    background: linear-gradient(to right, rgb(243, 116, 99), rgb(253, 255, 133));
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 98%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
 #sections_info{
     padding: 20px;
-    max-width: 98%;
     border-radius: 10px;
   }
   .featurette-divider {

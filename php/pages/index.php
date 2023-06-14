@@ -46,31 +46,31 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="bd-placeholder-img" width="100%" height="100%" src="../../imgs/side01.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <img class="bd-placeholder-img bd-imgs"  src="../../imgs/side01.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
             <div class="container">
               <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
-                <p>Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                <h1 class="txt-slide"><b>Bem-vindo ao MathLearn!</b></h1>
+                <p class="subtxt-slide">Somos uma equipe de alunos buscando inovar a educação de forma prática e inclusiva.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Conheça o projeto</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-          <img class="bd-placeholder-img" width="100%" height="100%" src="../../imgs/side02.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+          <img class="bd-placeholder-img bd-imgs" src="../../imgs/slide02.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <h1 class="txt-slide"><b>A Inteligência Artificial em prol da educação.</b></h1>
+                <p class="subtxt-slide">Resolva cálculos e perguntas usando nossa Inteligência Artificial!</p>
+                <p><a class="btn btn-lg btn-dark" href="bot.php">Conhecê-la</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-          <img class="bd-placeholder-img" width="100%" height="100%" src="../../imgs/side03.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+          <img class="bd-placeholder-img bd-imgs" src="../../imgs/side03.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
             <div class="container">
               <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <h1 class="txt-slide">One more for good measure.</h1>
+                <p class="subtxt-slide">Some representative placeholder content for the third slide of this carousel.</p>
                 <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
               </div>
             </div>
@@ -96,74 +96,80 @@
       <div class="container marketing">
 
         <hr class="featurette-divider">
-
-        <div id="sections_info" class="container-fluid d-flex justify-content-center">
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading fw-normal lh-1 text_card">Você pergunta, <span class="animated"></span></h2>
-              <p class="lead text_card">Nossa Inteligência Artificial pode ajudar você a sanar várias questões matemáticas, elaborando
-                métodos eficazes e economizando seu tempo na hora de resolver uma expressão matemática complexa. Venha conhecer!
-              </p>
-            </div>
-            <div class="col-md-5">
-              <div id="animation" class="col d-flex justify-content-center">
-                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                <lottie-player id="anim_obj" src="https://assets3.lottiefiles.com/packages/lf20_itilDAyVNt.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+        
+        <div class="border-section01 container-fluid d-flex justify-content-center">
+          <div id="sections_info" class="container-fluid d-flex justify-content-center">
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1 text_card">Você pergunta, <span class="animated"></span></h2>
+                <p class="lead text_card">Nossa Inteligência Artificial pode ajudar você a sanar várias questões matemáticas, elaborando
+                  métodos eficazes e economizando seu tempo na hora de resolver uma expressão matemática complexa. Venha conhecer!
+                </p>
               </div>
+              <div class="col-md-5">
+                <div id="animation" class="col d-flex justify-content-center">
+                  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                  <lottie-player id="anim_obj" src="https://assets3.lottiefiles.com/packages/lf20_itilDAyVNt.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+                </div>
+              </div>
+              <div class="row botao_sec">
+                <button class="btn_sec" onclick="window.location.href='bot.php'">
+                  <span>Conhecer</span>
+                </button>
             </div>
-            <div class="row botao_sec">
-              <button class="btn_sec" onclick="window.location.href='bot.php'">
-                <span>Conhecer</span>
-              </button>
-          </div>
+            </div>
           </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div id="sections_info" class="container-fluid d-flex justify-content-center sec_02">
-          <div class="row featurette">
-          <div class="col_img_sec col-md-4 d-flex justify-content-center">
-              <div class="col-md-5 d-flex justify-content-center">
-                  <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
+        <div class="border-section02 container-fluid d-flex justify-content-center">
+          <div id="sections_info" class="d-flex justify-content-center sec_02">
+            <div class="row featurette">
+            <div class="col_img_sec col-md-4 d-flex justify-content-center">
+                <div class="col-md-5 d-flex justify-content-center">
+                    <img id="anim_sec02" class="anim_sec02" src="../../imgs/trofeu.svg">
+                </div>
               </div>
+              <div class="col-md-7 col_body_sec02">
+                <h2 class="featurette-heading fw-normal lh-1 text_card">Games - para <span class="txt_aprend"> aprender</span> da melhor forma possivel.</h2>
+                <p class="lead text_card">Os games possuem grandes atribuições no comportamento em relação ao aprendizado,
+                  deixando a forma de aprender mais intuitiva e aprimorada. Ao final de cada artigo matemático, há sempre 
+                um gamer para o usuario colocar o conteúdo em prática. Conheça os Artigos Matemáticos!
+                </p>
+              </div>
+              <div class="row botao_sec btn_sec02">
+                <button class="btn_sec" onclick="window.location.href='art-mat.php'">
+                  <span>Vamos lá!</span>
+                </button>
             </div>
-            <div class="col-md-7 col_body_sec02">
-              <h2 class="featurette-heading fw-normal lh-1 text_card">Games - para <span class="txt_aprend"> aprender</span> da melhor forma possivel.</h2>
-              <p class="lead text_card">Os games possuem grandes atribuições no comportamento em relação ao aprendizado,
-                deixando a forma de aprender mais intuitiva e aprimorada. Ao final de cada artigo matemático, há sempre 
-              um gamer para o usuario colocar o conteúdo em prática. Conheça os Artigos Matemáticos!
-              </p>
             </div>
-            <div class="row botao_sec btn_sec02">
-              <button class="btn_sec" onclick="window.location.href='art-mat.php'">
-                <span>Vamos lá!</span>
-              </button>
-          </div>
           </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div id="sections_info" class="container-fluid d-flex justify-content-center">
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading fw-normal lh-1 text_card title_sec03">Aprimorar nunca é demais</span></h2>
-              <p class="lead text_card">Pensando no aprendizado de nossos usuários, não dermarcando um público alvo específico,
-                nós separamos algumas vídeo-aulas de terceiros para que sintetize e otimize o tempo de estudo e encontre tudo
-                em um só lugar. Você os encontrará na sessão "Artigos Matemáticos" de acordo com o tema escolhido. Aproveite!
-              </p>
-            </div>
-            <div class="col-md-5">
-              <div id="animation" class="col d-flex justify-content-center">
-                <img id="img_sec03" src="../../imgs/online-courses.svg">
+        <div class="border-section03 container-fluid d-flex justify-content-center">
+          <div id="sections_info" class="container-fluid d-flex justify-content-center">
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1 text_card title_sec03">Aprimorar nunca é demais</span></h2>
+                <p class="lead text_card">Pensando no aprendizado de nossos usuários, não dermarcando um público alvo específico,
+                  nós separamos algumas vídeo-aulas de terceiros para que sintetize e otimize o tempo de estudo e encontre tudo
+                  em um só lugar. Você os encontrará na sessão "Artigos Matemáticos" de acordo com o tema escolhido. Aproveite!
+                </p>
               </div>
+              <div class="col-md-5">
+                <div id="animation" class="col d-flex justify-content-center">
+                  <img id="img_sec03" src="../../imgs/online-courses.svg">
+                </div>
+              </div>
+              <div class="row botao_sec">
+                <button class="btn_sec" onclick="window.location.href='art-mat.php'">
+                  <span>Explorar</span>
+                </button>
             </div>
-            <div class="row botao_sec">
-              <button class="btn_sec" onclick="window.location.href='art-mat.php'">
-                <span>Explorar</span>
-              </button>
-          </div>
+            </div>
           </div>
         </div>
 
