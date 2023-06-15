@@ -13,9 +13,9 @@
             </div>
         <nav class="nav" id="nav">
             <ul>
-                <li><a class="item_menu_shot" href="../pages/index.php">Home</a></li>
-                <li><a class="item_menu_shot" href="../pages/bot.php">Converse com nossa I.A</a></li>
-                <li><a class="item_menu_shot" href="../pages/art-mat.php">Artigos Matemáticos</a></li>
+                <li><a class="item_menu_shot" href="../pages/index.php"><span class="txt_menu">Home</span><img class="icons_menu_shot" src="../../imgs/home_icon.png"></a></li>
+                <li><a class="item_menu_shot" href="../pages/bot.php"><span class="txt_menu">Converse com nossa I.A</span><img class="icons_menu_shot" src="../../imgs/ia_icon.png"></a></li>
+                <li><a class="item_menu_shot" href="../pages/art-mat.php"><span class="txt_menu">Artigos Matemáticos</span><img class="icons_menu_shot" src="../../imgs/artmat_icon.png"></a></li>
                 <li><label class="switch">
                     <input type="checkbox" onclick="alternarTema()" id="themeCheckbox">
                     <span class="slider"></span>
@@ -30,9 +30,9 @@
         </div>
         <nav class="nav02">
           <ul>
-              <li><a class="item_menu" href="../pages/index.php">Home</a></li>
-              <li><a class="item_menu" href="../pages/bot.php">Converse com nossa I.A</a></li>
-              <li><a class="item_menu" href="../pages/art-mat.php">Artigos Matemáticos</a></li>
+              <li><a class="item_menu" href="../pages/index.php"><img class="icons_menu" src="../../imgs/home_icon.png"><span class="txt_menu">Home</span></a></li>
+              <li><a class="item_menu" href="../pages/bot.php"><img class="icons_menu" src="../../imgs/ia_icon.png"><span class="txt_menu">Converse com nossa I.A</span></a></li>
+              <li><a class="item_menu" href="../pages/art-mat.php"><img class="icons_menu" src="../../imgs/artmat_icon.png"><span class="txt_menu">Artigos Matemáticos</span></a></li>
               <li><label class="switch">
                     <input type="checkbox" onclick="alternarTema()" id="themeCheckbox">
                     <span class="slider"></span>

@@ -30,6 +30,17 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2b40c5 100%)
 .c.ol{
   border: solid yellow 2px;
 }
+.icons_menu{
+  height: auto;
+  width: 1.1em;
+  border-right: 1px solid white;
+  margin-left: 1px;
+}
+.icons_menu_shot{
+  height: auto;
+  width: 1.2em;
+  margin-left: 5px;
+}
 #logo{
   width: 25rem;
   height: auto;
@@ -252,6 +263,11 @@ background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2b40c5 100%)
   display: inline-block;
   margin: 0 35px;
 }
+.txt_menu{
+  position: relative;
+  top: 3px;
+  margin-left: 3px;
+}
 .item_menu:hover{
   color: yellow;
 }
@@ -369,6 +385,14 @@ footer{
 }
 .text_link a:hover{
   color: white;
+}
+/*Cor o "Select" do site*/
+::selection { 
+  background: #32c18f; color: #fff; 
+} 
+
+::-moz-selection { 
+  background: #32c18f; color: #fff; 
 }
 
 /* Media Query #logo #logo_footer */
