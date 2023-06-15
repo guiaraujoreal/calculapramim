@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="#"  id="estilo-tema">
 
     <link rel="shortcut icon" href="../../imgs/ico.png" type="image/x-icon">
-    <title>Converse com nossa IA!</title>
+    <title>MathLearn | Converse com nossa IA!</title>
 </head>
 <body>
     <header>
@@ -270,7 +270,7 @@
       });
       
       window.addEventListener('focus', function() {
-        document.title = "Converse com nossa IA!";
+        document.title = "MathLearn | Converse com nossa IA!";
       });
   
     </script>
