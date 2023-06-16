@@ -232,7 +232,7 @@
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                     <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_aiwdh2wk.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
                   </div>
-                  No momento, esta página não permite alternar o tema do layout. Não fique triste com a gente! Iremos resolver isto em breve.
+                  No momento, esta página não permite alternar o tema do layout pois não armazenamos <a href="#">cookies</a>. Não fique triste com a gente! Iremos resolver isto em breve.
                 </div>
                 <div class="modal-footer">
                   <div id="contagem"></div>
