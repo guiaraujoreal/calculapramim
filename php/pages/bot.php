@@ -88,11 +88,11 @@
             ?>
             
                 <div id="col_perg" class="col col-sm-12 col-md-5 col-12">
-                <form id="form_perg" action="" method="post" class="form-group">
+                <form id="form_perg" action="" method="post" class="form-group"  onsubmit="return enviarFormulario()">
                     <div id="area_perg">
                         <div class="label_ label_voce"><p class="tag_voce"><b><img class="img_user" src="../../imgs/user_img.png">  Você:</b></p></div>
                         <textarea name="pergunta" class="" id="box_pergunta" rows="3" placeholder="Que bom ter você por aqui :)! Pergunte-me algo, como: 'me mostre como calcular a expressão 3x-27²=0'." required></textarea>
-                        <div id="botao_send" class="col d-flex justify-content-center"><button>
+                        <div class="col d-flex justify-content-center"><button id="botao_send">
                                 <div class="svg-wrapper-1">
                                     <div class="svg-wrapper">
                                     <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -318,9 +318,23 @@
             }
     </script>
 
-<script>
-  
-</script>
+    <script>
+        function enviarFormulario(event) {
+        var botao = document.getElementById("botao_send");
+        botao.disabled = true; // Desabilita o botão
+        
+        // Aguarda um momento (opcional)
+        setTimeout(function() {
+            botao.disabled = false; // Habilita o botão novamente
+            
+            // Continua com o envio do formulário
+            // O evento de envio do formulário continuará normalmente
+        }, 5000); // Aguarda 1 segundo (altere conforme necessário)
+        
+        return true; // Continua com o envio do formulário
+        }
+
+    </script>
 
 
 </body>
