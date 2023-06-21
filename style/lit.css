@@ -1,0 +1,8 @@
+#d{
+    background-color: black;
+    min-height: 50px;
+    width: 520px;
+    border-radius: 30px;
+    color: white;
+    resize: none;
+}
