@@ -321,6 +321,9 @@ button {
 .list_card{
     margin-top: 10px;
 }
+#contagem{
+    color: red    
+}
 
 /*Media Queries*/
 @media (min-width: 768px) {

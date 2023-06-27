@@ -230,7 +230,7 @@
                 <div class="modal-body">
                   <div class="anim_modal d-flex justify-content-center">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                    <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_aiwdh2wk.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_aiwdh2wk.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
                   </div>
                   No momento, esta página não permite alternar o tema do layout pois não armazenamos <a href="#">cookies</a>. Não fique triste com a gente! Iremos resolver isto em breve.
                 </div>
@@ -292,13 +292,19 @@
                 // Obtém a quantidade de segundos restantes
                 var segundosRestantes = Math.floor(milissegundosTotais / 1000);
 
+                if (segundosRestantes > 1){
+                    var segundos = "segundos";
+                }
+                else{
+                    var segundos = "segundo";
+                }
                 // Exibe a contagem regressiva na página
-                document.getElementById("contagem").innerHTML = "Fechando este aviso em " + segundosRestantes + " segundos";
+                document.getElementById("contagem").innerHTML = "Fechando este aviso em " + segundosRestantes + " " + segundos;
 
                 // Verifica se a contagem regressiva terminou
                 if (segundosRestantes <= 0) {
                     clearInterval(contador);
-                    document.getElementById("contagem").innerHTML = "Iniciando contagem...";
+                    document.getElementById("contagem").innerHTML = "Só um segundo...";
                 }
 
                 // Reduz a quantidade de milissegundos restantes em 1 segundo

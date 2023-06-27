@@ -86,11 +86,29 @@
                     </div>
                 </div>
                 <div id="coluna" class="col-md-5 col-lg-3 col-xs-12">
-                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded" data-toggle="tooltip" data-placement="bottom" title="Aprenda como calcular uma operação envolvendo regra de 3!" >
+                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded" data-toggle="tooltip" data-placement="bottom" title="Aprenda como calcular frações e as dominá-las de uma vez por todas!" >
                         <img class="card-img-top" src="../../imgs/card05.png" alt="Imagem de capa do card">
                         <div id="card-body05" class="card-body">
                           <h5 class="card-title"><b>Fração</b></h5>
                           <a href="fracao.php" id="botao_card05" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="coluna" class="col-md-5 col-lg-3 col-xs-12" data-toggle="tooltip" data-placement="bottom" title="Conheça mais sobre o Pi!">
+                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded">
+                        <img class="card-img-top" src="../../imgs/card06.png" alt="Imagem de capa do card">
+                        <div id="card-body06" class="card-body">
+                          <h5 class="card-title"><b>Número Pi</b></h5>
+                          <a href="pi.php" id="botao_card06" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Conheça mais sobre o Pi!">Vamos Aprender!</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="coluna" class="col-md-5 col-lg-3 col-xs-12" data-toggle="tooltip" data-placement="bottom" title="Saiba como calcular os componentes de um triângulo usando o Teorema de Pitágoras.">
+                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded">
+                        <img class="card-img-top" src="../../imgs/card07.png" alt="Imagem de capa do card">
+                        <div id="card-body07" class="card-body">
+                          <h5 class="card-title"><b>Teorema de Pitágoras</b></h5>
+                          <a href="teorema-pitagoras.php" id="botao_card07" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Saiba como calcular os componentes de um triângulo usando o Teorema de Pitágoras.">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>

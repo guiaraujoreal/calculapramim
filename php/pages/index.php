@@ -69,9 +69,9 @@
           <img class="bd-placeholder-img bd-imgs" src="../../imgs/side03.jpg" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
             <div class="container">
               <div class="carousel-caption text-end">
-                <h1 class="txt-slide">One more for good measure.</h1>
-                <p class="subtxt-slide">Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                <h1 class="txt-slide"><b>Conhecimento nunca é demais.</b></h1>
+                <p class="subtxt-slide">Este site possui uma seção onde divulgamos mais materiais sobre conteúdo matemático.</p>
+                <p><a class="btn btn-lg btn-danger" href="art-mat.php">Acessar esta seção</a></p>
               </div>
             </div>
           </div>
@@ -192,7 +192,7 @@
                     <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_F2Mv1p.json"  background="transparent"  speed="1"  style="width: 300px; height: 200px;" loop   autoplay></lottie-player>
                   </div>
                   Estamos felizes em te ver! Nós, alunos do 9° ano 01 do CTPM Curvelo, elaboramos este site 
-                  para facilitar sua relação com alguns cálculos matemáticos no seu dia. Aproveite!
+                  para facilitar sua relação com alguns cálculos matemáticos no seu dia a dia. Aproveite!
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Vamos lá!</button>

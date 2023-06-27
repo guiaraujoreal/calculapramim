@@ -166,6 +166,8 @@
               <a href="notacao-cientifica.php" class="list-group-item list-group-item-action art-body">> Notação Científica</a>
               <a href="regra-3.php" class="list-group-item list-group-item-action art-body">> Regra de Três</a>
               <a href="fracao.php" class="list-group-item list-group-item-action art-body">> Fração</a>
+              <a href="pi.php" class="list-group-item list-group-item-action art-body">> Número Pi</a>
+              <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body">> Teorema de Pitágoras</a>
             </div>
         </aside>
       </div>

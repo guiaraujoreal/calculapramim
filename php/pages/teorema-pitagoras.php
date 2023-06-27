@@ -25,7 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="../../style/pages_artigos.css" rel="stylesheet">
 
-    <title>MathLearn | Potenciação</title>
+    <title>MathLearn | Teorema de Pitágoras</title>
   </head>
 
   <body>
@@ -38,7 +38,7 @@
       <div class="row">
         <main class="col-sm-8">
         <section id="sec01" class="container-fluid">
-          <h1 class="txt-title01">Potenciação</h1>
+          <h1 class="txt-title01">Teorema de Pitágoras</h1>
         </section>
 
         <div class="divisory d-flex justify-content-center">
@@ -48,43 +48,44 @@
           <section id="sec02" class="container-fluid">
             <div class="row d-flex justify-content-center ">
               <div class="col">
-                <p class="entrada"><span class="space"></span>Multiplica aqui, eleva alí...ufa! As vezes é tanto cálculo que ficamos desesperados.🤯 Mas calma! Neste artigo,
-                  você entenderá como calcular potenciação e tirar aquele 10 ou mais na prova. Simbora!
+                <p class="entrada"><span class="space"></span>Já viu aquele meme do "calcular a hipotenuza do quadrado do cateto vezes a altura mais..." nossa, deu até branco! Então, esse meme
+                se refere ao Teorema de Pitágoras, também conhecido como teorema do pai da matemática. Neste artigo, você entenderá e conhecerá a magia por trás deste teorema na hora
+                de calcular, por exemplo, a altura de um prédio usando sua sombra. Venha conosco!
                 </p>
               </div>
             </div>
             
             <div class="row">
               <div class="col d-flex justify-content-center">
-                <img src="../../imgs/img_pot01.jpg" class="img-fluid img-top">
+                <img src="../../imgs/img_tp.jpg" class="img-fluid img-top">
               </div>
             </div>
 
             <div class="row d-flex justify-content-center ">
               <div class="col">
-                <p class="entrada txt"><span class="space"></span>Potenciação é uma operação matemática que envolve o cálculo de potências. Uma potência é obtida ao multiplicar uma base por ela mesma um determinado número de vezes, chamado de expoente.
+                <p class="entrada txt"><span class="space"></span>O Teorema de Pitágoras é um resultado fundamental na geometria euclidiana que relaciona os comprimentos dos lados de um triângulo retângulo, ou seja, um triângulo que possui um ângulo reto (90 graus).
+                O teorema estabelece que, em um triângulo retângulo, o quadrado da medida da hipotenusa (o lado oposto ao ângulo reto) é igual à soma dos quadrados das medidas dos outros dois lados, chamados de catetos. 
+                <br>
+                <br><span class="space"></span>Matematicamente, podemos expressar o teorema da seguinte forma:
+                <br>
+                <div class="row">
+                  <div class="col d-flex justify-content-center">
+                    <img src="../../imgs/img02_tp.jpg" class="img-fluid img-top">
+                  </div>
+                </div>
+                <br>
+                <br>
+                <br><b>c² = a² + b²</b>
+                <br>
+                <br><span class="space"></span>Onde:
+                <br><span class="space"></span>- a e b são os catetos do triângulo (os lados adjacentes ao ângulo reto).
+                <br><span class="space"></span>- c é a hipotenusa do triângulo (o lado oposto ao ângulo reto).
+                <br>
+                <br><span class="space"></span>Essa relação estabelecida pelo Teorema de Pitágoras é válida para todos os triângulos retângulos, independentemente do tamanho ou proporção dos lados. 
+                <br>
+                <br><span class="space"></span>O teorema é uma ferramenta importante para resolver problemas envolvendo medidas desconhecidas em triângulos retângulos.
 
-      <br>Na forma geral, a potenciação é representada por:
-      <br>
-        <br><b>a<sup>n</sup></b>
-      <br>
-      <br><span class="space"></span>Onde "a" é a base e "n" é o expoente. O resultado da potenciação é dado pela multiplicação de "a" por ele mesmo "n" vezes.
-      <br>
-      <br><span class="space"></span>Por exemplo, consideremos a potência 2^3. Neste caso, a base é 2 e o expoente é 3. Para calcular a potência, multiplicamos 2 por ele mesmo três vezes:
-
-      <br>2<sup>3</sup> = 2 * 2 * 2 = 8
-
-      <br><span class="space"></span>Portanto, 2 elevado à potência 3 é igual a 8.
-
-      <br><span class="space"></span>Além disso, existem algumas propriedades da potenciação que são úteis na simplificação de expressões, como:
-      <ul>
-        <li>1. Produto de potências de mesma base: a<sup>m</sup> * a<sup>n</sup> = a<sup>(m + n)</sup></li>
-        <li>2. Divisão de potências de mesma base: a<sup>m</sup> / a<sup>n</sup> = a<sup>(m - n)</sup></li>
-        <li>3. Potência de uma potência: (a<sup>m</sup>)<sup>n</sup> = a<sup>(m * n)</sup></li>
-        <li>4. Potência de um produto: (a * b)<sup>n</sup> = a<sup>n</sup> * b<sup>n</sup></li>
-      </ul>
-
-      <br>Essas propriedades facilitam a manipulação de expressões envolvendo potências e permitem simplificar cálculos. A potenciação é amplamente utilizada em várias áreas da matemática, ciências e engenharia, sendo uma operação fundamental para a compreensão de conceitos e resolução de problemas.
+Além disso, o Teorema de Pitágoras tem aplicações em diversas áreas, como a trigonometria, a física e a engenharia. Por exemplo, é usado para calcular distâncias, determinar ângulos desconhecidos e resolver problemas relacionados a triângulos retângulos em diversas situações práticas.
                 </p>
               </div>
             </div>
@@ -97,14 +98,14 @@
 
           <section id="sec03" class="container-fluid">
             <h1 class="title_sec"><b>Para aprimorar</b></h1>
-            <h2 class="subtitle_sec" >Separamos para você uma explicação mais detalhada sobre <b> Potenciação</b>. Aproveite bastante!</h2>
+            <h2 class="subtitle_sec" >Separamos para você uma explicação mais detalhada sobre <b>Teorema de Pitágoras</b>. Aproveite bastante!</h2>
 
             <div class="media d-flex justify-content-center">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/4Vfw1XiHTpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PGPRh4JBIsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <h2 class="subtitle_sec">Caso queira, veja mais vídeos deste conteúdo no YouTube!</h2>
             <div class="btn_yt d-flex justify-content-center">
-              <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=potencia%C3%A7%C3%A3o" target="_blank">Vamos para o YouTube!</a>
+              <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=teorema+de+pitagoras" target="_blank">Vamos para o YouTube!</a>
             </div>
 
           </section>
@@ -118,7 +119,7 @@
             <h2 class="subtitle_sec" >E aí? Que tal colocarmos em prática o que aprendemos hoje? Escolha um game abaixo.</h2>
 
             <div class="media d-flex justify-content-center">
-            <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/50b42985c49e4f99bcd4a508be202708?themeId=23&templateId=49&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/648b8bf72b034d3e9cc49fe569a3a4a6?themeId=21&templateId=69&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
             </div>
 
             <h2 class="subtitle_sec" >Mais jogos para explorar.</h2>
@@ -129,17 +130,17 @@
             <div class="row games">
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                  <a target="_blank" href="https://wordwall.net/resource/22571253/potenciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/9c4b4859fec042feb7ef94f67ff22080" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Jogo das Cartas</b></span></a>
+                <a target="_blank" href="https://wordwall.net/pt/resource/4248508/quiz-teorema-de-pitágoras?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/da60dc91bd24440aaa686481dce4652d_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quiz</b></span></a>
                 </div>
               </div>
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                  <a target="_blank" href="https://wordwall.net/resource/28967948/descubra-a-potenciação?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/0e967c3c1d6e4bd7936ea30bc27bf439_23b" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Descubra a Potenciação</b></span></a>
+                <a target="_blank" href="https://wordwall.net/pt/resource/15793002/teorema-de-pitágoras?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/8a4d862e39d64db4bfd917795748c758_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Livro Mágico</b></span></a>
                 </div>
               </div>
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                  <a target="_blank" href="https://wordwall.net/pt/resource/16810569/potenciação-?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/22dbe52b881b49b99e5b282a1bc0da77_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quiz TV</b></span></a>
+                <a target="_blank" href="https://wordwall.net/pt/resource/37372789/teorema-de-pitágoras?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/966a0a3da3a04f6b982ee27d19b64529_22" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Rancho</b></span></a>
                 </div>
               </div>
             </div>
@@ -169,7 +170,7 @@
               <a href="regra-3.php" class="list-group-item list-group-item-action art-body">> Regra de Três</a>
               <a href="fracao.php" class="list-group-item list-group-item-action art-body">> Fração</a>
               <a href="pi.php" class="list-group-item list-group-item-action art-body">> Número Pi</a>
-              <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body">> Teorema de Pitágoras</a>
+              <a href="potenciacao.php" class="list-group-item list-group-item-action art-body">> Potenciação</a>
             </div>
         </aside>
       </div>
@@ -196,7 +197,7 @@
       });
       
       window.addEventListener('focus', function() {
-        document.title = "MathLearn | Potenciação";
+        document.title = "MathLearn | Teorema de Pitágoras";
       });
   
     </script>

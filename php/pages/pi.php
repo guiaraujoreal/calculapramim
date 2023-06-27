@@ -25,7 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="../../style/pages_artigos.css" rel="stylesheet">
 
-    <title>MathLearn | Notação Científica</title>
+    <title>MathLearn | Número Pi</title>
   </head>
 
   <body>
@@ -38,7 +38,7 @@
       <div class="row">
         <main class="col-sm-8">
           <section id="sec01" class="container-fluid">
-            <h1 class="txt-title01">Notação Científica</h1>
+            <h1 class="txt-title01">Número Pi</h1>
           </section>
 
           <div class="divisory d-flex justify-content-center">
@@ -48,43 +48,32 @@
             <section id="sec02" class="container-fluid">
               <div class="row d-flex justify-content-center ">
                 <div class="col">
-                  <p class="entrada">
-                    <span class="space"></span>Já pensou no valor da distância (em metros ou quilômetros, por exemplo) da Terra ao Sol? Que número gigante, né?
-                     E no tamanho de uma bactéria? Nossa, aí complicou😲. Para tentar amenizar essa "bagunça", usamos a <b>Notação Científica</b>. Calma lá, que não é tão difícil assim!
-                     Veja a seguir como realizar os cálculos da notação e tirar aquele 10 na prova!✅
-                  </p>
+                  <p class="entrada"><span class="space"></span>Quando falamos em cálculos envolvendo superfícies
+                  redondas ou esféricas, lembramos do Pi, número esse que possui até dia próprio para celebração. Nesta seção,
+                  vamos aprofundar sobre o quão esse número se torna útil e auxilia no cálculo de uma esfera, por exemplo. Vamos lá!
                 </div>
               </div>
               
               <div class="row">
                 <div class="col d-flex justify-content-center">
-                  <img src="../../imgs/notacao-img.jpeg" class="img-fluid img-top" alt="Imagem sobre radiciação">
+                  <img src="../../imgs/pi_img.jpg" class="img-fluid img-top" alt="Imagem sobre radiciação">
                 </div>
               </div>
 
               <div class="row d-flex justify-content-center ">
                 <div class="col">
                   <p class="entrada txt">
-                      <span class="space"></span>A notação científica é uma forma de representar números muito grandes ou muito pequenos de uma maneira mais concisa e conveniente. Ela é frequentemente usada em campos científicos e matemáticos para lidar com números extremamente grandes ou pequenos, como nas áreas da física, química e astronomia.
-                        <br>
-                        <br><span class="space"></span>A notação científica é baseada no uso de potências de 10. Um número é expresso como um produto entre um número entre 1 e 10 (chamado de mantissa ou coeficiente) e uma potência de 10. A potência de 10 indica quantas casas decimais o número deve ser movido para a esquerda ou direita para alcançar sua forma normal.
-                        <br>
-                        <br>A notação científica segue o formato geral:
-                        <br> 
-                        <br><b>a × 10<sup>b</sup></b>
-                        <br>
-                        <br>onde "a" é a mantissa ou coeficiente e "b" é o expoente ou potência de 10. O coeficiente "a" deve ser um número maior ou igual a 1 e menor que 10.
-                        <br>
-                        <br>Alguns exemplos de notação científica:
-                        <br>
-                        <br>- O número 300.000 pode ser escrito como 3 × 10<sup>5</sup>. Neste caso, "a" é igual a 3 e "b" é igual a 5. Isso significa que o número é representado movendo a vírgula cinco casas decimais para a direita.
-                        <br>- O número 0,000025 pode ser escrito como 2,5 × 10<sup>-5</sup>. Neste caso, "a" é igual a 2,5 e "b" é igual a -5. Isso significa que o número é representado movendo a vírgula cinco casas decimais para a esquerda.
-                        <br>
-                        <br><span class="space"></span>A notação científica é útil porque permite que números muito grandes ou pequenos sejam escritos de forma mais compacta e facilita cálculos e comparações. Além disso, ela ajuda a expressar grandezas em termos de potências de 10, o que pode fornecer uma compreensão mais clara da ordem de magnitude de um número.
+                  <span class="space"></span>O Pi, representado pela letra grega π, é uma constante matemática que representa a relação entre a circunferência de um círculo e seu diâmetro. Em outras palavras, é a proporção entre o comprimento de uma circunferência e seu diâmetro.
+                  <br>
+                  <br><span class="space"></span>O valor de Pi é aproximadamente 3,14159, mas é um número irracional, o que significa que possui uma sequência infinita e não periódica de dígitos decimais. Isso quer dizer que o valor exato de Pi não pode ser expresso como uma fração simples ou como uma dízima finita.
+                  <br>
+                  <br><span class="space"></span>O Pi é uma constante amplamente utilizada em várias áreas da matemática, física, engenharia e outras disciplinas científicas. Ele aparece em fórmulas e equações para calcular áreas de círculos, volumes de esferas, perímetros de circunferências, entre outras aplicações.
+                  <br>
+                  <br><span class="space"></span>Devido à sua importância, o Dia do Pi (Pi Day) é comemorado em 14 de março (3/14 nos formatos de data usados nos Estados Unidos), em referência aos primeiros dígitos de Pi. Nesse dia, ocorrem celebrações e atividades relacionadas à matemática em várias partes do mundo.   
                       </p>
                   </div>
                 </div>
-              </section>
+                </section>
 
             <div class="divisory d-flex justify-content-center">
               <hr class="featurette-divider">
@@ -92,15 +81,15 @@
 
             <section id="sec03" class="container-fluid">
               <h1 class="title_sec"><b>Para aprimorar</b></h1>
-              <h2 class="subtitle_sec" >Separamos para você uma explicação mais detalhada sobre <b>Notação Científica</b>. Aproveite bastante!</h2>
+              <h2 class="subtitle_sec" >Separamos para você duas explicações mais detalhadas sobre <b>Número Pi</b>. Aproveite bastante!</h2>
 
               <div class="media d-flex justify-content-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/GPTxrh_mhow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vY6965UdcLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
 
               <h2 class="subtitle_sec">Caso queira, veja mais vídeos deste conteúdo no YouTube!</h2>
               <div class="btn_yt d-flex justify-content-center">
-                <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=nota%C3%A7%C3%A3o+cientifica" target="_blank">Vamos para o YouTube!</a>
+                <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=pi" target="_blank">Vamos para o YouTube!</a>
               </div>
 
 
@@ -114,30 +103,12 @@
               <h1 class="title_sec" ><b>Vamos praticar!</b></h1>
               <h2 class="subtitle_sec" >E aí? Que tal colocarmos em prática o que aprendemos hoje? Escolha um game abaixo.</h2>
 
-              <div class="media d-flex justify-content-center">
-                <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/8314b5068280418489dd69e08359426d?themeId=43&templateId=25&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
-              </div>
-
-              <h2 class="subtitle_sec" >Mais jogos para explorar.</h2>
-
-              <div class="divisory d-flex justify-content-center">
-                <hr class="featurette-divider-sub02">
-              </div>
               <div class="row games">
-                <div class="col">
-                  <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/14050639/exercício-1-notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/2b0c36e8b3d145ce969d1f731b4655d4_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Perguntas Teóricas</b></span></a>
-                  </div>
+                <div class="col-10 col-sm-6 d-flex justify-content-center">
+                  <img class="img_empty d-flex justify-content-center" src="../../imgs/empty-box.svg">
                 </div>
                 <div class="col">
-                  <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/17597140/notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/d50f102ed458400bbdd1cea353cb0b7f_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Labirinto Mágico</b></span></a>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="media d-flex justify-content-center">
-                  <a target="_blank" href="https://wordwall.net/pt/resource/17232296/notação-científica?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/bb79bdb3efd7417c9c43373e8adb6ab0_22" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Pesquisa  Científica</b></span></a>
-                  </div>
+                  <p class="subtitle_sec"> Xiiii! Não achamos nada deste conteúdo. Não fique triste conosco! Explore mais artigos.
                 </div>
               </div>
             </section>
@@ -162,10 +133,10 @@
                 Talvez você precise disso👇
               </p>
               <a href="potenciacao.php" class="list-group-item list-group-item-action art-body">> Potenciação</a>
+              <a href="notacao-cientifica.php" class="list-group-item list-group-item-action art-body">> Notação Científica</a>
               <a href="radiciacao.php" class="list-group-item list-group-item-action art-body">> Radiciação</a>
-              <a href="regra-3.php" class="list-group-item list-group-item-action art-body">> Regra de Três</a>
               <a href="fracao.php" class="list-group-item list-group-item-action art-body">> Fração</a>
-              <a href="pi.php" class="list-group-item list-group-item-action art-body">> Número Pi</a>
+              <a href="regra-3.php" class="list-group-item list-group-item-action art-body">> Regra de Três</a>
               <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body">> Teorema de Pitágoras</a>
             </div>
         </aside>
@@ -193,7 +164,7 @@
       });
       
       window.addEventListener('focus', function() {
-        document.title = "MathLearn | Notação Científica";
+        document.title = "MathLearn | Número Pi";
       });
   
     </script>
