@@ -324,6 +324,10 @@ button {
 #contagem{
     color: red    
 }
+.img_cookies{
+    width: 20em;
+    height: auto;
+}
 
 /*Media Queries*/
 @media (min-width: 768px) {

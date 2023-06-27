@@ -232,7 +232,7 @@
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                         <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_aiwdh2wk.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
                   </div>
-                  No momento, esta página não permite alternar o tema do layout pois não armazenamos <a href="#">cookies</a>. Não fique triste com a gente! Iremos resolver isto em breve.
+                  No momento, esta página não permite alternar o tema do layout pois não armazenamos <a data-toggle="modal" data-target="#modalCookies" href="#">cookies</a>. Não fique triste com a gente! Iremos resolver isto em breve.
                 </div>
                 <div class="modal-footer">
                   <div id="contagem"></div>
@@ -240,6 +240,30 @@
               </div>
             </div>
           </div>
+
+          <!--Modal sobre Cookies-->
+          <div class="modal fade" id="modalCookies" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">O que são cookies?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="img d-flex justify-content-center">
+                        <img class="img_cookies" src="../../imgs/img_cookies.png">
+                    </div>
+                    <p>Os cookies são dados salvos usados pelo seu navegador, a fim de que melhore a precisão
+                        na navegação caso você retorne ao site, como, por exemplo, recarregar paginas de onde você parou.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Ok, entendi.</button>
+                </div>
+                </div>
+            </div>
+            </div>
         </section>
     
     </main>
