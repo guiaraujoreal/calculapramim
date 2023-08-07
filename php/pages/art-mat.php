@@ -142,7 +142,7 @@
       <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
       <script src="../../js/menu_responsivo.js"></script>
       <script src="../../js/functions.js"></script>
-      <script src="../../js/load_container.js"></script>
+      <script src="../../js/load_containerBP.js"></script>
       <script src="../..//js/random_frasesAM.js"></script>
 
       <!--CDNs-->

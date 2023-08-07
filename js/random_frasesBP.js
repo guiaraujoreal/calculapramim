@@ -1,5 +1,5 @@
-//Artigos Matematicos
-document.addEventListener("DOMContentLoaded", function() {
+ //Botpage
+ document.addEventListener("DOMContentLoaded", function() {
 const frases = [
     "3, 2, 1...vamos lá!",
     "Aperte o cinto e vamos decolar!",
