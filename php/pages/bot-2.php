@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../../style/bot.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../../style/bot-2.css" media="screen" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -99,31 +99,16 @@
                 }
             ?>
             
-                <div id="col_perg" class="col col-sm-12 col-md-5 col-12">
-                <form id="form_perg" action="" method="post" class="form-group"  onsubmit="return enviarFormulario()">
-                    <div id="area_perg">
-                        <div class="label_ label_voce"><p class="tag_voce"><b><img class="img_user" src="../../imgs/user_img.png">  Você:</b></p></div>
-                        <textarea name="pergunta" class="" id="box_pergunta" rows="3" placeholder="Que bom ter você por aqui :)! Pergunte-me algo, como: 'me mostre como calcular a expressão 3x-27²=0'." required></textarea>
-                        <div id="boxEmpty" style="font-size: 20px; color: rgb(251, 231, 80)"></div>
-                        <div class="col d-flex justify-content-center">
-                            <button id="botao_send">
-                                <div class="svg-wrapper-1">
-                                    <div class="svg-wrapper">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
-                                    </svg>
-                                    </div>
-                                </div>
-                                <span>Enviar</span>
-                            </button>
-                        </div>
-                    </div>
-            </form>
-                </div>
+            
                 
             </div>
         </div>
+        </section>
+
+        <section>
+                <div id="box_input" class=" container-fluid d-flex justify-content-center">
+                    <textarea id="input" oninput="autoResize()"></textarea>
+                </div>
         </section>
 
         <section>
@@ -363,6 +348,18 @@
             }
             }
     </script>
+
+<script>
+    function autoResize() {
+      const textarea = document.getElementById('input');
+      textarea.style.height = 'auto'; // Redefine a altura para que o conteúdo seja levado em consideração
+      textarea.style.height = textarea.scrollHeight + 'px'; // Define a altura para a altura do conteúdo
+
+      // Opcional: role para o final do conteúdo quando o texto exceder a altura atual
+      textarea.scrollTop = textarea.scrollHeight;
+      textarea.style.overflow = 'hidden';
+    }
+  </script>
 
 
 </body>

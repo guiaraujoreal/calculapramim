@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="../../style/lit.css">
-<textarea id="d" oninput="autoResize()"></textarea>
+<textarea id="d" oninput="autoResize()" placeholder="ola! :)"></textarea>
 
 <script>
     function autoResize() {
@@ -9,5 +9,6 @@
 
       // Opcional: role para o final do conteúdo quando o texto exceder a altura atual
       textarea.scrollTop = textarea.scrollHeight;
+      textarea.style.overflow = 'hidden';
     }
   </script>

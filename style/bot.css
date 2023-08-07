@@ -66,6 +66,7 @@ html,body{
 }
 #container03{
     padding-top: 10vh;
+    z-index: 1;
 }
 #area_sub{
     padding-top: 20px;
@@ -217,10 +218,15 @@ html,body{
 
 
 /*botao send*/
+button{
+    background: rgb(37, 176, 72)
+}
+button[disabled]{
+    background: rgb(109, 109, 109);
+}
 button {
     font-family: inherit;
     font-size: 20px;
-    background: rgb(37, 176, 72);
     color: white;
     padding: 0.7em 1em;
     padding-left: 0.9em;
@@ -381,6 +387,7 @@ button {
     }
 }
 
+/*--------------------------------------------------*/
 
 
 

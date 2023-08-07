@@ -35,6 +35,9 @@
     </header>
     
     <section id="sec0" class="container-fluid" >
+
+    <?php include "../includes/overlayContAM.php"  ?>
+    
       <div class="row">
         <main class="col-sm-8">
           <section id="sec01" class="container-fluid">
@@ -132,12 +135,12 @@
               <p class="list-title list-group-item list-group-item-action active">
                 Talvez você precise disso👇
               </p>
-              <a href="potenciacao.php" class="list-group-item list-group-item-action art-body">> Potenciação</a>
-              <a href="notacao-cientifica.php" class="list-group-item list-group-item-action art-body">> Notação Científica</a>
-              <a href="radiciacao.php" class="list-group-item list-group-item-action art-body">> Radiciação</a>
-              <a href="fracao.php" class="list-group-item list-group-item-action art-body">> Fração</a>
-              <a href="regra-3.php" class="list-group-item list-group-item-action art-body">> Regra de Três</a>
-              <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body">> Teorema de Pitágoras</a>
+              <a href="potenciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Potenciação</a>
+              <a href="notacao-cientifica.php" class="list-group-item list-group-item-action art-body botao_card">> Notação Científica</a>
+              <a href="radiciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Radiciação</a>
+              <a href="fracao.php" class="list-group-item list-group-item-action art-body botao_card">> Fração</a>
+              <a href="regra-3.php" class="list-group-item list-group-item-action art-body botao_card">> Regra de Três</a>
+              <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body botao_card">> Teorema de Pitágoras</a>
             </div>
         </aside>
       </div>
@@ -151,6 +154,8 @@
       <script src="../../js/menu_responsivo.js"></script>
       <script src="../../js/functions.js"></script>
       <script src="../../js/animate_index.js"></script>
+      <script src="../../js/load_containerAM.js"></script>
+      <script src="../..//js/random_frasesAM.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

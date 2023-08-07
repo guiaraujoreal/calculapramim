@@ -36,17 +36,7 @@
     </header>
 
   <main>
-    <div id="overlay" class="container-fluid">
-      <div class="body_load d-flex justify-content-center">
-        <div id="animate_over" class="row d-flex justify-content-around justify-content-center">
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-          <lottie-player src="https://lottie.host/cefd46cb-c1b7-4dda-8b68-bd9df6296a51/V5Y7VolV7M.json" background="#ffffff00" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
-          <div class="row d-flex justify-content-around justify-content-center">
-            <b><span class="text_load col-md-12 col-lg-12 d-flex justify-content-center"></span></b>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php include "../includes/overlayContAM.php"  ?>
 
   <section id="sec01" class="container-fluid">
     <h1 class="txt-title01">Artigos Matemáticos</h1>
@@ -142,7 +132,7 @@
       <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
       <script src="../../js/menu_responsivo.js"></script>
       <script src="../../js/functions.js"></script>
-      <script src="../../js/load_containerBP.js"></script>
+      <script src="../../js/load_containerAM.js"></script>
       <script src="../..//js/random_frasesAM.js"></script>
 
       <!--CDNs-->

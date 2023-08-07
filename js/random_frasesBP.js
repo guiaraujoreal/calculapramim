@@ -1,10 +1,12 @@
  //Botpage
  document.addEventListener("DOMContentLoaded", function() {
 const frases = [
-    "3, 2, 1...vamos lá!",
-    "Aperte o cinto e vamos decolar!",
-    "Plift...Ploft...e zooom!",
-    "Simbora pro conteúdo!",
+    "Deixa eu pensar...",
+    "Opa! Deixa eu pensar...",
+    "Só um instante...",
+    "Deixa eu procurar sobre isso...",
+    "Deixa eu raciocinar...",
+    "Pensando como um humano...",
   ];
   
   // Função para sortear uma frase
