@@ -36,6 +36,17 @@
     </header>
 
   <main>
+    <div id="overlay" class="container-fluid">
+      <div class="body_load d-flex justify-content-center">
+        <div id="animate_over" class="row d-flex justify-content-around justify-content-center">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://lottie.host/cefd46cb-c1b7-4dda-8b68-bd9df6296a51/V5Y7VolV7M.json" background="#ffffff00" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
+          <div class="row d-flex justify-content-around justify-content-center">
+            <b><span class="text_load col-md-12 col-lg-12 d-flex justify-content-center"></span></b>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <section id="sec01" class="container-fluid">
     <h1 class="txt-title01">Artigos Matemáticos</h1>
@@ -54,7 +65,7 @@
                         <img class="card-img-top" src="../../imgs/card01.png" alt="Imagem de capa do card">
                         <div id="card-body01" class="card-body">
                           <h5 class="card-title"><b>Potenciação</b></h5>
-                          <a href="potenciacao.php" id="botao_card01" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Descubra o resultado de um número elevado ao seu fator expoente!">Vamos Aprender!</a>
+                          <a href="potenciacao.php" id="botao_card01" class="botao_card btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Descubra o resultado de um número elevado ao seu fator expoente!">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +74,7 @@
                         <img class="card-img-top" src="../../imgs/card02.png" alt="Imagem de capa do card">
                         <div id="card-body02" class="card-body">
                           <h5 class="card-title"><b>Radiciação</b></h5>
-                          <a href="radiciacao.php" id="botao_card02" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                          <a href="radiciacao.php" id="botao_card02" class="botao_card btn btn-primary btn-block">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +83,7 @@
                         <img class="card-img-top" src="../../imgs/card03.png" alt="Imagem de capa do card">
                         <div id="card-body03" class="card-body">
                           <h5 class="card-title"><b>Notação Científica</b></h5>
-                          <a href="notacao-cientifica.php" id="botao_card03" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                          <a href="notacao-cientifica.php" id="botao_card03" class="botao_card btn btn-primary btn-block">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +92,7 @@
                         <img class="card-img-top" src="../../imgs/card04.png" alt="Imagem de capa do card">
                         <div id="card-body04" class="card-body">
                           <h5 class="card-title"><b>Regra de Três</b></h5>
-                          <a href="regra-3.php" id="botao_card04" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                          <a href="regra-3.php" id="botao_card04" class="botao_card btn btn-primary btn-block">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +101,7 @@
                         <img class="card-img-top" src="../../imgs/card05.png" alt="Imagem de capa do card">
                         <div id="card-body05" class="card-body">
                           <h5 class="card-title"><b>Fração</b></h5>
-                          <a href="fracao.php" id="botao_card05" class="btn btn-primary btn-block">Vamos Aprender!</a>
+                          <a href="fracao.php" id="botao_card05" class="botao_card btn btn-primary btn-block">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +110,7 @@
                         <img class="card-img-top" src="../../imgs/card06.png" alt="Imagem de capa do card">
                         <div id="card-body06" class="card-body">
                           <h5 class="card-title"><b>Número Pi</b></h5>
-                          <a href="pi.php" id="botao_card06" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Conheça mais sobre o Pi!">Vamos Aprender!</a>
+                          <a href="pi.php" id="botao_card06" class="botao_card btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Conheça mais sobre o Pi!">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -108,7 +119,7 @@
                         <img class="card-img-top" src="../../imgs/card07.png" alt="Imagem de capa do card">
                         <div id="card-body07" class="card-body">
                           <h5 class="card-title"><b>Teorema de Pitágoras</b></h5>
-                          <a href="teorema-pitagoras.php" id="botao_card07" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Saiba como calcular os componentes de um triângulo usando o Teorema de Pitágoras.">Vamos Aprender!</a>
+                          <a href="teorema-pitagoras.php" id="botao_card07" class="botao_card btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Saiba como calcular os componentes de um triângulo usando o Teorema de Pitágoras.">Vamos Aprender!</a>
                         </div>
                     </div>
                 </div>
@@ -131,6 +142,8 @@
       <script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
       <script src="../../js/menu_responsivo.js"></script>
       <script src="../../js/functions.js"></script>
+      <script src="../../js/load_container.js"></script>
+      <script src="../..//js/random_frasesAM.js"></script>
 
       <!--CDNs-->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -164,6 +177,11 @@
         }
     </script>
 
+    <!--<script>
+      function acess_sec(){
+
+      }
+    </script> -->
             
   </body>
 </html>
