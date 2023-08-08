@@ -47,18 +47,13 @@
         </div>
         </div>
 
-        <section id="sec01">
-            <div id="container02" class="container container-fluid">
-                <div class="row justify-content-around">
-                    <span id="titulo_page"></span>
-                </div>
-            </div>
-
-        
-        <div id="container01" class="container container-fluid" >
-            <div class="row">
-                
-                <?php
+        <section id="titulo_page">
+            
+        </section>
+       
+        <section id="sec01" class="container-fluid">
+            <?php 
+            
                 require_once '../../vendor/autoload.php';
                 include_once('../includes/api/api.php');
 
@@ -78,37 +73,51 @@
                     'temperature' => 0.1,
                 ]);
                 $paragrafo = explode("\n", $result['choices'][0]['text']);
-                $resposta = '';
-                echo '<div id="resp_geral" class="col col-sm-11 col-md-5 col-11">
-                <div id="area_sub">
-                <div class="label_ label_math"><p class="tag_sub"><b><img class="img_user_response" src="../../imgs/user_img_response.png"> Você enviou:</b></p></div>
-                        <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
-                        </div>
-                <div id="area_resp">
-                        <div class="label_ label_math"><p class="tag_math"><b><img class="img_ia" src="../../imgs/ai_response.png">I.A:</b></p></div>
-                        <div  name="resposta" class="" id="box_resposta">';
-                
-                foreach ($paragrafo as $paragrafo) {
-                    $resposta .= '<p>' . $paragrafo . '<p>';
-                    }
-                 
-            
-            echo $resposta . '</div>
-                        </div>
-                        </div>';
-                }
-            ?>
-            
-            
-                
-            </div>
-        </div>
-        </section>
-
-        <section>
-                <div id="box_input" class=" container-fluid d-flex justify-content-center">
-                    <textarea id="input" oninput="autoResize()"></textarea>
+                $resposta = ''; 
+                echo '<div id="container01" class="container-fluid" >';
+                echo '<div class="row rowClient">
+                    <div class="col-3 col-sm-2 col-md-1 col_igClient">
+                        <img src="../../imgs/profile_icon.svg" class="img_user">
+                        <p class="nome_user">Você</p>
+                    </div>
+                    <div class="col col_msgClient d-flex">
+                        <p id="msgClient">' . $texto .'</p>
+                    </div>
                 </div>
+
+                <div class="row rowIA d-flex justify-content-end ">
+                    <div id="responseIA" class="col col_responseIA d-flex justify-content-end">
+                        <div id="msgIA"  oninput="autoResize()"';
+                        foreach ($paragrafo as $paragrafo) {
+                            $resposta .= '<p>' . $paragrafo . '<p>';
+                            }
+                         
+                    
+                    echo $resposta . '</div>
+                    </div>
+                    <div class="col-3 col-sm-2 col-md-1 col_igIA">
+                            <img src="../../imgs/ai_response.png" class="img_ia">
+                            <p class="nome_ia">I.A</p>
+                    </div>
+                </div></div>';
+                        }
+                ?> </section>
+            
+
+        <section id="sec02" class="d-flex justify-content-center">
+            <form id="formIA" method="post" class="row d-flex justify-content-center">
+                <div id="box_input" class="col-10">
+                    <textarea name="pergunta" id="inputUser" class="input" oninput="autoResize()" placeholder="Me pergunte algo"></textarea>
+                </div>
+                <div class="col-10 d-flex justify-content-center">
+                    <button type="submit" class="uiverse">
+                        <span class="tooltip">Clique aqui!</span>
+                        <span>
+                            Enviar
+                        </span>
+                    </button>
+                </div>
+            </form>
         </section>
 
         <section>
@@ -351,14 +360,24 @@
 
 <script>
     function autoResize() {
-      const textarea = document.getElementById('input');
-      textarea.style.height = 'auto'; // Redefine a altura para que o conteúdo seja levado em consideração
-      textarea.style.height = textarea.scrollHeight + 'px'; // Define a altura para a altura do conteúdo
+      const textareas = document.getElementsByClassName('input');
 
-      // Opcional: role para o final do conteúdo quando o texto exceder a altura atual
-      textarea.scrollTop = textarea.scrollHeight;
-      textarea.style.overflow = 'hidden';
+      for (let i = 0; i < textareas.length; i++) {
+        const elemento = textareas[i];
+
+        if (elemento.tagName.toLowerCase() === 'textarea') {
+            elemento.style.height = 'auto'; // Redefine a altura para que o conteúdo seja levado em consideração
+            elemento.style.height = elemento.scrollHeight + 'px'; // Define a altura para a altura do conteúdo
+
+          // Opcional: role para o final do conteúdo quando o texto exceder a altura atual
+          elemento.scrollTop = elemento.scrollHeight;
+          elemento.style.overflow = 'hidden';
+        }
+      }
     }
+
+    // Chame a função quando necessário (por exemplo, no evento 'input')
+    autoResize();
   </script>
 
 
