@@ -47,18 +47,13 @@
         </div>
         </div>
 
-        <section id="sec01">
-            <div id="container02" class="container container-fluid">
-                <div class="row justify-content-around">
-                    <span id="titulo_page"></span>
-                </div>
-            </div>
-
-        
-        <div id="container01" class="container container-fluid" >
-            <div class="row">
-                
-                <?php
+        <section id="titulo_page">
+            
+        </section>
+       
+        <section id="sec01" class="container-fluid">
+            <?php 
+            
                 require_once '../../vendor/autoload.php';
                 include_once('../includes/api/api.php');
 
@@ -78,52 +73,66 @@
                     'temperature' => 0.1,
                 ]);
                 $paragrafo = explode("\n", $result['choices'][0]['text']);
-                $resposta = '';
-                echo '<div id="resp_geral" class="col col-sm-11 col-md-5 col-11">
-                <div id="area_sub">
-                <div class="label_ label_math"><p class="tag_sub"><b><img class="img_user_response" src="../../imgs/user_img_response.png"> Você enviou:</b></p></div>
-                        <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
-                        </div>
-                <div id="area_resp">
-                        <div class="label_ label_math"><p class="tag_math"><b><img class="img_ia" src="../../imgs/ai_response.png">I.A:</b></p></div>
-                        <div  name="resposta" class="" id="box_resposta">';
-                
-                foreach ($paragrafo as $paragrafo) {
-                    $resposta .= '<p>' . $paragrafo . '<p>';
-                    }
-                 
-            
-            echo $resposta . '</div>
-                        </div>
-                        </div>';
-                }
-            ?>
-            
-                <div id="col_perg" class="col col-sm-12 col-md-5 col-12">
-                <form id="form_perg" action="" method="post" class="form-group"  onsubmit="return enviarFormulario()">
-                    <div id="area_perg">
-                        <div class="label_ label_voce"><p class="tag_voce"><b><img class="img_user" src="../../imgs/user_img.png">  Você:</b></p></div>
-                        <textarea name="pergunta" class="" id="box_pergunta" rows="3" placeholder="Que bom ter você por aqui :)! Pergunte-me algo, como: 'me mostre como calcular a expressão 3x-27²=0'." required></textarea>
-                        <div id="boxEmpty" style="font-size: 20px; color: rgb(251, 231, 80)"></div>
-                        <div class="col d-flex justify-content-center">
-                            <button id="botao_send">
-                                <div class="svg-wrapper-1">
-                                    <div class="svg-wrapper">
-                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
-                                    </svg>
+                $resposta = ''; 
+                echo '<div id="container01" class="container-fluid">
+                        <div class="borderClient">';
+                     echo '<div class="row rowClient d-flex">
+                                <div class="d-flex col-12 col-sm-3 col-md-3 col-lg-2 col_igClient">
+                                    <div class="imgCOL col-4 col-sm-8 col-lg-8">
+                                        <img src="../../imgs/profile_icon.svg" class="img_user">
+                                    </div>
+                                    <div class="col d-flex colTextIG">
+                                        <p class="nome_user">Você</p>
                                     </div>
                                 </div>
-                                <span>Enviar</span>
-                            </button>
+                                <div class="col-8 col_msgClient d-flex ">
+                                    <p id="msgClient">' . $texto .'</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="borderIA">
+                    <div class="row rowIA d-flex justify-content-end">
+                        <div id="responseIA" class="order col col_responseIA d-flex justify-content-end">
+                        <div id="msgIA" oninput="autoResize()"';
+                        foreach ($paragrafo as $paragrafo) {
+                            $resposta .= '<p>' . $paragrafo . '<p>';
+                            }
+                         
+                    
+                     echo $resposta . '</div>
+                     </div>
+                        <div class="order d-flex col-12 col-sm-3 col-md-3 col-lg-2 col_igIA flex-wrap">
+                            <div class="orderColumn col-3 col-sm-12 col-lg-12 col-md-12 d-flex align-items-end">
+                                <img src="../../imgs/iconRobot_profile.svg" class="img_ia">
+                            </div>
+                            <div class="orderColumn col d-flex">
+                                <p class="nome_ia">I.A</p>
+                            </div>
+                        </div>
                         </div>
                     </div>
-            </form>
+                </div>';
+                        }
+                ?> </section>
+            
+
+        <section id="sec02" class="d-flex justify-content-center">
+            <form id="formIA" method="post" class="row d-flex justify-content-center">
+                <div class="col-4 col-sm-1 d-flex justify-content-center img_user_box">
+                <img src="../../imgs/profile_icon.svg" class="img_user">
                 </div>
-                
-            </div>
-        </div>
+                <div id="box_input" class="col-10">
+                    <textarea name="pergunta" id="inputUser" class="input" oninput="autoResize()" placeholder="Me pergunte algo, como:" required></textarea>
+                </div>
+                <div class="col-10 d-flex justify-content-center">
+                    <button type="submit" class="uiverse">
+                        <span class="tooltip">Clique aqui!</span>
+                        <span>
+                            Enviar
+                        </span>
+                    </button>
+                </div>
+            </form>
         </section>
 
         <section>
@@ -315,6 +324,41 @@
   
     </script>
 
+    <!--editar as classes abaixo para layouts pequenos-->
+    <script>
+        $(document).ready(function() {
+            function aligIG() {
+                if ($(window).width() < 575) {
+                    $('.col_igClient').addClass('flex-row align-items-center justify-content-start');
+                    $('.col_igClient').removeClass('justify-content-center flex-wrap');
+
+                    $('.colTextIG').addClass('justify-content-start');
+                    $('.colTextIG').removeClass('justify-content-center');
+
+                    $('.orderColumn').addClass('align-items-center justify-content-end');
+                    $('.orderColumn').removeClass('flex-wrap justify-content-center');
+                }else {
+                    $('.col_igClient').removeClass('flex-row align-items-center justify-content-start');
+                    $('.col_igClient').addClass('justify-content-center flex-wrap');
+
+                    $('.colTextIG').addClass('justify-content-center');
+                    $('.colTextIG').remove('justify-content-start');
+
+                    $('.orderColumn').addClass('flex-wrap justify-content-center');
+                    $('.orderColumn').removeClass('align-items-center justify-content-end');
+                }
+            }
+            
+            aligIG();
+
+            $(window).resize(function() {
+                aligIG();
+            });
+        });
+
+
+    </script>
+
     <!--Aciona o Modal de tema indefinido do layout e mostra tempo"-->
     <script>
         function alternarTema() {
@@ -363,6 +407,28 @@
             }
             }
     </script>
+
+<script>
+    function autoResize() {
+      const textareas = document.getElementsByClassName('input');
+
+      for (let i = 0; i < textareas.length; i++) {
+        const elemento = textareas[i];
+
+        if (elemento.tagName.toLowerCase() === 'textarea') {
+            elemento.style.height = 'auto'; // Redefine a altura para que o conteúdo seja levado em consideração
+            elemento.style.height = elemento.scrollHeight + 'px'; // Define a altura para a altura do conteúdo
+
+          // Opcional: role para o final do conteúdo quando o texto exceder a altura atual
+          elemento.scrollTop = elemento.scrollHeight;
+          elemento.style.overflow = 'hidden';
+        }
+      }
+    }
+
+    // Chame a função quando necessário (por exemplo, no evento 'input')
+    autoResize();
+  </script>
 
 
 </body>

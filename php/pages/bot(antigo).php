@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../../style/bot-2.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../../style/bot.css" media="screen" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,13 +47,18 @@
         </div>
         </div>
 
-        <section id="titulo_page">
-            
-        </section>
-       
-        <section id="sec01" class="container-fluid">
-            <?php 
-            
+        <section id="sec01">
+            <div id="container02" class="container container-fluid">
+                <div class="row justify-content-around">
+                    <span id="titulo_page"></span>
+                </div>
+            </div>
+
+        
+        <div id="container01" class="container container-fluid" >
+            <div class="row">
+                
+                <?php
                 require_once '../../vendor/autoload.php';
                 include_once('../includes/api/api.php');
 
@@ -73,51 +78,52 @@
                     'temperature' => 0.1,
                 ]);
                 $paragrafo = explode("\n", $result['choices'][0]['text']);
-                $resposta = ''; 
-                echo '<div id="container01" class="container-fluid" >';
-                echo '<div class="row rowClient">
-                    <div class="col-3 col-sm-2 col-md-1 col_igClient">
-                        <img src="../../imgs/profile_icon.svg" class="img_user">
-                        <p class="nome_user">Você</p>
-                    </div>
-                    <div class="col col_msgClient d-flex">
-                        <p id="msgClient">' . $texto .'</p>
-                    </div>
-                </div>
-
-                <div class="row rowIA d-flex justify-content-end ">
-                    <div id="responseIA" class="col col_responseIA d-flex justify-content-end">
-                        <div id="msgIA"  oninput="autoResize()"';
-                        foreach ($paragrafo as $paragrafo) {
-                            $resposta .= '<p>' . $paragrafo . '<p>';
-                            }
-                         
-                    
-                    echo $resposta . '</div>
-                    </div>
-                    <div class="col-3 col-sm-2 col-md-1 col_igIA">
-                            <img src="../../imgs/ai_response.png" class="img_ia">
-                            <p class="nome_ia">I.A</p>
-                    </div>
-                </div></div>';
-                        }
-                ?> </section>
+                $resposta = '';
+                echo '<div id="resp_geral" class="col col-sm-11 col-md-5 col-11">
+                <div id="area_sub">
+                <div class="label_ label_math"><p class="tag_sub"><b><img class="img_user_response" src="../../imgs/user_img_response.png"> Você enviou:</b></p></div>
+                        <div  name="resposta" class="" id="box_resposta_sub">>> '. $texto . '</div>
+                        </div>
+                <div id="area_resp">
+                        <div class="label_ label_math"><p class="tag_math"><b><img class="img_ia" src="../../imgs/ai_response.png">I.A:</b></p></div>
+                        <div  name="resposta" class="" id="box_resposta">';
+                
+                foreach ($paragrafo as $paragrafo) {
+                    $resposta .= '<p>' . $paragrafo . '<p>';
+                    }
+                 
             
-
-        <section id="sec02" class="d-flex justify-content-center">
-            <form id="formIA" method="post" class="row d-flex justify-content-center">
-                <div id="box_input" class="col-10">
-                    <textarea name="pergunta" id="inputUser" class="input" oninput="autoResize()" placeholder="Me pergunte algo"></textarea>
-                </div>
-                <div class="col-10 d-flex justify-content-center">
-                    <button type="submit" class="uiverse">
-                        <span class="tooltip">Clique aqui!</span>
-                        <span>
-                            Enviar
-                        </span>
-                    </button>
-                </div>
+            echo $resposta . '</div>
+                        </div>
+                        </div>';
+                }
+            ?>
+            
+                <div id="col_perg" class="col col-sm-12 col-md-5 col-12">
+                <form id="form_perg" action="" method="post" class="form-group"  onsubmit="return enviarFormulario()">
+                    <div id="area_perg">
+                        <div class="label_ label_voce"><p class="tag_voce"><b><img class="img_user" src="../../imgs/user_img.png">  Você:</b></p></div>
+                        <textarea name="pergunta" class="" id="box_pergunta" rows="3" placeholder="Que bom ter você por aqui :)! Pergunte-me algo, como: 'me mostre como calcular a expressão 3x-27²=0'." required></textarea>
+                        <div id="boxEmpty" style="font-size: 20px; color: rgb(251, 231, 80)"></div>
+                        <div class="col d-flex justify-content-center">
+                            <button id="botao_send">
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                                    </svg>
+                                    </div>
+                                </div>
+                                <span>Enviar</span>
+                            </button>
+                        </div>
+                    </div>
             </form>
+                </div>
+                
+            </div>
+        </div>
         </section>
 
         <section>
@@ -357,28 +363,6 @@
             }
             }
     </script>
-
-<script>
-    function autoResize() {
-      const textareas = document.getElementsByClassName('input');
-
-      for (let i = 0; i < textareas.length; i++) {
-        const elemento = textareas[i];
-
-        if (elemento.tagName.toLowerCase() === 'textarea') {
-            elemento.style.height = 'auto'; // Redefine a altura para que o conteúdo seja levado em consideração
-            elemento.style.height = elemento.scrollHeight + 'px'; // Define a altura para a altura do conteúdo
-
-          // Opcional: role para o final do conteúdo quando o texto exceder a altura atual
-          elemento.scrollTop = elemento.scrollHeight;
-          elemento.style.overflow = 'hidden';
-        }
-      }
-    }
-
-    // Chame a função quando necessário (por exemplo, no evento 'input')
-    autoResize();
-  </script>
 
 
 </body>

@@ -6,7 +6,7 @@ var inactivityTime = function () {
   
     function resetTimer() {
         clearTimeout(t);
-        t = setTimeout(showModal, 180000); // Defina o tempo de inatividade em milissegundos
+        t = setTimeout(showModal, 600000); // Defina o tempo de inatividade em milissegundos
     }
 };
 
