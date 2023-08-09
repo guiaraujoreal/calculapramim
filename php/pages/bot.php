@@ -431,6 +431,25 @@
     autoResize();
   </script>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const inputBox = document.getElementById("inputUser");
+    
+    messageInput.addEventListener("keydown", function(event) {
+        if (event.key === "Enter" && event.shiftKey) {
+        // Insere uma quebra de linha no campo de texto
+        const startPos = this.selectionStart;
+        const endPos = this.selectionEnd;
+        const value = this.value;
+        this.value = value.substring(0, startPos) + "\n" + value.substring(endPos);
+        this.selectionStart = this.selectionEnd = startPos + 1;
+        event.preventDefault();
+        }
+    });
+    });
+
+  </script>
+
 
 </body>
 </html>
