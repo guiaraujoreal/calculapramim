@@ -174,6 +174,7 @@ Além disso, o Teorema de Pitágoras tem aplicações em diversas áreas, como a
               <a href="fracao.php" class="list-group-item list-group-item-action art-body botao_card">> Fração</a>
               <a href="pi.php" class="list-group-item list-group-item-action art-body botao_card">> Número Pi</a>
               <a href="potenciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Potenciação</a>
+              <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
             </div>
         </aside>
       </div>

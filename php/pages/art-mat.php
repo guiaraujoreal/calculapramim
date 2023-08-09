@@ -113,6 +113,15 @@
                         </div>
                     </div>
                 </div>
+                <div id="coluna" class="col-md-5 col-lg-3 col-xs-12" data-toggle="tooltip" data-placement="bottom" title="Saiba os principais métodos relacionados ao Logaritmo.">
+                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded">
+                        <img class="card-img-top" src="../../imgs/card08.png" alt="Imagem de capa do card">
+                        <div id="card-body08" class="card-body">
+                          <h5 class="card-title"><b>Logaritmo</b></h5>
+                          <a href="logaritmo.php" id="botao_card08" class="botao_card btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Saiba os principais métodos relacionados ao Logaritmo.">Vamos Aprender!</a>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
         </div>

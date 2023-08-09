@@ -141,6 +141,7 @@
               <a href="fracao.php" class="list-group-item list-group-item-action art-body botao_card">> Fração</a>
               <a href="regra-3.php" class="list-group-item list-group-item-action art-body botao_card">> Regra de Três</a>
               <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body botao_card">> Teorema de Pitágoras</a>
+              <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
             </div>
         </aside>
       </div>

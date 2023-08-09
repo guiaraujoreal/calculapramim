@@ -122,7 +122,7 @@
                 <img src="../../imgs/profile_icon.svg" class="img_user">
                 </div>
                 <div id="box_input" class="col-10">
-                    <textarea name="pergunta" id="inputUser" class="input" oninput="autoResize()" placeholder="Me pergunte algo, como:" required></textarea>
+                    <textarea name="pergunta" id="inputUser" class="input" oninput="autoResize()" placeholder="Me pergunte algo, como: 'Me explique o passo a passo da operacao 3x-27=0'" required></textarea>
                     <div id="boxEmpty"></div>
                 </div>
                 <div class="col-10 d-flex justify-content-center">
