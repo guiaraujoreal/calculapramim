@@ -466,7 +466,7 @@ footer{
   animation-duration: 0.5s
   
 }
-.anim{
+#animate_over{
   width: 300px;
   height: 300px;
 }
@@ -485,10 +485,17 @@ footer{
   #overlay{
     padding-top: 0;
   }
-  .anim{
+  #animate_over{
     width: 200px;
     height: 200px;
     font-size: 15px;
   }
   
+}
+@media(max-width:350px){
+  #animate_over{
+    width: 200px;
+    height: 200px;
+    font-size: 15px;
+  }
 }

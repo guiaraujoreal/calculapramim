@@ -43,14 +43,16 @@ html,body{
     font-size: 4em;
     color: white;
     width: 95%;
-    min-height: 50vh;
-   background: #373e55;
+    min-height: 30vh;
+    height: auto;
+    background: #373e55;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131313",endColorstr="#4a4a4a",GradientType=1);
     border-radius: 15px;
     margin-bottom: 20px;
     padding-top: 10px;
     box-shadow: #000000;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
 }
 #inputUser{
     width: 95%;
@@ -156,6 +158,9 @@ html,body{
 }
 #msgIA{
     margin-bottom: 20px;
+}
+#boxEmpty{
+    color: white;
 }
 
 
@@ -421,6 +426,7 @@ html,body{
     height: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-left: 5px;
 }
 .img_user_box{
     position: relative;

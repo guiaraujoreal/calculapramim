@@ -2,7 +2,7 @@
 document.getElementById("botao_send").addEventListener("click", function(event){
   event.preventDefault(); // Impede o comportamento padrão do botão (no caso de estar dentro de um formulário)
   
-  var box = document.getElementById("box_pergunta");
+  var box = document.getElementById("inputUser");
   
   if(box.value.trim() === ""){
     var boxEmpty = document.getElementById("boxEmpty");
@@ -23,7 +23,7 @@ function onLoadCont() {
 }
 
 function enviarFormulario() {
-  var form = document.getElementById("form_perg");
+  var form = document.getElementById("formIA");
   form.submit();
 }
   

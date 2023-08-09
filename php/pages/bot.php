@@ -40,7 +40,7 @@
             <div id="animate_over" class="row d-flex justify-content-around justify-content-center">
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player src="https://lottie.host/8e751e9d-8c15-4cc3-a198-139e32221793/7jS51vm0Zo.json" background="#ffffff00" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
-            <div class="row d-flex justify-content-around justify-content-center">
+            <div class="row d-flex justify-content-around justify-content-center w-100">
                 <b><span class="text_load col-md-12 col-lg-12 d-flex justify-content-center" style="color: white"></span></b>
             </div>
             </div>
@@ -102,7 +102,7 @@
                      echo $resposta . '</div>
                      </div>
                         <div class="order d-flex col-12 col-sm-3 col-md-3 col-lg-2 col_igIA flex-wrap">
-                            <div class="orderColumn col-3 col-sm-12 col-lg-12 col-md-12 d-flex align-items-end">
+                            <div class="orderColumn col-4 col-sm-12 col-lg-12 col-md-12 d-flex align-items-end">
                                 <img src="../../imgs/iconRobot_profile.svg" class="img_ia">
                             </div>
                             <div class="orderColumn col d-flex">
@@ -123,9 +123,10 @@
                 </div>
                 <div id="box_input" class="col-10">
                     <textarea name="pergunta" id="inputUser" class="input" oninput="autoResize()" placeholder="Me pergunte algo, como:" required></textarea>
+                    <div id="boxEmpty"></div>
                 </div>
                 <div class="col-10 d-flex justify-content-center">
-                    <button type="submit" class="uiverse">
+                    <button id="botao_send" type="submit" class="uiverse">
                         <span class="tooltip">Clique aqui!</span>
                         <span>
                             Enviar
