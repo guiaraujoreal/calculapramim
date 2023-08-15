@@ -1,4 +1,6 @@
-document.getElementById("botao_send").addEventListener("click", function(event){
+var botao_send = document.getElementById("botao_send");
+
+botao_send.addEventListener("click", function(event){
   event.preventDefault(); // Impede o comportamento padrão do botão (no caso de estar dentro de um formulário)
   
   var box = document.getElementById("inputUser");
@@ -7,6 +9,9 @@ document.getElementById("botao_send").addEventListener("click", function(event){
     var boxEmpty = document.getElementById("boxEmpty");
     boxEmpty.innerText = "Digite algo para enviar!";
   }else{
+    userSend();
+    botao_send.disable = true;
+    botao_send.style.background = "#5aff63";
     onLoadCont();
     setTimeout(function(){
       enviarFormulario();
@@ -27,6 +32,7 @@ document.getElementById("botao_send").addEventListener("click", function(event){
           var boxEmpty = document.getElementById("boxEmpty");
           boxEmpty.innerText = "Digite algo para enviar!";
         }else{
+          userSend();
           onLoadCont();
           setTimeout(function(){
             enviarFormulario();
@@ -46,5 +52,9 @@ function onLoadCont() {
 function enviarFormulario() {
   var form = document.getElementById("formIA");
   form.submit();
+}
+function userSend() {
+  var audio = new Audio("../../audio/user_send.mp3");
+  audio.play();
 }
   

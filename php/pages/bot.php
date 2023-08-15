@@ -53,7 +53,8 @@
        
         <section id="sec01" class="container-fluid">
             <?php 
-            
+
+                
                 require_once '../../vendor/autoload.php';
                 include_once('../includes/api/api.php');
 
@@ -73,7 +74,17 @@
                     'temperature' => 0.1,
                 ]);
                 $paragrafo = explode("\n", $result['choices'][0]['text']);
-                $resposta = ''; 
+                $resposta = '';
+                echo '<script>
+                        
+                        function botResponse() {
+                            var audio = new Audio("../../audio/bot_response.mp3");
+                            audio.play();
+                        }
+                
+                        
+                        window.onload = botResponse();
+                    </script>';
                 echo '<div id="container01" class="container-fluid">
                         <div class="borderClient">';
                      echo '<div class="row rowClient d-flex">
@@ -429,25 +440,6 @@
 
     // Chame a função quando necessário (por exemplo, no evento 'input')
     autoResize();
-  </script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    const inputBox = document.getElementById("inputUser");
-    
-    messageInput.addEventListener("keydown", function(event) {
-        if (event.key === "Enter" && event.shiftKey) {
-        // Insere uma quebra de linha no campo de texto
-        const startPos = this.selectionStart;
-        const endPos = this.selectionEnd;
-        const value = this.value;
-        this.value = value.substring(0, startPos) + "\n" + value.substring(endPos);
-        this.selectionStart = this.selectionEnd = startPos + 1;
-        event.preventDefault();
-        }
-    });
-    });
-
   </script>
 
 
