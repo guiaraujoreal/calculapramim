@@ -82,8 +82,16 @@ aside{
     width: 15em;
     height: auto;
 }
-
-
-
-
-
+.sub-title{
+    margin-bottom: 20px;
+}
+.video_proj{
+    width: 20vw;
+    max-width: 700px;
+    border-radius: 5px;
+}
+.divVideo{
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden
+}

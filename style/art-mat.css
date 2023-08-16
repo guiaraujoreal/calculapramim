@@ -13,6 +13,12 @@ a{
 .txt-title01{
     font-size: clamp(2em,4vw,3em);;
 }
+.titulo_page{
+    font-size: clamp(2em,4vw,3em);
+}
+.sub-title{
+    margin-bottom: 20px;
+}
 #sec02{
     margin-top: 50px;
 }

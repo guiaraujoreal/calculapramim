@@ -21,14 +21,14 @@
                 <p class="sub_text_flogo">Conteúdo</p>
                 <p class="text_link"><a href="../pages/bot.php">#Converse com nossa I.A</a></p>
                 <p class="text_link"><a href="../pages/art-mat.php">#Artigos matemáticos</a></p>
-                <p class="text_link"><a href="#">#A tecnologia e a educação</a></p>
+                <p class="text_link"><a href="../pages/404_page.php">#A tecnologia e a educação</a></p>
         </div>
         <div class="col col_ftext">
                 <p class="sub_text_flogo">Credenciais</p>
-                <p class="text_link"><a href="#">#Quem somos nós?</a></p>
-                <p class="text_link"><a href="#">#Nosso objetivo</a></p>
-                <p class="text_link"><a href="#">#Sobre a I.A</a></p>
-                <p class="text_link"><a href="#">#Credenciais e uso de dados</a></p>
+                <p class="text_link"><a href="../pages/404_page.php">#Quem somos nós?</a></p>
+                <p class="text_link"><a href="../pages/404_page.php">#Nosso objetivo</a></p>
+                <p class="text_link"><a href="../pages/404_page.php">#Sobre a I.A</a></p>
+                <p class="text_link"><a href="../pages/404_page.php">#Credenciais e uso de dados</a></p>
         </div>
     </div>
     

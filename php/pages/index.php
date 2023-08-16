@@ -53,7 +53,7 @@
               <div class="carousel-caption text-start">
                 <h1 class="txt-slide"><b>Bem-vindo ao MathLearn!</b></h1>
                 <p class="subtxt-slide">Somos uma equipe de alunos buscando inovar a educação de forma prática e inclusiva.</p>
-                <p><a class="btn btn-lg btn-primary" href="con_proj.php">Conheça o projeto</a></p>
+                <p><a class="btn btn-lg btn-primary" href="conhecaProj.php">Conheça o projeto</a></p>
               </div>
             </div>
           </div>
