@@ -62,7 +62,7 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1 class="txt-slide"><b>A Inteligência Artificial em prol da educação.</b></h1>
-                <p class="subtxt-slide">Resolva cálculos e perguntas usando nossa Inteligência Artificial!</p>
+                <p class="subtxt-slide">Solucione questões e perguntas usando nossa Inteligência Artificial!</p>
                 <p><a class="btn btn-lg btn-dark" href="bot.php">Conhecê-la</a></p>
               </div>
             </div>
@@ -101,7 +101,7 @@
               <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1 text_card">Você pergunta, <span class="animated"></span></h2>
                 <p class="lead text_card">Nossa Inteligência Artificial pode ajudar você a sanar várias questões matemáticas, elaborando
-                  métodos eficazes e economizando seu tempo na hora de resolver uma expressão matemática complexa. Venha conhecer!
+                  métodos eficazes e economizando seu tempo na hora de resolver uma expressão matemática. Venha conhecer!
                 </p>
               </div>
               <div class="col-md-5">
