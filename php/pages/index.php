@@ -102,6 +102,7 @@
                 <h2 class="featurette-heading fw-normal lh-1 text_card">Você pergunta, <span class="animated"></span></h2>
                 <p class="lead text_card">Nossa Inteligência Artificial pode ajudar você a sanar várias questões matemáticas, elaborando
                   métodos eficazes e economizando seu tempo na hora de resolver uma expressão matemática. Venha conhecer!
+                  <br><br>*Obs: consulte as informações sobre veracidade da I.A  <a href="#">aqui</a>.
                 </p>
               </div>
               <div class="col-md-5">
