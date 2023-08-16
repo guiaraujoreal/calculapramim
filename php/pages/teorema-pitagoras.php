@@ -110,6 +110,9 @@ Além disso, o Teorema de Pitágoras tem aplicações em diversas áreas, como a
             <div class="btn_yt d-flex justify-content-center">
               <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=teorema+de+pitagoras" target="_blank">Vamos para o YouTube!</a>
             </div>
+            <div class="d-flex justify-content-center" style="padding-top: 5px" >
+                <p style="font-size: 15px">*Ao clicar, o Youtube filtrará todos os videos deste contéudo.</p>
+              </div>
 
           </section>
 

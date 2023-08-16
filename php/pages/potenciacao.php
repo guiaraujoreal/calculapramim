@@ -109,6 +109,9 @@
             <div class="btn_yt d-flex justify-content-center">
               <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=potencia%C3%A7%C3%A3o" target="_blank">Vamos para o YouTube!</a>
             </div>
+            <div class="d-flex justify-content-center" style="padding-top: 5px" >
+                <p style="font-size: 15px">*Ao clicar, o Youtube filtrará todos os videos deste conteúdo.</p>
+              </div>
 
           </section>
 
