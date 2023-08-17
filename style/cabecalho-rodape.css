@@ -653,9 +653,13 @@ footer{
   
 }
 #animate_over{
+  width: 300px;
+  height: 300px;
+}
+#animateAM{
   width: 250px;
   height: 250px;
-  padding-bottom: 70px
+  margin-bottom: 70px;
 }
 .text_load{
   font-size: 25px;
@@ -672,7 +676,7 @@ footer{
   #overlay{
     padding-top: 0;
   }
-  #animate_over{
+  #animate_over, #animateAM{
     width: 200px;
     height: 200px;
     font-size: 15px;
