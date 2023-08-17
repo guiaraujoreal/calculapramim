@@ -653,8 +653,9 @@ footer{
   
 }
 #animate_over{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+  padding-bottom: 70px
 }
 .text_load{
   font-size: 25px;
