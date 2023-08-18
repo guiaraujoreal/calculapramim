@@ -36,12 +36,14 @@
     <main>
 
         <div id="overlay" class="container-fluid">
-        <div class="body_load d-flex justify-content-center">
+        <div class="alignRow d-flex justify-content-center">
+            <div class="body_load d-flex justify-content-center">
             <div id="animate_over" class="row d-flex justify-content-around justify-content-center">
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player src="https://lottie.host/8e751e9d-8c15-4cc3-a198-139e32221793/7jS51vm0Zo.json" background="#ffffff00" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
             <div class="row d-flex justify-content-around justify-content-center w-100">
                 <b><span class="text_load col-md-12 col-lg-12 d-flex justify-content-center" style="color: white"></span></b>
+            </div>
             </div>
             </div>
         </div>
