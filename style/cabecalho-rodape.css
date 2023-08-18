@@ -656,10 +656,15 @@ footer{
   width: 300px;
   height: 300px;
 }
+.animate{
+  padding-bottom: 70px;
+}
 #animateAM{
   width: 250px;
   height: 250px;
-  margin-bottom: 70px;
+}
+.body_load{
+  width: 90%;
 }
 .text_load{
   font-size: 25px;
@@ -681,6 +686,9 @@ footer{
     height: 200px;
     font-size: 15px;
   }
+  .body_load{
+    width: 97%;
+  }
   
 }
 @media(max-width:350px){
@@ -688,5 +696,8 @@ footer{
     width: 200px;
     height: 200px;
     font-size: 15px;
+  }
+  .body_load{
+    width: 100%;
   }
 }
