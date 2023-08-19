@@ -1,18 +1,25 @@
 const express = require('express');
-const path = require('path');
+const bodyParser = require('body-parser');
 const WolframAlphaAPI = require('wolfram-alpha-api');
 
 const app = express();
 const port = 3000;
 
 const waApi = WolframAlphaAPI('R73LK6-787HQYGX78');
-app.get('/', (req, res) => {
-    waApi.getSimple('2x-30=6').then((url) => {
-        console.log(url);
-    }).catch((error) => {
-        console.error(error);
-        res.send('Erro ao obter a imagem da API.');
-    });
+
+app.use('/', express.static('php/node'));
+app.use(bodyParser.json());
+
+app.post('/ask', async (req, res) => {
+    const question = req.body.question;
+
+    try {
+        const queryResult = await waApi.getSimple(question);
+        res.json({ imageUrl: queryResult });
+    } catch (error) {
+        console.error('Erro na API do Wolfram Alpha:', error);
+        res.status(500).json({ error: 'Erro ao obter resposta da API' });
+    }
 });
 
 app.listen(port, () => {
