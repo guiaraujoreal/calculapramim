@@ -7,25 +7,6 @@ const port = 3000;
 
 const waApi = WolframAlphaAPI('R73LK6-787HQYGX78');
 app.get('/', (req, res) => {
-  res.send(`
-      <!DOCTYPE html>
-      <html>
-      <head>
-          <title>Consulta Wolfram Alpha</title>
-      </head>
-      <body>
-          <h1>Consultar Wolfram Alpha</h1>
-          <form action="/query" method="post">
-              <label for="query">Digite sua pergunta:</label>
-              <input type="text" id="query" name="query" required>
-              <button type="submit">Enviar</button>
-          </form>
-      </body>
-      </html>
-  `);
-});
-
-app.get('/', (req, res) => {
     waApi.getSimple('2x-30=6').then((url) => {
         res.send(`
             <!DOCTYPE html>
