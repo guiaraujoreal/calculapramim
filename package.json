@@ -2,13 +2,17 @@
   "name": "math-learn",
   "version": "1.0.0",
   "description": "",
-  "main": "js/node/app.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joao Guilherme",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "puppeteer": "^21.1.0",
+    "querystring": "^0.2.1",
     "wolfram-alpha-api": "^0.2.1"
   }
 }
