@@ -11,6 +11,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "https": "^1.0.0",
+    "php-express": "^0.0.3",
     "puppeteer": "^21.1.0",
     "querystring": "^0.2.1",
     "wolfram-alpha-api": "^0.2.1"
