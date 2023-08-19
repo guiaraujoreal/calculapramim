@@ -14,12 +14,19 @@ app.use(express.static(path.join(__dirname)));
 
 app.use(express.urlencoded({ extended: true }));
 
+//index
 app.get('/', (req, res) => {
     res.render('php/pages/index');
 });
 
-app.get('/artigos', (req, res) => {
-    res.render('art-mat');
+//bot
+app.get('/bot.php', (req, res) => {
+    res.render('php/pages/bot');
+});
+
+//conhecaProj
+app.get('/conhecaProj', (req, res) => {
+    res.render('php/pages/conhecaProj');
 });
 
 app.listen(port, () => {
