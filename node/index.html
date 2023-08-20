@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <link rel="shortcut icon" href="../imgs/ico.png" type="image/x-icon">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style/themes/tema-escuro.css"  id="estilo-tema">
+    
+    <!-- Custom styles for this template -->
+    <link href="../style/pages_artigos.css" rel="stylesheet">
+    <link href="../style/step.css" rel="stylesheet">
+
+    <title>MathLearn | Fração</title>
+  </head>
+
+  <body>
+
+    <header id="header" ></header>
+    
+    <section id="sec00" class="container-fluid" >
+
+        <form id="question-form">
+            <input type="text" id="question-input" placeholder="Digite sua pergunta">
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="image-container"></div>
+    </section>
+
+      <footer id="footer" ></footer>
+
+      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="../js/menu_responsivo.js"></script>
+      <script src="../js/functions.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+      <script>
+        function alternarTema() {
+        var estiloTema = document.getElementById("estilo-tema");
+        if (estiloTema.getAttribute("href") === "../style/theme/tema-escuro.css") {
+            estiloTema.setAttribute("href", "../style/theme/tema-claro.css");
+        } else {
+            estiloTema.setAttribute("href", "../style/theme/tema-escuro.css");
+        }
+            
+        document.body.classList.remove("../style/theme/tema-claro.css"); // Remova a classe "dark-theme" do body para retornar ao tema claro
+        }
+      </script>
+      <script>
+        //cabecalho
+        fetch('../php/includes/cabecalho.php')
+        .then(response => response.text())
+        .then(content => {
+            document.querySelector('#header').innerHTML = content;
+        })
+        .catch(error => {
+            console.error('Erro ao carregar conteúdo:', error);
+        });
+
+        //rodape
+        fetch('../php/includes/rodape.php')
+        .then(response => response.text())
+        .then(content => {
+            document.querySelector('#footer').innerHTML = content;
+        })
+        .catch(error => {
+            console.error('Erro ao carregar conteúdo:', error);
+        });
+      </script>
+
+    <script>
+        const form = document.getElementById('question-form');
+        const questionInput = document.getElementById('question-input');
+        const imageContainer = document.getElementById('image-container');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const question = questionInput.value;
+
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ question })
+                });
+
+                const data = await response.json();
+                const imageUrl = data.imageUrl;
+
+                // Exibir a imagem abaixo do formulário
+                const image = document.createElement('img');
+                image.src = imageUrl;
+                imageContainer.innerHTML = '';
+                imageContainer.appendChild(image);
+            } catch (error) {
+                console.error('Erro ao enviar pergunta:', error);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -7,7 +7,16 @@ const port = 3000;
 
 const waApi = WolframAlphaAPI('R73LK6-787HQYGX78');
 
-app.use('/', express.static('php/node'));
+app.use(express.static(__dirname));
+
+app.use(express.static('style', {
+    setHeaders: (res, path) => {
+        if (path.endsWith('.css')) {
+            res.setHeader('Content-Type', 'text/css');
+        }
+    }
+}));
+
 app.use(bodyParser.json());
 
 app.post('/ask', async (req, res) => {

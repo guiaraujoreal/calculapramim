@@ -1,0 +1,9 @@
+/*Referencia ao arquivo node/index.html*/
+
+#sec00{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+#image-container img{
+    border-radius: 5px;
+}
