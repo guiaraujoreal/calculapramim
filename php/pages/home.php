@@ -2,10 +2,9 @@
 <html lang="pt" data-bs-theme="auto">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Este é o MathLearn - um site educativo que mescla a tecnologia aliada a educação básica">
+    <meta name="description" content="Este é o MathLearn - um site educativo que mescla a tecnologia aliada a educação básica">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../../style/index.css" media="screen" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +25,7 @@
     <link rel="stylesheet" href="../../style/themes/tema-escuro_index.css"  id="estilo-tema">
     
     <!-- Custom styles for this template -->
-    <link href="../../style/index.css" rel="stylesheet">
+    <link href="../../style/home.css" rel="stylesheet">
 
     <title>Bem-vindo ao MathLearn!</title>
   </head>
@@ -87,6 +86,14 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="container-fluid">
+        <div class="row">
+        <div class="d-flex justify-content-center">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/a251cb5e-5922-406c-84f4-40efa33a4cff/uVGshkK6yA.json" background="transparent" speed="1" style="width: 200px; height: 70px" direction="1" mode="normal" loop autoplay></lottie-player>
+        </div>
+      </div>
+      </div>
+      
     </section>
 
 
