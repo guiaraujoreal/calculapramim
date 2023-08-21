@@ -1,39 +1,45 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const WolframAlphaAPI = require('wolfram-alpha-api');
+const request = require('axios');
 
-const app = express();
-const port = 3000;
 
-const waApi = WolframAlphaAPI('R73LK6-787HQYGX78');
+// Substitua 'YOUR_APP_ID' pelo seu ID de aplicativo da Wolfram Alpha
+const app_id = 'R73LK6-787HQYGX78';
 
-app.use(express.static(__dirname));
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/node/index.html');
-});
-app.get('/big', (req, res) => {
-    //versao de dev
-    
-    // res.redirect('http://localhost:80/sites/math-learn/php/pages/index.php');
-    //versao de producao
-    res.redirect('https://www.mathlearn.com.br');
-    
-});
+// Consulta que você deseja realizar
+const query = "2x=38";
 
-app.use(bodyParser.json());
+// Parâmetros da consulta
+const params = {
+    input: query,
+    format: 'plaintext',  // Formato de resposta em texto
+    output: 'JSON',       // Formato de saída em JSON
+    appid: app_id,
+    podstate: 'Step-by-step solution'  // Solicita o passo a passo
+};
 
-app.post('/ask', async (req, res) => {
-    const question = req.body.question;
+// URL da API da Wolfram Alpha
+const url = 'http://api.wolframalpha.com/v2/query';
 
-    try {
-        const queryResult = await waApi.getSimple(question);
-        res.json({ imageUrl: queryResult });
-    } catch (error) {
-        console.error('Erro na API do Wolfram Alpha:', error);
-        res.status(500).json({ error: 'Erro ao obter resposta da API' });
+// Fazendo a solicitação GET para a API
+request({ url: url, qs: params }, (error, response, body) => {
+    if (!error && response.statusCode === 200) {
+        const data = JSON.parse(body);
+        if (data.queryresult.success === 'true') {
+            // Itera sobre os pods (seções) da resposta
+            for (const pod of data.queryresult.pods) {
+                if (pod.title === 'Step-by-step solution') {
+                    // Imprime o passo a passo do cálculo
+                    for (const subpod of pod.subpods) {
+                        console.log(subpod.plaintext);
+                    }
+                }
+            }
+        } else {
+            console.log("Consulta sem sucesso.");
+        }
+    } else {
+        console.log("Erro na solicitação:", error);
     }
 });
-
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
 });
