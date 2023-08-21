@@ -29,10 +29,16 @@ a{
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.455);
     cursor: pointer;
     margin-left: none;
+    color: white;
 
     animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; /* don't forget to set a duration! */
     --animate-delay: 3s;
+}
+.card:hover{
+    background-color: rgb(255, 244, 221);
+    color: black;
+    transition: ease 0.5s;
 }
 @media(max-width: 850px){
     .card{
@@ -42,9 +48,6 @@ a{
 .img-card{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-.txtCard{
-    color: white;
 }
 @media(max-width:350px){
     .img-card{
@@ -66,4 +69,8 @@ a{
 }
 .titleCard{
     font-size: clamp(25px,2vw,30px);
+}
+.logoOpenai{
+    width: 200px;
+    height: auto;
 }

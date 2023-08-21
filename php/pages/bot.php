@@ -149,6 +149,13 @@
             </form>
         </section>
 
+        <section id="sec4" class="copyrightEnterprise container-fluid d-flex justify-content-center" >
+            <div class="columnCopy d-flex justify-content-center flex-column">
+                <p class="textCopy">Com a tecnologia de</p>
+                <img src="../../imgs/logoOpenai.jpg" alt="logo openai" class="logo_openai">
+            </div>
+        </section>
+
         <section>
             <div id="container03" class="container">
                 <div id="title_infos" class="d-flex justify-content-center">Tire dúvidas sobre a I.A👇</div>

@@ -22,7 +22,7 @@ body{
 }
 .img{
     min-width: 300px;
-    animation: jackInTheBox;
+    animation: fadeInUp;
     animation-duration: 2s;
 }
 #overlayWhite{

@@ -437,7 +437,15 @@ html,body{
     color: yellow;
     text-decoration: underline;
 }
-
+#sec4{
+    margin-top: 90px;
+    color: white;
+}
+.logo_openai{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
 
 
 
