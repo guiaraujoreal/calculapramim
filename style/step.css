@@ -1,9 +1,77 @@
 /*Referencia ao arquivo node/index.html*/
-
-#sec00{
-    margin-top: 10vw;
-    margin-bottom: 10vw;
+#sec1{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 85%;
 }
-#image-container img{
-    border-radius: 5px;
+#question-form{
+    width: 100%;
+    background-color: rgb(26, 24, 35);
+    border-radius: 10px;
+    padding: 40px 0 50px 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+#question-input{
+    width: 85%;
+    background-color: rgb(37, 36, 51);
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+#question-input:focus{
+    outline: 1px solid rgb(45, 143, 255);
+}
+.rowInput{
+    margin-bottom: 20px;
+}
+.btnSend{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.textForm{
+    text-align: center;
+    font-size: clamp(20px,3vw,50px)
+}
+.subtextForm{
+    text-align: center;
+    font-size: clamp(15px,2.5vw,40px)
+}
+#sec2{
+    width: 85%;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 0 50px 0 50px;
+    background-color: rgb(26, 24, 35);
+    border-radius: 10px;
+    padding: 40px 0 50px 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.image-container img{
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 350px;
+    width: 80%;
+    background-color: rgb(26, 24, 35);
+}
+@media(max-width: 600px){
+    #sec1, #sec2{
+        width: 97%;
+    }
+    .image-container{
+        width: 95%;
+    }
+}
+#sec3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo_wolfram{
+    width: 200px;
+    height: auto;
+}
+.textCopy{
+    text-align: center;
 }
