@@ -63,7 +63,7 @@
               <div class="carousel-caption">
                 <h1 class="txt-slide"><b>A Inteligência Artificial em prol da educação.</b></h1>
                 <p class="subtxt-slide">Solucione questões e perguntas usando nossas Inteligência Artificiais!</p>
-                <p><a class="btn btn-lg btn-dark" href="bot.php">Conhecê-las</a></p>
+                <p><a class="btn btn-lg btn-dark" href="ias.php">Conhecê-las</a></p>
               </div>
             </div>
           </div>
