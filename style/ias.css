@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+}
+.featurette-divider {
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+    width: 90%;
+  }
+
+#sec01{
+    margin-top: 20vh;
+    text-align: center;
+}
+.txt-title01{
+    font-size: clamp(2em,4vw,3em);;
+}
+.titulo_page{
+    font-size: clamp(2em,4vw,3em);
+}
+.sub-title{
+    margin-bottom: 20px;
+}
+#sec02{
+    margin-top: 50px;
+    margin-bottom: 10vw;
+}
+.card{
+    background-color: rgb(26, 24, 35);
+    border-radius: 10px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.455);
+    cursor: pointer;
+    margin-left: none;
+
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    --animate-delay: 3s;
+}
+@media(max-width: 850px){
+    .card{
+        margin-left: 10vw;
+    }
+}
+.img-card{
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.txtCard{
+    color: white;
+}
+@media(max-width:350px){
+    .img-card{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: none;
+    }
+    .txtCard{
+        text-align: center;
+    }
+}
+
+.card-1{
+    margin-right: 3vw;
+    margin-bottom: 20px;
+}
+.titleCard{
+    font-size: clamp(25px,2vw,30px);
+}
