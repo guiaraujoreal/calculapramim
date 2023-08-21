@@ -6,6 +6,7 @@ document.getElementById("botao_send").addEventListener("click", function(event){
   if(box.value.trim() === ""){
     var boxEmpty = document.getElementById("boxEmpty");
     boxEmpty.innerText = "Digite algo para enviar!";
+    box.style.border = "1px solid red";
   }else{
     onLoadCont();
     setTimeout(function(){
