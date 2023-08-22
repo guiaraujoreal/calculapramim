@@ -6,9 +6,10 @@ const app = express();
 const port = 3000;
 
 const waApi = WolframAlphaAPI('R73LK6-787HQYGX78');
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'node/index.html'));
+    res.sendFile(path.join(__dirname, 'public/node/index.html'));
 });
 
 app.use(express.json());
@@ -42,6 +43,7 @@ app.post('/ask', async (req, res) => {
         res.status(500).json({ error: 'Erro ao processar pergunta' });
     }
 });
+
 
 
 
