@@ -46,10 +46,11 @@
                 <p class="subtextForm">Veja o passo a passo de expressões matemáticas</p>
             </div>
             <div class="row d-flex justify-content-center w-100 rowInput">
-                <input type="text" id="question-input" placeholder="Digite sua pergunta">
+                <input type="text" id="question-input" placeholder="Digite sua pergunta" required>
+                <div id="boxEmpty" style="text-align: center;"></div>
             </div>
             <div class="row d-flex justify-content-center w-100 rowButton">
-                <button class="btn btn-success btnSend" type="submit">Enviar</button>
+                <button id="btnSend" class="btn btn-success btnSend" type="submit">Enviar</button>
             </div>
         </form>
     </section>
@@ -62,7 +63,7 @@
             <!--<div class="row d-flex justify-content-center image-container">
                 <img src="../baixados.gif" alt="">
             </div>-->
-            <div id="image-container" class="image-container d-flex justify-content-center"></div>
+            <div id="image-container" class="image-container d-flex justify-content-center flex-column"></div>
         </div>
             
         </div>
@@ -97,6 +98,7 @@
         document.body.classList.remove("../style/theme/tema-claro.css"); // Remova a classe "dark-theme" do body para retornar ao tema claro
         }
       </script>
+      
       <script>
         //cabecalho
         fetch('../php/includes/cabecalho.php')
@@ -119,7 +121,64 @@
         });
       </script>
 
-    <script>
+<script>
+    const form = document.getElementById('question-form');
+    const questionInput = document.getElementById('question-input');
+    const responseContainer = document.getElementById('image-container');
+    const section2 = document.getElementById('sec2');
+    const btnSend = document.getElementById('btnSend');
+
+    // Definir a função que lida com o envio do formulário
+    function handleFormSubmit(e) {
+        e.preventDefault();
+
+        const question = questionInput.value;
+
+        try {
+            fetch('/ask', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ question })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const responseHTML = data.responseHTML;
+                responseContainer.innerHTML = responseHTML;
+                section2.style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Erro ao enviar pergunta:', error);
+            });
+        } catch (error) {
+            console.error('Erro ao enviar pergunta:', error);
+        }
+    }
+
+    // Adicionar o ouvinte para o evento submit do formulário
+    form.addEventListener('submit', handleFormSubmit);
+
+    // Adicionar o ouvinte para o evento click do botão
+    btnSend.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        if (questionInput.value.trim() === "") {
+            var boxEmpty = document.getElementById("boxEmpty");
+            boxEmpty.innerText = "Digite algo para enviar!";
+            questionInput.style.border = "1px solid red";
+        } else {
+            // Invocar a função de envio do formulário
+            questionInput.style.border = "none";
+            handleFormSubmit(event);
+        }
+    });
+
+    
+    
+</script>
+
+    <!--<script>
         const form = document.getElementById('question-form');
         const questionInput = document.getElementById('question-input');
         const imageContainer = document.getElementById('image-container');
@@ -150,6 +209,6 @@
                 console.error('Erro ao enviar pergunta:', error);
             }
         });
-    </script>
+    </script>-->
 </body>
 </html>

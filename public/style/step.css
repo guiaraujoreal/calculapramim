@@ -40,6 +40,7 @@
     font-size: clamp(15px,2.5vw,40px)
 }
 #sec2{
+    display: none;
     width: 85%;
     height: auto;
     margin-bottom: 30px;
@@ -50,17 +51,19 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .image-container img{
-    border-radius: 10px;
-    max-width: 600px;
-    min-width: 350px;
-    width: 80%;
+    border-radius: 3px;
+    max-width: 400px;
+    min-width: 200px;
+    width: 40%;
     background-color: rgb(26, 24, 35);
+    text-align: center;
+    margin-bottom: 20px;
 }
-@media(max-width: 600px){
+@media(max-width: 700px){
     #sec1, #sec2{
         width: 97%;
     }
-    .image-container{
+    .image-container img{
         width: 95%;
     }
 }
