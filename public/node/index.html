@@ -88,15 +88,16 @@
 
       <script>
         function alternarTema() {
-        var estiloTema = document.getElementById("estilo-tema");
-        if (estiloTema.getAttribute("href") === "../style/theme/tema-escuro.css") {
-            estiloTema.setAttribute("href", "../style/theme/tema-claro.css");
-        } else {
-            estiloTema.setAttribute("href", "../style/theme/tema-escuro.css");
-        }
-            
-        document.body.classList.remove("../style/theme/tema-claro.css"); // Remova a classe "dark-theme" do body para retornar ao tema claro
-        }
+    var estiloTema = document.getElementById("estilo-tema");
+    if (estiloTema.getAttribute("href") === "../style/themes/tema-escuro.css") {
+        estiloTema.setAttribute("href", "../style/themes/tema-claro.css");
+        document.body.classList.remove("dark-theme");
+    } else {
+        estiloTema.setAttribute("href", "../style/themes/tema-escuro.css");
+        document.body.classList.add("dark-theme");
+    }
+}
+
       </script>
       
       <script>
@@ -178,37 +179,5 @@
     
 </script>
 
-    <!--<script>
-        const form = document.getElementById('question-form');
-        const questionInput = document.getElementById('question-input');
-        const imageContainer = document.getElementById('image-container');
-
-        form.addEventListener('submit', async (e) => {
-            e.preventDefault();
-
-            const question = questionInput.value;
-
-            try {
-                const response = await fetch('/ask', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ question })
-                });
-
-                const data = await response.json();
-                const imageUrl = data.imageUrl;
-
-                // Exibir a imagem abaixo do formulário
-                const image = document.createElement('img');
-                image.src = imageUrl;
-                imageContainer.innerHTML = '';
-                imageContainer.appendChild(image);
-            } catch (error) {
-                console.error('Erro ao enviar pergunta:', error);
-            }
-        });
-    </script>-->
 </body>
 </html>
