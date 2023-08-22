@@ -8,6 +8,17 @@ const port = 3000;
 const waApi = WolframAlphaAPI('R73LK6-787HQYGX78');
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/includes/cabecalhoNode.html', (req, res) => {
+    const filename = req.params.filename;
+    res.sendFile(path.join(__dirname, 'public', 'node', 'includes', 'cabecalhoNode.html'));
+});
+app.get('/includes/rodapeNode.html', (req, res) => {
+    const filename = req.params.filename;
+    res.sendFile(path.join(__dirname, 'public', 'node', 'includes', 'rodapeNode.html'));
+});
+
+
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/node/index.html'));
 });

@@ -60,7 +60,7 @@
             </div>
           </div>
         </div>
-        <div class="col-5 card d-flex justify-content-center"  onclick="window.location.href='404_page.php'">
+        <div class="col-5 card d-flex justify-content-center"  onclick="window.location.href='https://edu.mathlearn.com.br/'">
           <div class="row rowBodyCards d-flex justify-content-center flex">
             <div class="col-4 img-card img-card-2 d-flex justify-content-center align-items-center card-2"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/9d36a6b4-45da-4211-9553-fe4fc8ae3ff6/ypi7X6u8Mi.json" background="#FFFFFF00" speed="1" style="width: 100px; height: 100px" direction="1" mode="normal" autoplay></lottie-player>
             </div>

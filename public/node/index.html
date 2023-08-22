@@ -101,7 +101,7 @@
       
       <script>
         //cabecalho
-        fetch('../php/includes/cabecalho.php')
+        fetch('includes/cabecalhoNode.html')
         .then(response => response.text())
         .then(content => {
             document.querySelector('#header').innerHTML = content;
@@ -111,7 +111,7 @@
         });
 
         //rodape
-        fetch('../php/includes/rodape.php')
+        fetch('includes/rodapeNode.html')
         .then(response => response.text())
         .then(content => {
             document.querySelector('#footer').innerHTML = content;
