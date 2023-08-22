@@ -86,13 +86,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="container-fluid">
-        <div class="row">
-        <div class="d-flex justify-content-center">
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/a251cb5e-5922-406c-84f4-40efa33a4cff/uVGshkK6yA.json" background="transparent" speed="1" style="width: 200px; height: 70px" direction="1" mode="normal" loop autoplay></lottie-player>
-        </div>
-      </div>
-      </div>
       
     </section>
 

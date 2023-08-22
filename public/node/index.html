@@ -27,7 +27,7 @@
     <link href="../style/pages_artigos.css" rel="stylesheet">
     <link href="../style/step.css" rel="stylesheet">
 
-    <title>MathLearn | Fração</title>
+    <title>MathLearn | Gerador Calculacional</title>
   </head>
 
   <body>
@@ -39,18 +39,38 @@
     </section>
 
     <section id="sec1" class="container-fluid d-flex justify-content-center">
-
         <form id="question-form" class="d-flex flex-column">
             <div class="row d-flex justify-content-center w-100 row_textForm">
                 <p class="textForm"><b>Gerador calculacional</b></p>
-                <p class="subtextForm">Veja o passo a passo de expressões matemáticas</p>
             </div>
-            <div class="row d-flex justify-content-center w-100 rowInput">
-                <input type="text" id="question-input" placeholder="Digite sua pergunta" required>
-                <div id="boxEmpty" style="text-align: center;"></div>
+            <div id="divAnimation_load">
+                <div class="d-flex justify-content-center flex-column">
+                    <p class="subtextForm">Fazendo a mágica acontecer...</p>
+                    <div id="animate" class="d-flex justify-content-center">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player class="animateUr" src="https://lottie.host/744be997-e349-4209-bc02-3540ab53f5d9/sIgRMtUO4O.json" background="trasnparent" speed="1" direction="1" mode="normal" loop autoplay></lottie-player>
+                    </div>
+                </div>
             </div>
+            
+            
+            <div id="divInput">
+                <div class="row d-flex justify-content-center w-100 rowInput">
+                    <p class="subtextForm">Veja o passo a passo de expressões matemáticas</p>
+                    <input type="text" id="question-input" placeholder="Digite sua pergunta" required>
+                    <div id="boxEmpty" style="text-align: center;"></div>
+                </div>
+            </div>
+            
             <div class="row d-flex justify-content-center w-100 rowButton">
-                <button id="btnSend" class="btn btn-success btnSend" type="submit">Enviar</button>
+                <button id="btnSend" class="btn btn-success btnSend" type="submit">
+                    <div id="animBtn">
+                        <div class="d-flex justify-content-center">
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/88948e1e-e91b-4f6b-b213-3e7adbf21126/DNRDVzO8t6.json" background="transparent" speed="2" style="width: 50px; height: 50px" direction="1" mode="normal" loop autoplay></lottie-player>
+                        </div>
+                    </div>
+                    
+                    <p id="txtBtn">Enviar</p>
+                </button>
             </div>
         </form>
     </section>
@@ -128,6 +148,10 @@
     const responseContainer = document.getElementById('image-container');
     const section2 = document.getElementById('sec2');
     const btnSend = document.getElementById('btnSend');
+    const animBtn = document.getElementById('animBtn');
+    const txtBtn = document.getElementById('txtBtn');
+    const animation = document.getElementById('divAnimation_load');
+    const divInput = document.getElementById('divInput');
 
     // Definir a função que lida com o envio do formulário
     function handleFormSubmit(e) {
@@ -148,6 +172,13 @@
                 const responseHTML = data.responseHTML;
                 responseContainer.innerHTML = responseHTML;
                 section2.style.display = 'block';
+
+                animation.style.display = "none";
+                divInput.style.display = "block";
+
+                animBtn.style.display = "none";
+                txtBtn.style.display = "block";
+                btnSend.disabled = false;
             })
             .catch(error => {
                 console.error('Erro ao enviar pergunta:', error);
@@ -170,7 +201,12 @@
             questionInput.style.border = "1px solid red";
         } else {
             // Invocar a função de envio do formulário
+            divInput.style.display = "none";
+            animation.style.display = "block";
             questionInput.style.border = "none";
+            animBtn.style.display = "block";
+            txtBtn.style.display = "none";
+            btnSend.disabled = true;
             handleFormSubmit(event);
         }
     });

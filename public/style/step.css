@@ -1,7 +1,7 @@
 /*Referencia ao arquivo node/index.html*/
 #sec1{
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     width: 85%;
 }
 #question-form{
@@ -28,7 +28,7 @@
 }
 .btnSend{
     width: 200px;
-    height: 50px;
+    height: 60px;
     font-size: 20px;
 }
 .textForm{
@@ -79,4 +79,27 @@
 }
 .textCopy{
     text-align: center;
+}
+#divAnimation_load{
+    display: none;
+}
+.animateUr{
+    width: 300px;
+    height: 300px;
+}
+@media(max-width: 600px){
+    .animateUr{
+        width: 180px;
+        height: 180px;
+    }
+}
+#divInput{
+    display: block;
+}
+#txtBtn{
+    display: block;
+    margin-top: 8px;
+}
+#animBtn{
+    display: none;
 }
