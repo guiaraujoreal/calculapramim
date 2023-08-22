@@ -41,11 +41,11 @@
     <section id="sec1" class="container-fluid d-flex justify-content-center">
         <form id="question-form" class="d-flex flex-column">
             <div class="row d-flex justify-content-center w-100 row_textForm">
-                <p class="textForm"><b>Gerador calculacional</b></p>
+                <p id="textForm" class="textForm"><b>Gerador calculacional</b></p>
             </div>
             <div id="divAnimation_load">
                 <div class="d-flex justify-content-center flex-column">
-                    <p class="subtextForm">Fazendo a mágica acontecer...</p>
+                    <p class="textForm">Fazendo a mágica acontecer...</p>
                     <div id="animate" class="d-flex justify-content-center">
                         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player class="animateUr" src="https://lottie.host/744be997-e349-4209-bc02-3540ab53f5d9/sIgRMtUO4O.json" background="trasnparent" speed="1" direction="1" mode="normal" loop autoplay></lottie-player>
                     </div>
@@ -150,6 +150,7 @@
     const btnSend = document.getElementById('btnSend');
     const animBtn = document.getElementById('animBtn');
     const txtBtn = document.getElementById('txtBtn');
+    const textForm = document.getElementById('textForm');
     const animation = document.getElementById('divAnimation_load');
     const divInput = document.getElementById('divInput');
 
@@ -178,6 +179,7 @@
 
                 animBtn.style.display = "none";
                 txtBtn.style.display = "block";
+                textForm.style.display = "block";
                 btnSend.disabled = false;
             })
             .catch(error => {
@@ -206,6 +208,7 @@
             questionInput.style.border = "none";
             animBtn.style.display = "block";
             txtBtn.style.display = "none";
+            textForm.style.display = "none";
             btnSend.disabled = true;
             handleFormSubmit(event);
         }
