@@ -34,8 +34,10 @@
 
     <header id="header" ></header>
 
-    <section id="sec00">
-
+    <section id="overlayTouch">
+        <div class="d-flex justify-content-center align-items-center overlayContent">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/c050e704-7bbd-455d-9a35-38cf7af4af8c/4hYSiTCkKi.json" background="transparent" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></lottie-player>
+        </div>
     </section>
 
     <section id="sec1" class="container-fluid d-flex justify-content-center">
@@ -143,80 +145,87 @@
       </script>
 
 <script>
-    const form = document.getElementById('question-form');
-    const questionInput = document.getElementById('question-input');
-    const responseContainer = document.getElementById('image-container');
-    const section2 = document.getElementById('sec2');
-    const btnSend = document.getElementById('btnSend');
-    const animBtn = document.getElementById('animBtn');
-    const txtBtn = document.getElementById('txtBtn');
-    const textForm = document.getElementById('textForm');
-    const animation = document.getElementById('divAnimation_load');
-    const divInput = document.getElementById('divInput');
-
-    // Definir a função que lida com o envio do formulário
-    function handleFormSubmit(e) {
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('question-form');
+      const questionInput = document.getElementById('question-input');
+      const responseContainer = document.getElementById('image-container');
+      const section2 = document.getElementById('sec2');
+      const btnSend = document.getElementById('btnSend');
+      const animBtn = document.getElementById('animBtn');
+      const txtBtn = document.getElementById('txtBtn');
+      const textForm = document.getElementById('textForm');
+      const animation = document.getElementById('divAnimation_load');
+      const divInput = document.getElementById('divInput');
+      const overlay = document.getElementById('overlayTouch');
+  
+      function hideOverlay() {
+        overlay.style.display = 'none';
+      }
+  
+      overlay.addEventListener('touchstart', hideOverlay);
+      overlay.addEventListener('mousedown', hideOverlay);
+      document.addEventListener('scroll', function() {
+            hideOverlay();
+        });
+  
+      function handleFormSubmit(e) {
         e.preventDefault();
-
+  
         const question = questionInput.value;
-
+  
         try {
-            fetch('/ask', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ question })
-            })
-            .then(response => response.json())
-            .then(data => {
-                const responseHTML = data.responseHTML;
-                responseContainer.innerHTML = responseHTML;
-                section2.style.display = 'block';
-
-                animation.style.display = "none";
-                divInput.style.display = "block";
-
-                animBtn.style.display = "none";
-                txtBtn.style.display = "block";
-                textForm.style.display = "block";
-                btnSend.disabled = false;
-            })
-            .catch(error => {
-                console.error('Erro ao enviar pergunta:', error);
-            });
-        } catch (error) {
+          fetch('/ask', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ question })
+          })
+          .then(response => response.json())
+          .then(data => {
+            const responseHTML = data.responseHTML;
+            responseContainer.innerHTML = responseHTML;
+            section2.style.display = 'block';
+  
+            animation.style.display = 'none';
+            divInput.style.display = 'block';
+  
+            animBtn.style.display = 'none';
+            txtBtn.style.display = 'block';
+            textForm.style.display = 'block';
+            btnSend.disabled = false;
+            overlay.style.display = 'block';
+          })
+          .catch(error => {
             console.error('Erro ao enviar pergunta:', error);
+          });
+        } catch (error) {
+          console.error('Erro ao enviar pergunta:', error);
         }
-    }
-
-    // Adicionar o ouvinte para o evento submit do formulário
-    form.addEventListener('submit', handleFormSubmit);
-
-    // Adicionar o ouvinte para o evento click do botão
-    btnSend.addEventListener('click', function(event) {
+      }
+  
+      form.addEventListener('submit', handleFormSubmit);
+  
+      btnSend.addEventListener('click', function(event) {
         event.preventDefault();
-
-        if (questionInput.value.trim() === "") {
-            var boxEmpty = document.getElementById("boxEmpty");
-            boxEmpty.innerText = "Digite algo para enviar!";
-            questionInput.style.border = "1px solid red";
+  
+        if (questionInput.value.trim() === '') {
+          var boxEmpty = document.getElementById('boxEmpty');
+          boxEmpty.innerText = 'Digite algo para enviar!';
+          questionInput.style.border = '1px solid red';
         } else {
-            // Invocar a função de envio do formulário
-            divInput.style.display = "none";
-            animation.style.display = "block";
-            questionInput.style.border = "none";
-            animBtn.style.display = "block";
-            txtBtn.style.display = "none";
-            textForm.style.display = "none";
-            btnSend.disabled = true;
-            handleFormSubmit(event);
+          divInput.style.display = 'none';
+          animation.style.display = 'block';
+          questionInput.style.border = 'none';
+          animBtn.style.display = 'block';
+          txtBtn.style.display = 'none';
+          textForm.style.display = 'none';
+          btnSend.disabled = true;
+          handleFormSubmit(event);
         }
+      });
     });
-
-    
-    
-</script>
+  </script>
 
 </body>
 </html>
