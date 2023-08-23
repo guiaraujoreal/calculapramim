@@ -105,7 +105,10 @@
                 </div>
                 
             </div>
-            <div id="image-container" class="image-container d-flex justify-content-center flex-column"></div>
+            <div id="rowResponse">
+              <div id="image-container" class="image-container d-flex justify-content-center flex-column"></div>
+            </div>
+            
         </div>
             
         </div>
@@ -297,6 +300,7 @@
       const divInput = document.getElementById('divInput');
       const overlay = document.getElementById('overlayTouch');
       const errResponse = document.getElementById('errResponse');
+      const rowResponse = document.getElementById('rowResponse');
   
       function hideOverlay() {
         overlay.style.display = 'none';
@@ -327,8 +331,10 @@
             if (typeof responseHTML === 'undefined') {
               // Inserir a imagem na div
               errResponse.style.display = 'block';
+              rowResponse.style.display = 'none';
             }else{
               errResponse.style.display = 'none';
+              rowResponse.style.display = 'block';
               responseContainer.innerHTML = responseHTML;
             }
             section2.style.display = 'block';
