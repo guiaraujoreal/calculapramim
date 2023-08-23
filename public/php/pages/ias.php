@@ -56,7 +56,7 @@
             </div>
             <div class="col txtCard">
               <p class="titleCard">Bate-papo</p>
-              <p class="subtitleCard">Converse e interaja com nossa IA. Faça perguntas e muito mais.</p>
+              <p class="subtitleCard">Converse e interaja com nossa IA. Faça perguntas, peça explicações e muito mais.</p>
             </div>
           </div>
         </div>
@@ -65,8 +65,8 @@
             <div class="col-4 img-card img-card-2 d-flex justify-content-center align-items-center card-2"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/9d36a6b4-45da-4211-9553-fe4fc8ae3ff6/ypi7X6u8Mi.json" background="#FFFFFF00" speed="1" style="width: 100px; height: 100px" direction="1" mode="normal" autoplay></lottie-player>
             </div>
             <div class="col txtCard">
-              <p class="titleCard">Calculadora Passo a Passo</p>
-              <p class="subtitleCard">Resolva cálculos e veja o passo a passo dos mesmos.</p>
+              <p class="titleCard">Gerador Calculacional</p>
+              <p class="subtitleCard">Resolva cálculos, veja gráficos e o passo a passo de expressões.</p>
             </div>
           </div>
         </div>

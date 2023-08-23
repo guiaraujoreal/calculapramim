@@ -40,6 +40,19 @@
         </div>
     </section>
 
+    <section id="loadingPage">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <div class="d-flex justify-content-center align-items-center">
+          <div id="divAnimLoad" class="d-flex justify-content-center align-items-center flex-column">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+              <lottie-player class="animLoading" src="https://lottie.host/7fe0a4a3-4c2f-48e2-8a82-968c543e7394/Rg07WxpChX.json" background="transparent" speed="1" loop autoplay></lottie-player>
+              <p id="txtLoading"><b>Carregando seu conteúdo...</b></p>
+            </div>
+        </div>
+      </div>
+      
+    </section>
+
     <section id="sec1" class="container-fluid d-flex justify-content-center">
         <form id="question-form" class="d-flex flex-column">
             <div class="row d-flex justify-content-center w-100 row_textForm">
@@ -58,7 +71,7 @@
             <div id="divInput">
                 <div class="row d-flex justify-content-center w-100 rowInput">
                     <p class="subtextForm">Veja o passo a passo de expressões matemáticas</p>
-                    <input type="text" id="question-input" placeholder="Digite sua pergunta" required>
+                    <input type="text" id="question-input" placeholder="Digite apenas expressões matemáticas" required>
                     <div id="boxEmpty" style="text-align: center;"></div>
                 </div>
             </div>
@@ -81,15 +94,132 @@
         <div id="resultAPI" class="resultAPI d-flex justify-content-center w-100 flex-column">
             <div class="row d-flex justify-content-center w-100 row_textForm">
                 <p class="textForm"><b>Resposta:</b></p>
+
+                <div id="errResponse">
+                  <div class="d-flex justify-content-center flex-column">
+                    <div class="rowimgErr d-flex justify-content-center">
+                      <img id="iconErrResponse" class="img-fluid" src="../imgs/img_dontUnderstand.svg" alt="icone erro de resposta">
+                    </div>
+                    <p class="subtextForm">Eu não entendi a sua dúvida.</p>
+                  </div>
+                </div>
+                
             </div>
-            <!--<div class="row d-flex justify-content-center image-container">
-                <img src="../baixados.gif" alt="">
-            </div>-->
             <div id="image-container" class="image-container d-flex justify-content-center flex-column"></div>
         </div>
             
         </div>
         
+    </section>
+
+    <section>
+      <div id="container03" class="container">
+          <div id="title_infos" class="d-flex justify-content-center">Tire dúvidas sobre esta I.A👇</div>
+          <div class="accordion" id="accordionExample">
+              <div class="card">
+                  <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      <p class="title_card">> 01. O que significa "I.A"?</p>
+                      </button>
+                  </h5>
+                  </div>
+
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                      "I.A" é a abreviação de <b>Inteligência Artificial</b>. A Inteligência Artificial é um mecanismo artificial onde um meio digital/virtual atua com comportamentos
+                      semelhantes aos dos humanos. <a class="link_card" href="#"> Clique aqui</a> para saber mais sobre as I.As usadas pelo MathLearn. 
+                  </div>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <p class="title_card">> 02. O que posso perguntar para esta I.A?</p>
+                      </button>
+                  </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Assim como a Inteligência Artificial para bate-papo desta plataforma, esta não é especificamente treinada para a matemática, entretanto focada em conteúdo estatistico, ou seja, 
+                      conteúdos relacionados a lógica e informação, como matemática, informações sobre o mundo, entre outras. Esta I.A não possui
+                      interatividade com diálogo convencional humano, sendo explicitamente usada para dados diretos, ou seja, aceita apenas perguntas envolvendo solicitações de 
+                      Qualquer diálogo discursivo e prolongado enviado para ela, ela retornará o erro "Eu não entendi a sua dúvida.". Para perguntas detalhadas e com diálogo humano,
+                      recomenda-se usar a I.A de bate-papo <a class="link_card" href="https://mathlearn.com.br/php/pages/bot.php">clicando aqui</a>.
+                       <br> Mas, veja alguns exemplos de perguntas:
+                       <ul class="list_card" >
+                          <li>'3x + 27 = 0';</li>
+                          <li>'4x<sup>2 + 6x + 9</sup>';</li>
+                          <li>'∫baf(x)dx=f(c)(b−a)';</li>
+                          <li>'25 + 6 2 : 12 - √169 + 42'.</li>
+                       </ul>
+                       <br>Lembre-se! Esta inteligência ainda é recente e pode gerar erros. Confira
+                       mais informações <a class="link_card" href="#">clicando aqui</a>. Aproveite sem moderação ;) .
+                  </div>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <p class="title_card">> 03. Obtive erros na resposta. É normal?</p>
+                      </button>
+                  </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                      A princípio, não. Porém, esta I.A ainda está em treinamento e possíveis erros podem ocorrer. Por certificação, pergunte a mesma
+                      coisa mais de uma vez. Se o erro persistir, diga a I.A a possível resposta correta, caso saiba. Nossa I.A possui a capacidade
+                      de aprender as formas corretas com seus próprios erros.
+                      <br> Mas lembre-se! Nunca confie diretamente na resposta dela em casos de operações matemáticas mais complexas, certifique-se confirmar mais de uma vez.
+                      Estamos aperfeiçoando mais a cada dia.😊
+                  </div>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <p class="title_card">> 04. É normal a resposta vim em outro idioma? <br>(Termos em inglês)</p>
+                      </button>
+                  </h5>
+                  </div>
+
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Diferente da I.A de bate-papo desta plataforma, que é multilingue, esta responde exclusivamente em inglês. Em alguns casos, ela responderá em inglês,
+                      conforme configurado. Por ser uma I.A de terceiros, não possuimos altonomia para quaisquer modificações de parâmetros internos. Portanto, acompanhe
+                      abaixo alguns termos gerlamente retornados por ela:
+
+                      <ul class="list_card" >
+                        <li><b>Plot</b> = Resultado principal da solicitação;</li>
+                        <li><b>Alternate form</b> = Forma alternativa da solicitação;</li>
+                        <li><b>Number line</b> = Posição da resposta da solicitação em um gráfico linear;</li>
+                        <li><b>Solutions</b> = Solução da solicitação.</li>
+                     </ul>
+                     <br> Existem outras formas de resposta também retornadas pela I.A, mas isso dependerá da solicitação.
+                  </div>
+                  </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed buttons_cards" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <p class="title_card">> 05. O que é a 'Wolfram Alpha?'</p>
+                    </button>
+                </h5>
+                </div>
+
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div class="card-body">
+                  Wolfram|Alpha é um mecanismo de conhecimento computacional desenvolvido pela Wolfram Research. O Wolfram|Alpha é capaz de computar conhecimento nas mais diversas áreas, conforme exemplificado na própria página, como matemática, estatística, finanças, geografia e nutrição. As respostas fornecidas pelo mecanismo de conhecimento computacional são precisas e definidas pela capacidade de tal mecanismo compreender as perguntas que, até o momento, só podem ser feitas em inglês. (Wikipedia).
+                <br> <a class="link_card" href="https://www.wolframalpha.com/">Acesse aqui</a> o site da Wolfram Alpha e descubra mais sobre esse mundo tecnológico.
+                </div>
+                </div>
+            </div>
+          </div>
+      </div>
     </section>
 
     <section id="sec3" class="copyrightEnterprise container-fluid d-flex justify-content-center" >
@@ -110,15 +240,24 @@
 
       <script>
         function alternarTema() {
-    var estiloTema = document.getElementById("estilo-tema");
-    if (estiloTema.getAttribute("href") === "../style/themes/tema-escuro.css") {
-        estiloTema.setAttribute("href", "../style/themes/tema-claro.css");
-        document.body.classList.remove("dark-theme");
-    } else {
-        estiloTema.setAttribute("href", "../style/themes/tema-escuro.css");
-        document.body.classList.add("dark-theme");
-    }
+        var estiloTema = document.getElementById("estilo-tema");
+        if (estiloTema.getAttribute("href") === "../style/themes/tema-escuro.css") {
+            estiloTema.setAttribute("href", "../style/themes/tema-claro.css");
+            document.body.classList.remove("dark-theme");
+        } else {
+            estiloTema.setAttribute("href", "../style/themes/tema-escuro.css");
+            document.body.classList.add("dark-theme");
+        }
 }
+
+      </script>
+
+      <script>
+        window.addEventListener('load', function() {
+          var loadingPage = document.getElementById('loadingPage');
+
+          loadingPage.style.display = 'none';
+      });
 
       </script>
       
@@ -157,6 +296,7 @@
       const animation = document.getElementById('divAnimation_load');
       const divInput = document.getElementById('divInput');
       const overlay = document.getElementById('overlayTouch');
+      const errResponse = document.getElementById('errResponse');
   
       function hideOverlay() {
         overlay.style.display = 'none';
@@ -184,17 +324,26 @@
           .then(response => response.json())
           .then(data => {
             const responseHTML = data.responseHTML;
-            responseContainer.innerHTML = responseHTML;
+            if (typeof responseHTML === 'undefined') {
+              // Inserir a imagem na div
+              errResponse.style.display = 'block';
+            }else{
+              errResponse.style.display = 'none';
+              responseContainer.innerHTML = responseHTML;
+            }
             section2.style.display = 'block';
-  
+            boxEmpty.style.display = 'none';
+    
             animation.style.display = 'none';
             divInput.style.display = 'block';
-  
+    
             animBtn.style.display = 'none';
             txtBtn.style.display = 'block';
             textForm.style.display = 'block';
             btnSend.disabled = false;
             overlay.style.display = 'block';
+
+            
           })
           .catch(error => {
             console.error('Erro ao enviar pergunta:', error);
@@ -211,9 +360,11 @@
   
         if (questionInput.value.trim() === '') {
           var boxEmpty = document.getElementById('boxEmpty');
+          boxEmpty.style.display = 'block';
           boxEmpty.innerText = 'Digite algo para enviar!';
           questionInput.style.border = '1px solid red';
         } else {
+          errResponse.style.display = 'none';
           divInput.style.display = 'none';
           animation.style.display = 'block';
           questionInput.style.border = 'none';
@@ -225,6 +376,19 @@
         }
       });
     });
+  </script>
+
+  <script>
+    window.addEventListener('blur', function() {
+      setTimeout(function() {
+        document.title = "Ei! Volta aqui!!!🤨";
+      }, 1000); // Altere o valor em milissegundos para personalizar o tempo de espera
+    });
+    
+    window.addEventListener('focus', function() {
+      document.title = "MathLearn | Gerador Calculacional";
+    });
+
   </script>
 
 </body>

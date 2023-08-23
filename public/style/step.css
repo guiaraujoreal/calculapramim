@@ -32,6 +32,7 @@
     border: none;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     color: white;
+    font-size: 20px;
 }
 #question-input:focus{
     outline: 1px solid rgb(45, 143, 255);
@@ -116,4 +117,109 @@
 }
 #animBtn{
     display: none;
+}
+#container03{
+    padding-top: 10vh;
+    z-index: 1;
+    padding-bottom: 40px;
+}
+#title_infos{
+    color: white;
+    font-size: clamp(1.5em,2vw,4em);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: rgb(26, 24, 35);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+.card{
+    border:0
+}
+.card-header{
+    background-color: rgb(31, 31, 39);
+}
+.card-body{
+    color: white;
+    background-color: rgb(37, 36, 51);
+}
+.list_card{
+    margin-top: 10px;
+}
+.buttons_cards{
+    color: yellow;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+}
+.buttons_cards:hover{
+    color: white;
+}
+.link_card{
+    color: yellow;
+}
+.link_card:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.title_card:hover{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width: 410px){
+    .title_card{
+        font-size: 13px;
+    }
+}
+@media(max-width: 342px){
+    .title_card{
+        font-size: 10px;
+    }
+}
+#errResponse{
+    display: none;
+}
+#iconErrResponse{
+    width: 10em;
+    height: auto;
+}
+#loadingPage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.882);
+}
+#loadingPage{
+    display: block;
+}
+#divAnimLoad{
+    background-color: rgba(255, 255, 255, 0.654);
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.animLoading{
+    width: 250px;
+    height: 250px;
+}
+#txtLoading{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+@media(max-width: 320px){
+    #divAnimLoad{
+        width: 200px;
+        height: 200px;
+    }
+    .animLoading{
+        width: 150px;
+        height: 150px;
+    }
+    #txtLoading{
+        font-size: 20px;
+    }
 }
