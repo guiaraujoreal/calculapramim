@@ -383,7 +383,10 @@ a{
     border-radius: 10px;
   }
   .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin-bottom: 3rem; /* Space out the Bootstrap <hr> more */
+  }
+  #myCarousel{
+    margin: 0;
   }
   
   /* Thin out the marketing headings */

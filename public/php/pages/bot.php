@@ -247,7 +247,7 @@
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                         <div class="card-body">
                         OpenAI é um laboratório de pesquisa de inteligência artificial estadunidense que consiste na organização sem fins lucrativos OpenAI Incorporated e sua subsidiária com fins lucrativos OpenAI Limited Partnership. A OpenAI conduz pesquisas de IA com a intenção declarada de promover e desenvolver uma IA amigável (Wikipedia).
-                        <br> <a class="link_card" href="https://openai.com/">Acesse aqui</a> o site da OpenAi e descubra mais sobre esse mundo tecnológico.
+                        <br> <a class="link_card" href="https://openai.com/" target="_blank">Acesse aqui</a> o site da OpenAi e descubra mais sobre esse mundo tecnológico.
                         </div>
                         </div>
                     </div>
