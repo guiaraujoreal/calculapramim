@@ -73,6 +73,16 @@
       </div>
     </div>
 
+    <!--Alertas de alternancia de tema-->
+      <div id="alertThemeLight" class="alert alert-success d-none alertIntro" role="alert">
+      ✅<b>Êba!!! Você mudou para o tema claro.</b>☀️
+      </div>
+
+      <div id="alertThemeDark" class="alert alert-success d-none alertIntro" role="alert">
+      ✅<b>Sinistro! Você mudou para o tema escuro.</b>🌙
+      </div>
+    
+
   </main>
 
   <footer>
@@ -133,37 +143,79 @@
 
 
     </script>
-      <script>
-      window.addEventListener('blur', function() {
-        setTimeout(function() {
-          document.title = "Ei! Volta aqui!!!🤨";
-        }, 1000); // Altere o valor em milissegundos para personalizar o tempo de espera
-      });
-      
-      window.addEventListener('focus', function() {
-        document.title = "MathLearn | Escolha uma de nossas IAs";
-      });
-  
+<script>
+  // Função para definir um cookie
+function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+
+// Função para obter o valor de um cookie
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+
+  var thLight = document.getElementById('alertThemeLight');
+  var thDark = document.getElementById('alertThemeDark');
+  var estiloTema = document.getElementById("estilo-tema");
+
+  // Função para alternar o tema e exibir alertas
+  function alternarTema() {
+    if (estiloTema.getAttribute("href") === "../../style/themes/tema-escuro.css") {
+      estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
+      thLight.classList.remove('d-none');
+      setCookie("themePreference", "light", 30);
+    } else {
+      estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
+      thDark.classList.remove('d-none');
+      setCookie("themePreference", "dark", 30);
+    }
+
+    // Exibir alertas aqui
+    setTimeout(function() {
+      thLight.classList.add('alertDisperse');
+      thDark.classList.add('alertDisperse');
+
+      setTimeout(function() {
+        thLight.classList.add('d-none');
+        thDark.classList.add('d-none');
+        thLight.classList.remove('alertDisperse');
+        thDark.classList.remove('alertDisperse');
+      }, 500);
+    }, 3000);
+  }
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  var botaoTema = document.getElementById('themeCheckbox');
+
+  if (botaoTema) {
+    botaoTema.addEventListener('click', alternarTema);
+  }
+
+  // Recupere a preferência de tema do cookie
+  var themePreference = getCookie("themePreference");
+  if (themePreference === "dark") {
+    estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
+    
+  } else {
+    estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
+  }
+});
+
     </script>
-
-    <script>
-          function alternarTema() {
-          var estiloTema = document.getElementById("estilo-tema");
-          if (estiloTema.getAttribute("href") === "../../style/themes/tema-escuro.css") {
-            estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
-          } else {
-            estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
-          }
-            
-          document.body.classList.remove("../../style/themes/tema-claro.css"); // Remova a classe "dark-theme" do body para retornar ao tema claro
-        }
-    </script>
-
-    <!--<script>
-      function acess_sec(){
-
-      }
-    </script> -->
             
   </body>
 </html>

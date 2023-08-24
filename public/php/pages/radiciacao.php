@@ -180,6 +180,15 @@
       </div>
       </section>
 
+      <!--Alertas de alternancia de tema-->
+      <div id="alertThemeLight" class="alert alert-success d-none alertIntro" role="alert">
+      ✅<b>Êba!!! Você mudou para o tema claro.</b>☀️
+      </div>
+
+      <div id="alertThemeDark" class="alert alert-success d-none alertIntro" role="alert">
+      ✅<b>Sinistro! Você mudou para o tema escuro.</b>🌙
+      </div>
+
       <footer>
           <?php include('../includes/rodape.php'); ?>
       </footer>
@@ -210,16 +219,38 @@
 
     <!--Tema-->
     <script>
-      function alternarTema() {
-      var estiloTema = document.getElementById("estilo-tema");
-      if (estiloTema.getAttribute("href") === "../../style/themes/tema-escuro.css") {
-        estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
-      } else {
-        estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
+          var thLight = document.getElementById('alertThemeLight');
+          var thDark = document.getElementById('alertThemeDark');
+
+          function alternarTema() {
+          var estiloTema = document.getElementById("estilo-tema");
+          if (estiloTema.getAttribute("href") === "../../style/themes/tema-escuro.css") {
+            estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
+            
+            thLight.classList.remove('d-none');
+          } else {
+            estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
+      
+            thDark.classList.remove('d-none');
+          }
+          /*setTimeout(function() {
+              thLight.classList.add('d-none');
+              thDark.classList.add('d-none');
+            }, 5000); // 3000 milissegundos = 3 segundos
+          }*/
+
+          setTimeout(function() {
+          thLight.classList.add('alertDisperse'); // Aplica a animação de desaparecimento
+          thDark.classList.add('alertDisperse'); // Aplica a animação de desaparecimento
+
+          setTimeout(function() {
+            thLight.classList.add('d-none');
+            thDark.classList.add('d-none');
+            thLight.classList.remove('alertDisperse'); // Remove a classe de animação de desaparecimento
+            thDark.classList.remove('alertDisperse'); // Remove a classe de animação de desaparecimento
+          }, 500); // Aguarda o tempo da animação (0.5 segundos) antes de ocultar completamente
+        }, 3000);
       }
-        
-      document.body.classList.remove("../../style/themes/tema-claro.css"); // Remova a classe "dark-theme" do body para retornar ao tema claro
-    }
     </script>
 
 

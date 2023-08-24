@@ -1,7 +1,6 @@
 html,body{
     padding: 0;
     margin: 0;
-    background-color: #191c24;
     height: 100vh;
  
 }
@@ -148,11 +147,11 @@ html,body{
 #formIA{
     text-align: center;
     width: 100%;
-    background-color: #111214;
+    background-color: rgb(26, 24, 35);
     width: 95%;
     padding: 40px 0 40px 0;
     border-radius: 10px;
-    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.719);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.719);
 }
 .rowIA{
     text-align: end;

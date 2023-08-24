@@ -22,8 +22,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" crossorigin="anonymous"></script>
 
+
     <!--Tema-->
-    <link rel="stylesheet" href="#"  id="estilo-tema">
+    <link rel="stylesheet" href="../../style/themes/tema-escuro.css"  id="estilo-tema">
 
     <link rel="shortcut icon" href="../../imgs/ico.png" type="image/x-icon">
     <title>MathLearn | Converse com nossa IA!</title>
@@ -278,9 +279,9 @@
             </div>
         </section>
 
-        <!--Modal Tema infuncional-->
+        <!--Modal Tema infuncional
         <section>
-            <!--Modal-->
+            
     <div class="modal fade" id="myModal_theme" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
@@ -299,7 +300,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!--Modal sobre Cookies-->
           <div class="modal fade" id="modalCookies" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -326,6 +327,14 @@
             </div>
             </div>
         </section>
+
+        <div id="alertThemeLight" class="alert alert-success d-none alertIntro" role="alert">
+      ✅<b>Êba!!! Você mudou para o tema claro.</b>☀️
+      </div>
+
+      <div id="alertThemeDark" class="alert alert-success d-none alertIntro" role="alert">
+      ✅<b>Sinistro! Você mudou para o tema escuro.</b>🌙
+      </div>
     
     </main>
 
@@ -467,6 +476,80 @@
     // Chame a função quando necessário (por exemplo, no evento 'input')
     autoResize();
   </script>
+
+<script>
+  // Função para definir um cookie
+function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+
+// Função para obter o valor de um cookie
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+
+  var thLight = document.getElementById('alertThemeLight');
+  var thDark = document.getElementById('alertThemeDark');
+  var estiloTema = document.getElementById("estilo-tema");
+
+  // Função para alternar o tema e exibir alertas
+  function alternarTema() {
+    if (estiloTema.getAttribute("href") === "../../style/themes/tema-escuro.css") {
+      estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
+      thLight.classList.remove('d-none');
+      setCookie("themePreference", "light", 30);
+    } else {
+      estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
+      thDark.classList.remove('d-none');
+      setCookie("themePreference", "dark", 30);
+    }
+
+    // Exibir alertas aqui
+    setTimeout(function() {
+      thLight.classList.add('alertDisperse');
+      thDark.classList.add('alertDisperse');
+
+      setTimeout(function() {
+        thLight.classList.add('d-none');
+        thDark.classList.add('d-none');
+        thLight.classList.remove('alertDisperse');
+        thDark.classList.remove('alertDisperse');
+      }, 500);
+    }, 3000);
+  }
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  var botaoTema = document.getElementById('themeCheckbox');
+
+  if (botaoTema) {
+    botaoTema.addEventListener('click', alternarTema);
+  }
+
+  // Recupere a preferência de tema do cookie
+  var themePreference = getCookie("themePreference");
+  if (themePreference === "dark") {
+    estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
+    
+  } else {
+    estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
+  }
+});
+
+    </script>
   
 
 
