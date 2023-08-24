@@ -17,7 +17,7 @@
                 <li><a class="item_menu_shot" href="../pages/ias.php"><span class="txt_menu">Converse com nossas I.As</span><img class="icons_menu_shot" src="../../imgs/ia_icon.png"></a></li>
                 <li><a class="item_menu_shot" href="../pages/art-mat.php"><span class="txt_menu">Artigos Matemáticos</span><img class="icons_menu_shot" src="../../imgs/artmat_icon.png"></a></li>
                 <li><label class="switch">
-                    <input type="checkbox" onclick="alternarTema()" id="themeCheckbox">
+                    <input type="checkbox" onclick="alternarTema()" class="themeCheckbox">
                     <span class="slider"></span>
                     </label>
                 </li>
@@ -34,7 +34,7 @@
               <li><a class="item_menu" href="../pages/ias.php"><img class="icons_menu" src="../../imgs/ia_icon.png"><span class="txt_menu">Converse com nossas I.As</span></a></li>
               <li><a class="item_menu" href="../pages/art-mat.php"><img class="icons_menu" src="../../imgs/artmat_icon.png"><span class="txt_menu">Artigos Matemáticos</span></a></li>
               <li><label class="switch">
-                    <input type="checkbox" onclick="alternarTema()" id="themeCheckbox">
+                    <input type="checkbox" onclick="alternarTema()" class="themeCheckbox">
                     <span class="slider"></span>
                     </label>
                 </li>

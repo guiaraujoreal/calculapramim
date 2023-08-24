@@ -274,7 +274,7 @@ function getCookie(name) {
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  var botaoTema = document.getElementById('themeCheckbox');
+  var botaoTema = document.getElementByClass('themeCheckbox');
 
   if (botaoTema) {
     botaoTema.addEventListener('click', alternarTema);
