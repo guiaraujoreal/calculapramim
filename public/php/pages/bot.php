@@ -346,13 +346,11 @@
     <script src="../../js/menu_responsivo.js"></script>
     <script src="../../js/functions.js"></script>
     <script src="../../js/page_inative.js" ></script>
-    <script src="../../js/alternar-tema.js" ></script>
     <script src="../../js/load_containerBP.js" ></script>
     <script src="../../js/random_frasesBP.js" ></script>
-
-
-    
+    <!--<script src="../../js/alternar-tema.js"></script>-->
     <script src="../../js/animate_bot.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -455,30 +453,9 @@
             }
     </script>
 
-<script>
-    function autoResize() {
-      const textareas = document.getElementsByClassName('input');
-
-      for (let i = 0; i < textareas.length; i++) {
-        const elemento = textareas[i];
-
-        if (elemento.tagName.toLowerCase() === 'textarea') {
-            elemento.style.height = 'auto'; // Redefine a altura para que o conteúdo seja levado em consideração
-            elemento.style.height = elemento.scrollHeight + 'px'; // Define a altura para a altura do conteúdo
-
-          // Opcional: role para o final do conteúdo quando o texto exceder a altura atual
-          elemento.scrollTop = elemento.scrollHeight;
-          elemento.style.overflow = 'hidden';
-        }
-      }
-    }
-
-    // Chame a função quando necessário (por exemplo, no evento 'input')
-    autoResize();
-  </script>
-
-<script>
-  // Função para definir um cookie
+<!--Tema do site-->
+    <script>
+           // Função para definir um cookie
 function setCookie(name, value, days) {
   var expires = "";
   if (days) {
@@ -504,16 +481,46 @@ function getCookie(name) {
   var thLight = document.getElementById('alertThemeLight');
   var thDark = document.getElementById('alertThemeDark');
   var estiloTema = document.getElementById("estilo-tema");
+  var btnLight_n = document.querySelector(".btnThemeLight_nMenu");
+  var btnDark_n = document.querySelector(".btnThemeDark_nMenu");
+  var btnLight_h = document.querySelector(".btnThemeLight_hMenu");
+  var btnDark_h = document.querySelector(".btnThemeDark_hMenu");
 
   // Função para alternar o tema e exibir alertas
   function alternarTema() {
     if (estiloTema.getAttribute("href") === "../../style/themes/tema-escuro.css") {
       estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
       thLight.classList.remove('d-none');
+
+      btnDark_n.classList.remove('d-block');
+      btnDark_n.classList.add('d-none');
+
+      btnLight_n.classList.add('d-block');
+      btnLight_n.classList.remove('d-none');
+
+      btnDark_h.classList.remove('d-block');
+      btnDark_h.classList.add('d-none');
+
+      btnLight_h.classList.add('d-block');
+      btnLight_h.classList.remove('d-none');
+
       setCookie("themePreference", "light", 30);
     } else {
       estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
       thDark.classList.remove('d-none');
+
+      btnDark_n.classList.remove('d-none');
+      btnDark_n.classList.add('d-block');
+
+      btnLight_n.classList.add('d-none');
+      btnLight_n.classList.remove('d-block');
+
+      btnDark_h.classList.remove('d-none');
+      btnDark_h.classList.add('d-block');
+
+      btnLight_h.classList.add('d-none');
+      btnLight_h.classList.remove('d-block');
+
       setCookie("themePreference", "dark", 30);
     }
 
@@ -533,23 +540,65 @@ function getCookie(name) {
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  var botaoTema = document.getElementByClass('themeCheckbox');
-
-  if (botaoTema) {
-    botaoTema.addEventListener('click', alternarTema);
-  }
-
   // Recupere a preferência de tema do cookie
   var themePreference = getCookie("themePreference");
-  if (themePreference === "dark") {
-    estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
-    
-  } else {
+  if (themePreference === "light") {
     estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
+
+      btnDark_n.classList.remove('d-block');
+      btnDark_n.classList.add('d-none');
+
+      btnLight_n.classList.add('d-block');
+      btnLight_n.classList.remove('d-none');
+
+      btnDark_h.classList.remove('d-block');
+      btnDark_h.classList.add('d-none');
+
+      btnLight_h.classList.add('d-block');
+      btnLight_h.classList.remove('d-none');
+
+  } else {
+    estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
+
+      btnDark_n.classList.remove('d-none');
+      btnDark_n.classList.add('d-block');
+
+      btnLight_n.classList.add('d-none');
+      btnLight_n.classList.remove('d-block');
+
+      btnDark_h.classList.remove('d-none');
+      btnDark_h.classList.add('d-block');
+
+      btnLight_h.classList.add('d-none');
+      btnLight_h.classList.remove('d-block');
   }
 });
 
+
     </script>
+
+<script>
+    function autoResize() {
+      const textareas = document.getElementsByClassName('input');
+
+      for (let i = 0; i < textareas.length; i++) {
+        const elemento = textareas[i];
+
+        if (elemento.tagName.toLowerCase() === 'textarea') {
+            elemento.style.height = 'auto'; // Redefine a altura para que o conteúdo seja levado em consideração
+            elemento.style.height = elemento.scrollHeight + 'px'; // Define a altura para a altura do conteúdo
+
+          // Opcional: role para o final do conteúdo quando o texto exceder a altura atual
+          elemento.scrollTop = elemento.scrollHeight;
+          elemento.style.overflow = 'hidden';
+        }
+      }
+    }
+
+    // Chame a função quando necessário (por exemplo, no evento 'input')
+    autoResize();
+  </script>
+
   
 
 

@@ -210,6 +210,7 @@
       <script src="../../js/animate_index.js"></script>
       <script src="../../js/load_containerAM.js"></script>
       <script src="../..//js/random_frasesAM.js"></script>
+      <script src="../../js/alternar-tema.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -228,80 +229,7 @@
   
     </script>
 
-    <!--Tema-->
-    <script>
-  // Função para definir um cookie
-function setCookie(name, value, days) {
-  var expires = "";
-  if (days) {
-    var date = new Date();
-    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-    expires = "; expires=" + date.toUTCString();
-  }
-  document.cookie = name + "=" + (value || "") + expires + "; path=/";
-}
 
-// Função para obter o valor de um cookie
-function getCookie(name) {
-  var nameEQ = name + "=";
-  var ca = document.cookie.split(';');
-  for (var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-  }
-  return null;
-}
-
-  var thLight = document.getElementById('alertThemeLight');
-  var thDark = document.getElementById('alertThemeDark');
-  var estiloTema = document.getElementById("estilo-tema");
-
-  // Função para alternar o tema e exibir alertas
-  function alternarTema() {
-    if (estiloTema.getAttribute("href") === "../../style/themes/tema-escuro.css") {
-      estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
-      thLight.classList.remove('d-none');
-      setCookie("themePreference", "light", 30);
-    } else {
-      estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
-      thDark.classList.remove('d-none');
-      setCookie("themePreference", "dark", 30);
-    }
-
-    // Exibir alertas aqui
-    setTimeout(function() {
-      thLight.classList.add('alertDisperse');
-      thDark.classList.add('alertDisperse');
-
-      setTimeout(function() {
-        thLight.classList.add('d-none');
-        thDark.classList.add('d-none');
-        thLight.classList.remove('alertDisperse');
-        thDark.classList.remove('alertDisperse');
-      }, 500);
-    }, 3000);
-  }
-
-document.addEventListener('DOMContentLoaded', function() {
-
-  var botaoTema = document.getElementByClass('themeCheckbox');
-
-  if (botaoTema) {
-    botaoTema.addEventListener('click', alternarTema);
-  }
-
-  // Recupere a preferência de tema do cookie
-  var themePreference = getCookie("themePreference");
-  if (themePreference === "dark") {
-    estiloTema.setAttribute("href", "../../style/themes/tema-escuro.css");
-    
-  } else {
-    estiloTema.setAttribute("href", "../../style/themes/tema-claro.css");
-  }
-});
-
-    </script>
 
 
             

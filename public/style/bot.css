@@ -257,7 +257,6 @@ html,body{
     padding-top: 20vh;
     padding-bottom: 10px;
     font-size: clamp(1.5em,2vw,4em);
-    color: white;
     text-align: center;
    
 }
@@ -445,7 +444,6 @@ html,body{
 }
 #sec4{
     margin-top: 90px;
-    color: white;
 }
 .logo_openai{
     width: 150px;
