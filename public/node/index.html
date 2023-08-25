@@ -286,6 +286,29 @@
       </div>
     </section>
 
+    <!--Modal tempo excedido-->
+    <section>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="TituloModalCentralizado">Ooops! Tudo muito quieto por aqui...👀</h5>
+                  </div>
+              <div class="modal-body">
+                  <div class="animation d-flex justify-content-center">
+                      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                      <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_KqyKvM.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+                  </div>
+              Esta página ficou muito tempo parada. Por favor, recarregue-a para prosseguir.
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="location.reload()" ><img src="../../imgs/icon_refresh_img.png" style="width: 25px; height: 25px" > Recarregar!</button>
+              </div>
+          </div>
+          </div>
+      </div>
+  </section>
+
     <!--Alertas de alternancia de tema-->
     <div id="alertThemeLight" class="alert alert-success d-none alertIntro" role="alert">
       ✅<b>Êba!!! Você mudou para o tema claro.</b>☀️
@@ -303,6 +326,7 @@
       <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
       <script src="../js/menu_responsivo.js"></script>
       <script src="../js/functions.js"></script>
+      <script src="../js/page_inative.js"></script>
     
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

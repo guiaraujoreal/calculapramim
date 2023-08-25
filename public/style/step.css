@@ -37,6 +37,9 @@
 #question-input:focus{
     outline: 1px solid rgb(45, 143, 255);
 }
+.modal{
+    color: black;
+}
 .rowInput{
     margin-bottom: 20px;
 }

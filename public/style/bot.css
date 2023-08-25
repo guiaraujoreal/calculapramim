@@ -450,8 +450,9 @@ html,body{
     height: auto;
     border-radius: 10px;
 }
-
-
+.modal{
+    color: black;
+}
 
   
 #col_perg{
