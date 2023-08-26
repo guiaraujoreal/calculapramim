@@ -192,6 +192,65 @@ Além disso, o Teorema de Pitágoras tem aplicações em diversas áreas, como a
       ✅<b>Sinistro! Você mudou para o tema escuro.</b>🌙
       </div>
 
+      <!--Aviso cookies-->
+      <div id="alertCookies" class="container-fluid">
+        <div id="divCookie" class="d-flex justify-content-end align-items-end w-100 h-100">
+            <div id="cookies" class="animCookies_intro">
+              <div class="titleCookie">
+                <b>Vamos aceitar os cookies?</b>
+              </div>
+              <div class="body d-flex flex-row">
+                <div class="imgCookie d-flex align-items-center justify-content-center">
+                  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player class="cookieAnimation" src="https://lottie.host/b68720c6-4797-45f1-8fcb-a8f4a8ab0ca8/BeyU03IeZ7.json" background="transparent" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
+                </div>
+                <div class="textCookie">
+                  <br>Esta página usa cookies para a melhora de performance de acordo com o seu uso.
+                  <br><br>Aceite os cookies para prosseguirmos com seu uso. Vamos aceitar?
+                </div>
+              </div>
+              <div class="btnsCookie">
+                  <div class="row d-flex flex-row">
+                    <div class="col d-flex justify-content-center">
+                      <button data-toggle="modal" data-target="#modalCookies" class="btn btn-secondary btn-block btnCook">O que é isso?</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                      <button id="acceptCookies" class="btn btn-success btn-block btnCook">Vamos!</button>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      
+      <!--Modal sobre Cookies-->
+      <div class="modal fade" id="modalCookies" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">O que são cookies?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="img d-flex justify-content-center">
+                        <img class="img_cookies" src="../../imgs/img_cookies.png">
+                    </div>
+                    <p>Os cookies são dados salvos usados pelo seu navegador, a fim de que melhore a precisão
+                        na navegação caso você retorne ao site, como, por exemplo, recarregar paginas de onde você parou. Esses dados não são coletados.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Ok, entendi.</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
       <footer>
           <?php include('../includes/rodape.php'); ?>
       </footer>

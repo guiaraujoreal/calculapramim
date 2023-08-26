@@ -279,31 +279,9 @@
             </div>
         </section>
 
-        <!--Modal Tema infuncional
-        <section>
-            
-    <div class="modal fade" id="myModal_theme" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="TituloModalCentralizado">Desculpe, vamos ficar te devendo essa...</h5>
-                </div>
-                <div class="modal-body">
-                  <div class="anim_modal d-flex justify-content-center">
-                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_aiwdh2wk.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
-                  </div>
-                  No momento, esta página não permite alternar o tema do layout pois não armazenamos <a data-toggle="modal" data-target="#modalCookies" href="#">cookies</a>. Não fique triste com a gente! Iremos resolver isto em breve.
-                </div>
-                <div class="modal-footer">
-                  <div id="contagem"></div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!--Modal sobre Cookies-->
-          <div class="modal fade" id="modalCookies" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         
+      <!--Modal sobre Cookies-->
+      <div class="modal fade" id="modalCookies" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                 <div class="modal-header">
@@ -316,8 +294,7 @@
                         <img class="img_cookies" src="../../imgs/img_cookies.png">
                     </div>
                     <p>Os cookies são dados salvos usados pelo seu navegador, a fim de que melhore a precisão
-                        na navegação caso você retorne ao site, como, por exemplo, recarregar paginas de onde você parou. Esta página é recarregada a cada solicitação;
-                        ao recarregar, o tema não permanece.
+                        na navegação caso você retorne ao site, como, por exemplo, recarregar paginas de onde você parou. Esses dados não são coletados.
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -328,6 +305,8 @@
             </div>
         </section>
 
+        </section>
+
         <div id="alertThemeLight" class="alert alert-success d-none alertIntro" role="alert">
       ✅<b>Êba!!! Você mudou para o tema claro.</b>☀️
       </div>
@@ -335,6 +314,40 @@
       <div id="alertThemeDark" class="alert alert-success d-none alertIntro" role="alert">
       ✅<b>Sinistro! Você mudou para o tema escuro.</b>🌙
       </div>
+
+      <!--Aviso cookies-->
+      <div id="alertCookies" class="container-fluid">
+        <div id="divCookie" class="d-flex justify-content-end align-items-end w-100 h-100">
+            <div id="cookies" class="animCookies_intro">
+              <div class="titleCookie">
+                <b>Vamos aceitar os cookies?</b>
+              </div>
+              <div class="body d-flex flex-row">
+                <div class="imgCookie d-flex align-items-center justify-content-center">
+                  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player class="cookieAnimation" src="https://lottie.host/b68720c6-4797-45f1-8fcb-a8f4a8ab0ca8/BeyU03IeZ7.json" background="transparent" speed="1"  direction="1" mode="normal" loop autoplay></lottie-player>
+                </div>
+                <div class="textCookie">
+                  <br>Esta página usa cookies para a melhora de performance de acordo com o seu uso.
+                  <br><br>Aceite os cookies para prosseguirmos com seu uso. Vamos aceitar?
+                </div>
+              </div>
+              <div class="btnsCookie">
+                  <div class="row d-flex flex-row">
+                    <div class="col d-flex justify-content-center">
+                      <button data-toggle="modal" data-target="#modalCookies" class="btn btn-secondary btn-block btnCook">O que é isso?</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                      <button id="acceptCookies" class="btn btn-success btn-block btnCook">Vamos!</button>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    
     
     </main>
 

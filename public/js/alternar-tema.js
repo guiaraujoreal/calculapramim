@@ -1,4 +1,4 @@
-   // Função para definir um cookie
+// Função para definir um cookie
 function setCookie(name, value, days) {
   var expires = "";
   if (days) {
@@ -83,6 +83,40 @@ function getCookie(name) {
 
 document.addEventListener('DOMContentLoaded', function() {
 
+  var cookieNotice = document.getElementById('alertCookies');
+  var acceptCookiesButton = document.getElementById('acceptCookies');
+  var cookies = document.getElementById('cookies');
+
+  // Verifica se o cookie de preferência de tema já existe
+  var themePreference = getCookie("themePreference");
+
+  // Verifica se o usuário já aceitou os cookies
+  var cookiesAccepted = getCookie("cookiesAccepted");
+
+  if (!themePreference) {
+    // Define o tema padrão ou preferido pelo usuário
+    setCookie("themePreference", "dark", 30);
+  }
+
+  if (!cookiesAccepted) {
+    // Mostra o aviso de cookies apenas se não tiver sido aceito ainda
+    cookieNotice.style.display = 'block';
+  }
+
+  acceptCookiesButton.addEventListener('click', function() {
+    // Define o cookie para indicar que os cookies foram aceitos
+    setCookie("cookiesAccepted", "true", 365);
+    // Esconde o aviso de cookies
+    setTimeout(() =>{
+        cookies.classList.remove('animCookies_intro');
+        cookies.classList.add('animCookies_out');
+      setTimeout(()=>{
+        cookieNotice.style.display = 'none';
+      },1000);
+      
+    },200);
+  });
+
   // Recupere a preferência de tema do cookie
   var themePreference = getCookie("themePreference");
   if (themePreference === "light") {
@@ -116,4 +150,3 @@ document.addEventListener('DOMContentLoaded', function() {
       btnLight_h.classList.remove('d-block');
   }
 });
-
