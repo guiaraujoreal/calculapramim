@@ -186,6 +186,7 @@
               <a href="pi.php" class="list-group-item list-group-item-action art-body botao_card">> Número Pi</a>
               <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body botao_card">> Teorema de Pitágoras</a>
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
+              <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
             </div>
         </aside>
       </div>

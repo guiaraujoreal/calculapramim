@@ -81,6 +81,7 @@ a{
 }
 #card-body05{
     background-color: rgb(255, 142, 142);
+    color: white;
 }
 #card-body06{
     background-color: rgb(172, 176, 253);
@@ -90,6 +91,10 @@ a{
 }
 #card-body08{
     background-color: #4babcb;
+}
+#card-body09{
+    background-color: #06653a;
+    color: white;
 }
 #botao_card01{
     background-color: rgb(255, 169, 232);
@@ -162,6 +167,15 @@ a{
 }
 #botao_card08:hover{
     background-color:  #0a3848;
+}
+#botao_card09{
+    background-color: #00a76f;
+    color: white;
+    border: 0;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5)
+}
+#botao_card09:hover{
+    background-color:  #018257;
 }
 .subtitle_sec{
     margin-top: 30px;

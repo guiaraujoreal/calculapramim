@@ -111,7 +111,7 @@ Além disso, o Teorema de Pitágoras tem aplicações em diversas áreas, como a
               <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=teorema+de+pitagoras" target="_blank">Vamos para o YouTube!</a>
             </div>
             <div class="d-flex justify-content-center" style="padding-top: 5px" >
-                <p style="font-size: 15px">*Ao clicar, o Youtube filtrará todos os videos deste contéudo.</p>
+                <p style="font-size: 15px">*Ao clicar, o Youtube filtrará todos os videos deste conteúdo.</p>
               </div>
 
           </section>
@@ -178,6 +178,7 @@ Além disso, o Teorema de Pitágoras tem aplicações em diversas áreas, como a
               <a href="pi.php" class="list-group-item list-group-item-action art-body botao_card">> Número Pi</a>
               <a href="potenciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Potenciação</a>
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
+              <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
             </div>
         </aside>
       </div>
