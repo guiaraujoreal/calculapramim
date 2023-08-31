@@ -25,7 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="../../style/pages_artigos.css" rel="stylesheet">
 
-    <title>MathLearn | Estatística</title>
+    <title>MathLearn | Proporcionalidade</title>
   </head>
 
   <body>
@@ -41,7 +41,7 @@
       <div class="row">
         <main class="col-sm-8">
         <section id="sec01" class="container-fluid">
-          <h1 class="txt-title01">Estatística</h1>
+          <h1 class="txt-title01">Proporcionalidade</h1>
         </section>
 
         <div class="divisory d-flex justify-content-center">
@@ -51,51 +51,45 @@
           <section id="sec02" class="container-fluid">
             <div class="row d-flex justify-content-center ">
               <div class="col">
-                <p class="entrada"><span class="space"></span>"56% dos alunos da classe aprovaram em matemática (dado fictício)" ou "1 a cada 4 pessoas
-                possuem experiências de djavu (dado fictício)". É muito comum nos depararamos com esses tipos de dados em jornais, revistas, ou até mesmo
-                na escola. Prazer, esta é a Estatística! Nesta sessão, vamos aprender mais sobre o contexto da estatística e vermos sua importância na matemática.
-                Vamos lá!
+                <p class="entrada"><span class="space"></span>Esta é uma propriedade semelhante à estatística, ao mesmo que a estatística utiliza a proporção afim de cálculo e 
+                processamento de dados estatísticos. Nessa sessão, você conhecerá os principais conceitos e uso da proporção no nosso dia a dia. Partiu conhecer? É pra já!😎
                 </p>
               </div>
             </div>
             
             <div class="row">
               <div class="col d-flex justify-content-center">
-                <img src="../../imgs/estatistica_img.webp" class="img-fluid img-top">
+                <img src="../../imgs/proporcao.webp" class="img-fluid img-top">
               </div>
             </div>
 
             <div class="row d-flex justify-content-center ">
               <div class="col">
-                <p class="entrada txt"><br><span class="space"></span>A estatística é uma disciplina da matemática que lida com a coleta, organização, análise, interpretação e apresentação de dados. Seu objetivo principal é extrair informações úteis e significativas a partir de conjuntos de dados, permitindo tomar decisões informadas e compreender padrões e tendências em diversas áreas.
+                 <br><p class="entrada txt"><span class="space"></span>A proporção é um conceito estatístico que representa a relação entre uma parte e um todo. Ela é usada para expressar a quantidade ou a magnitude de um certo valor em relação ao valor total, geralmente como uma fração ou um valor decimal. A proporção é particularmente útil quando se deseja comparar partes de um conjunto maior em termos relativos.
 
-                <br><br><span class="space"></span>Existem duas principais áreas dentro da estatística:
+<br>A fórmula básica para calcular a proporção é:
+<br><br><p class="entrada txt"><span class="space"></span>Proporção = Parte / Todo
 
-                <br><br><span class="space"></span><b>Estatística Descritiva:</b> 
-                <br><span class="space"></span>É o ramo que se concentra na descrição e resumo dos dados coletados. Envolve o cálculo de medidas como média, mediana, moda, desvio padrão e outras para resumir as características dos dados. A estatística descritiva é útil para obter uma visão geral dos dados e identificar padrões iniciais.
+<br><br><p class="entrada txt"><span class="space"></span>Onde:
+<ul>
+  <li>"Parte" é a quantidade específica que você está considerando.</li>
+  <li>"Todo" é o valor total ou o conjunto do qual a parte faz parte.</li>
+</ul>
+<br><p class="entrada txt"><span class="space"></span>A proporção geralmente é expressa como uma fração, um número decimal ou uma porcentagem. Para converter uma proporção em uma porcentagem, você multiplica a proporção por 100.
 
-                <br><br><span class="space"></span><b>Estatística Inferencial:</b> 
-                <br><span class="space"></span>Este ramo envolve a tomada de conclusões ou inferências sobre uma população maior com base em informações de uma amostra menor dos dados. A estatística inferencial utiliza técnicas como testes de hipóteses, intervalos de confiança, regressão e análise de variância para tirar conclusões sobre a população a partir dos dados amostrais.
 
-                <br><br><span class="space"></span>A estatística tem aplicações em diversas áreas, incluindo ciências naturais, ciências sociais, economia, medicina, engenharia, psicologia e muitas outras. Algumas aplicações comuns incluem:
 
-                <ul>
-                  <li><b>Pesquisas e Estudos de Opinião:</b> A estatística é usada para coletar e analisar dados em pesquisas e estudos de opinião para tirar conclusões sobre a população em geral com base em amostras menores.</li>
+<br><br><p class="entrada txt"><span class="space"></span>Vamos a um exemplo simples para ilustrar:
 
-                  <li<b>Economia:</b> Economistas usam estatísticas para analisar indicadores econômicos, como taxas de inflação, desemprego e crescimento econômico, para entender e prever tendências econômicas.</li>
+<br><br><p class="entrada txt"><span class="space"></span>Suponha que você está analisando um grupo de 200 pessoas e deseja calcular a proporção de pessoas que preferem a cor azul. Se 40 pessoas no grupo preferem a cor azul, a proporção de pessoas que preferem azul em relação ao total é:
+<br><br><p class="entrada txt"><span class="space"></span>Proporção = Número de pessoas que preferem azul / Total de pessoas = 40/200 = 0,2.
+<br><br><p class="entrada txt"><span class="space"></span>Você pode então converter essa proporção em uma porcentagem multiplicando por 100:
+<br><br><p class="entrada txt"><span class="space"></span>Proporção em porcentagem = 0,2 x 100 = 20%.
 
-                  <li><b>Medicina:</b> Estatísticas são usadas para analisar ensaios clínicos, estudar a eficácia de tratamentos médicos, analisar dados de saúde populacional e muito mais.</li>
+<br><br><p class="entrada txt"><span class="space"></span>Portanto, a proporção de pessoas que preferem a cor azul é de 20%.
 
-                  <li><b>Ciências Sociais:</b> Sociólogos e psicólogos usam estatísticas para estudar comportamentos e padrões sociais, bem como para realizar experimentos controlados.</li>
-
-                  <li><b>Finanças:</b> Profissionais financeiros usam análise estatística para avaliar riscos, prever tendências de mercado e tomar decisões de investimento.</li>
-
-                  <li><b>Engenharia:</b> Engenheiros aplicam estatísticas para testar a confiabilidade de produtos, realizar análises de qualidade e melhorar processos de produção.</li>
-                </ul>
-
-                <br><br><span class="space"></span>Certamente, a estatística desempenha um papel vital na forma como analisamos informações e tomamos decisões embasadas em dados. Sua capacidade de revelar padrões, detectar tendências e fornecer insights valiosos a partir de conjuntos de dados é fundamental para uma ampla gama de campos e indústrias. Ao compreender os princípios básicos da estatística, podemos melhorar nossa compreensão do mundo ao nosso redor e tomar decisões mais informadas e fundamentadas.
-                
-                </p>
+<br><br><p class="entrada txt"><span class="space"></span>A proporção é uma ferramenta útil em muitos contextos, como em pesquisas de opinião, estatísticas demográficas, análises de mercado e muito mais. Ela permite que você entenda a distribuição relativa de diferentes categorias ou grupos dentro de um conjunto maior de dados.
+</p>
               </div>
             </div>
 
@@ -110,11 +104,11 @@
             <h2 class="subtitle_sec" >Separamos para você uma explicação mais detalhada sobre <b>Teorema de Pitágoras</b>. Aproveite bastante!</h2>
 
             <div class="media d-flex justify-content-center">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Iq1TputJKnE?si=RU_yE88MvFJJ6sod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EZv46COmpLg?si=jZTfzfWfZAaH_9K4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <h2 class="subtitle_sec">Caso queira, veja mais vídeos deste conteúdo no YouTube!</h2>
             <div class="btn_yt d-flex justify-content-center">
-              <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=estatistica" target="_blank">Vamos para o YouTube!</a>
+              <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=proporcionalidade" target="_blank">Vamos para o YouTube!</a>
             </div>
             <div class="d-flex justify-content-center" style="padding-top: 5px" >
                 <p style="font-size: 15px">*Ao clicar, o Youtube filtrará todos os videos deste conteúdo.</p>
@@ -131,7 +125,7 @@
             <h2 class="subtitle_sec" >E aí? Que tal colocarmos em prática o que aprendemos hoje? Escolha um game abaixo.</h2>
 
             <div class="media d-flex justify-content-center">
-              <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/a92f2d26e82542cda2a57d70c706ec21?themeId=44&templateId=73&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/6739b437391446b9b44e1b4911daff22?themeId=21&templateId=30&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
             </div>
 
             <h2 class="subtitle_sec" >Mais jogos para explorar.</h2>
@@ -142,17 +136,17 @@
             <div class="row games">
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                <a target="_blank" href="https://wordwall.net/pt/resource/59076053/estatística?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/4ec5d13e26864c4aa3d6c4e8c13336f4_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Caça-Palavras</b></span></a>
+                <a target="_blank" href="https://wordwall.net/pt/resource/14685372/proporção?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/44d57319871a419680b11612efd45b3c_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Jogo de cartas</b></span></a>
                 </div>
               </div>
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                <<a target="_blank" href="https://wordwall.net/pt/resource/8277539/estatística?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/fb4331f4d1264d95bba2141de722be9d_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px"/><span class="span_game d-flex justify-content-center"><b>Logo do labirinto</b></span></a>
+                <a target="_blank" href="https://wordwall.net/pt/resource/3940668/razão-e-proporção?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/51c96dc76043437a8ee707db6fe77fe0_23b" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quiz</b></span></a>
                 </div>
               </div>
               <div class="col">
                 <div class="media d-flex justify-content-center">
-                <a target="_blank" href="https://wordwall.net/pt/resource/53117314/estatística?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/703c6b683c1a4be8b4a1f945e2dfaaa4_44" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quadro-negro</b></span></a>
+                <a target="_blank" href="https://wordwall.net/pt/resource/15143012/quiz-razão-e-proporção-profª-elaine-tinti?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/ac97f40ef16743d68e127cb399adbc3a_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quiz Razão e Proporção</b></span></a>
                 </div>
               </div>
             </div>
@@ -184,8 +178,8 @@
               <a href="pi.php" class="list-group-item list-group-item-action art-body botao_card">> Número Pi</a>
               <a href="potenciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Potenciação</a>
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
+              <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body botao_card">> Teorema de Pitágoras</a>
-              <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
             </div>
         </aside>
       </div>
@@ -283,7 +277,7 @@
       });
       
       window.addEventListener('focus', function() {
-        document.title = "MathLearn | Estatística";
+        document.title = "MathLearn | Proporcionalidade";
       });
   
     </script>

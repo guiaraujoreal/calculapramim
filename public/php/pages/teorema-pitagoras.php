@@ -179,6 +179,7 @@ Além disso, o Teorema de Pitágoras tem aplicações em diversas áreas, como a
               <a href="potenciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Potenciação</a>
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
+              <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
             </div>
         </aside>
       </div>

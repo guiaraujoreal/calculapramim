@@ -166,6 +166,7 @@ log<sub>10</sub>(100) = 2, porque 10<sup>2</sup> = 100. = Isso nos diz que o exp
               <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body botao_card">> Teorema de Pitágoras</a>
               <a href="pi.php" class="list-group-item list-group-item-action art-body botao_card">> Número Pi</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
+              <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
             </div>
         </aside>
       </div>
