@@ -12,7 +12,10 @@ const frases = [
     'A teoria dos jogos é um ramo da matemática que estuda as estratégias e decisões em situações competitivas.',
     'O número 2 é o único número primo par. Todos os outros números primos são ímpares.',
     'O número 4 é o único número com o mesmo número de letras do próprio valor.',
-    'O número 9 é um número mágico em matemática. Multiplicar qualquer número por 9 e, em seguida, somar os dígitos do resultado sempre resultará em 9. Por exemplo, 9 x 7 = 63, e 6 + 3 = 9.'
+    'O número 9 é um número mágico em matemática. Multiplicar qualquer número por 9 e, em seguida, somar os dígitos do resultado sempre resultará em 9. Por exemplo, 9 x 7 = 63, e 6 + 3 = 9.',
+    ' Em um grupo com apenas 23 pessoas, a probabilidade de pelo menos duas pessoas terem a mesma data de aniversário é maior que 50%. Isso acontece devido à natureza das combinações e das possíveis coincidências.',
+    'A constante de Euler, representada por "e", é uma constante matemática importante que aparece em muitos contextos diferentes. Ela é aproximadamente igual a 2,71828 e é fundamental em cálculos exponenciais e logarítmicos.',
+    'Pares de números amigos são aqueles em que a soma dos divisores próprios (excluindo o próprio número) de um número é igual ao outro número do par.'
   ];
   
   // Função para sortear uma frase

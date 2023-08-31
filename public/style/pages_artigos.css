@@ -4,6 +4,9 @@
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
+.titulo_page{
+    text-align: center;
+}
 a{
     text-decoration: none;
 }
@@ -29,7 +32,7 @@ a{
     border-radius: 10px;
     margin-bottom: 3vh;
 }
-#sec02{
+.sec02{
     max-width: 97%;
     font-size: 20px;
 }

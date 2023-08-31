@@ -41,7 +41,7 @@
       <div class="row">
         <main>
           <section id="sec01" class="container-fluid">
-            <h1 class="txt-title01">Este é o MathLearn - Educação, inclusão, tecnologia.</h1>
+            <h1 class="txt-title01">Este é o MathLearn - Educação, aprendizado, tecnologia.</h1>
             <div class="row d-flex justify-content-center divVideo">
                 <div id="video_proj" class="col video_proj" controls autoplay>
                   <img src="../../imgs/videoproj.gif" class="img-fluid img-top videoProj" alt="gif page">
@@ -53,7 +53,7 @@
             <hr class="featurette-divider">
           </div>
 
-            <section id="sec02" class="container-fluid">
+            <section id="sec1" class="container-fluid sec02">
               <div class="sub-title d-flex justify-content-center">
                 <h2 class="titulo_page"><b>A <span id="titulo_page" class="titulo_page"></span> move fronteiras</b></h2>
               </div>
@@ -83,15 +83,24 @@
               <hr class="featurette-divider">
             </div>
 
-            <section id="sec02" class="container-fluid">
+            <section id="sec2" class="container-fluid sec02">
               <div class="sub-title d-flex justify-content-center">
-                <h2 class="titulo_page"><b>Inclusão  - o que incluimos aqui?</b></h2>
+                <h2 class="titulo_page"><b>Tecnologia - o que estamos trazendo?</b></h2>
               </div>
 
               <div class="row d-flex justify-content-center ">
                 <div class="col">
                   <p class="entrada txt">
-                    <br><span class="space"></span> Nós pensamos na inclusão 
+                    <br><span class="space"></span> O MathLearn veio com a proposta de ser um aliado entre a tecnologia e o aprendizado. Mas afinal,
+                    quais tecnologias estamos trazendo?
+                    <br><br><span class="space"></span>Estamos em uma era onde as Inteligências Artificias estão ganhando posição na sociedade. Que tal 
+                    úni-las à educação? A partir dessa óptica, junto a métodos já proporcionados por empresas multinacionais, implementamos em nossa palatforma 
+                    duas Inteligências Artificias especializadas em matemática; uma de bate-papo, focada em explicações, conversas interativas e/ou
+                    resultados parciais; a outra é uma Calculadora Mágica, especializada em resultados concretos, objetivos, retorna o passo a passo de 
+                    qualquer expressão matemática possível, além de gráficos e formas alternativas.
+                    <br><br><span class="space"></span>*Obs: A I.A de bate-papo pode gerar uma taxa de erros superior à da Calculadora Mágica pois a mesma está em desenvolvimento inicial.
+                    Veja algumas informações no menu-collapse, abaixo da área de texto de cada I.A.
+                    <br><br><span class="space"></span>Conheça, interaja, converse e pergunte a elas acessando a página de I.As no menu suspenso/hambúguer.
                   </p>
                   </div>
                 </div>
@@ -101,46 +110,73 @@
               <hr class="featurette-divider">
             </div>
 
-            <section id="sec04" class="container-fluid">
-              <h1 class="title_sec" ><b>Vamos praticar!</b></h1>
-              <h2 class="subtitle_sec" >E aí? Que tal colocarmos em prática o que aprendemos hoje? Escolha um game abaixo.</h2>
-
-              <div class="media d-flex justify-content-center">
-                <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/74daebd93c7d43f38b77b136c01b6cac?themeId=21&templateId=30&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            <section id="sec3" class="container-fluid sec02">
+              <div class="sub-title d-flex justify-content-center">
+                <h2 class="titulo_page"><b>Artigos Matemáticos</b></h2>
               </div>
 
-              <h2 class="subtitle_sec">Mais jogos para explorar.</h2>
-
-              <div class="divisory d-flex justify-content-center">
-                <hr class="featurette-divider-sub02">
-              </div>
-              <div class="games">
-                <div class="row">
-                  <div class="col">
-                    <div class="media d-flex justify-content-center">
-                      <a target="_blank" href="https://wordwall.net/pt/resource/52748107/show-do-milhão-fração?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/f8ad0ceac8784a0081fc35d010c05c22_21" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Show do Milhão - Fração</b></span></a>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="media d-flex justify-content-center">
-                      <a target="_blank" href="https://wordwall.net/pt/resource/52744929/fração?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/e62c5dbe2c234c1289608c65a92604b7_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Acerte a Topeira</b></span></a>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="media d-flex justify-content-center">
-                    <a target="_blank" href="https://wordwall.net/pt/resource/4647482/fração?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/3820ccebd6454bfab23eed5a5f6b9160_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Quiz nas núvens</b></span></a>
-                    </div>
+              <div class="row d-flex justify-content-center">
+                <div class="col">
+                  <p class="entrada txt">
+                    <br><span class="space"></span> Artigos Matemáticos é uma sessão da nossa plataforma em que reunimos vários artigos e conteúdos matemáticos
+                    em um só lugar. Ao escolher um artigo/conteúdo, haverá uma explicação superficial sobre o conteúdo, além de recursos midiáticos para interatividade,
+                    como games educacionais e vídeo-aulas filtradas, além de escolhermos uma vídeo-aula em melhor posição. Desfrute de um conteúdo mais detalhado 
+                    acessando a sessão Artigos Matemáticos no menu suspenso/hambúguer.
+                  </p>
                   </div>
                 </div>
-              </div>
-            </section>
+                </section>
 
+                <div class="divisory d-flex justify-content-center">
+              <hr class="featurette-divider">
+            </div>
+
+            <section id="sec4" class="container-fluid sec02">
+              <div class="sub-title d-flex justify-content-center">
+                <h2 class="titulo_page"><b>Quem somos nós?</b></h2>
+              </div>
+
+              <div class="row d-flex justify-content-center ">
+                <div class="col">
+                  <p class="entrada txt">
+                    <br><span class="space"></span> "Somos uma turma de alunos do ensino fundamental empenhados em levar a educação aliada à tecnologia de forma prática e ágil á todos os estudantes.
+                      Estudamos na turma 01 do nono período do ensino fundamental (9&deg; ano 01) do Colégio Tiradentes da Polícia Militar de Minas Gerais - unidade Curvelo."
+                      <br><br><span class="space"></span>Este projeto foi idealizado com auxílio da professora de Matemática Andrea Cordeiro e trago à vida com os seguintes alunos da turma:
+                      <ul>
+                        <li>Ana Clara G. Saraiva;</li>
+                        <li>Ana Júlia F. de Paula;</li>
+                        <li>Athos T. dos Santos;</li>
+                        <li>Bianca Stéfany de A. Carvalho;</li>
+                        <li>Esdras Daniel C. Rodrigues;</li>
+                        <li>Isabella D. Silvério;</li>
+                        <li>Izabelle Ferreira R. Soares;</li>
+                        <li>João Victor D. Pinheiro;</li>
+                        <li>Lara Lavínia M. Rodirgues;</li>
+                        <li>Lara L. de Souza;</li>
+                        <li>Marcus Túlio de S. Reis;</li>
+                        <li>Maria Clara B. Baioneta;</li>
+                        <li>Maria Eduarda G. da Silva;</li>
+                        <li>Maria Luísa R. L. Oliveira;</li>
+                        <li>Mariane de F. da Paz;</li>
+                        <li>Miguel Medeiros L. da Rocha;</li>
+                        <li>Nathália Vitória G. Lourival;</li>
+                        <li>Pedro Miguel A. Rodrigues;</li>
+                        <li>Pietro Emanuel C. M. Fernandes;</li>
+                        <li>Roberta Emanuelle M. Campos.</li>
+                      </ul>
+                      <br><br><span class="space"></span>Agradecemos a sua visita a nossa plataforma.
+                  </p>
+                  </div>
+                </div>
+                </section>
+
+                
             <div class="divisory d-flex justify-content-center">
               <hr class="featurette-divider-sub02">
             </div>
 
             <section id="sec04" class="container-fluid">
-              <h1 class="subtitle_sec">Bons estudos!😊</h1>
+              <h1 class="subtitle_sec">Aproveite bem e bons estudos!😊</h1>
             </section>
             
 

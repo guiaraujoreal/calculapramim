@@ -52,7 +52,7 @@
               <div class="carousel-caption text-start">
                 <h1 class="txt-slide"><b>Bem-vindo ao MathLearn!</b></h1>
                 <p class="subtxt-slide">Somos uma equipe de alunos buscando inovar a educação de forma prática e inclusiva.</p>
-                <p><a class="btn btn-lg btn-primary" href="404_page.php">Conheça o projeto</a></p>
+                <p><a class="btn btn-lg btn-primary" href="conhecaProj.php">Conheça o projeto</a></p>
               </div>
             </div>
           </div>
@@ -106,7 +106,6 @@
                 <h2 class="featurette-heading fw-normal lh-1 text_card">Você pergunta, <span class="animated"></span></h2>
                 <p class="lead text_card">Nossas Inteligências Artificiais podem ajudar você a sanar várias questões matemáticas, elaborando
                   métodos eficazes e economizando seu tempo na hora de resolver uma expressão matemática. Venha conhecer!
-                  <br><br>*Obs: consulte as informações sobre veracidade da I.A  <a href="#">aqui</a>.
                 </p>
               </div>
               <div class="col-md-5">

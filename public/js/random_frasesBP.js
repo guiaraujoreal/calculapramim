@@ -7,6 +7,9 @@ const frases = [
     "Deixa eu procurar sobre isso...",
     "Deixa eu raciocinar...",
     "Pensando como um humano...",
+    "Legal! Deixa eu ver sobre isso...",
+    "Raciocinando com um humano",
+    "Pensando sobre isso, só um minutinho..."
   ];
   
   // Função para sortear uma frase
