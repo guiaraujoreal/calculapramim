@@ -66,8 +66,8 @@
               </div>
 
               <div class="row d-flex justify-content-center ">
-                <div class="col">
-                  <p class="entrada txt">
+                <div class="col entrada">
+                  <p class="txt">
                       <span class="space"></span>A notação científica é uma forma de representar números muito grandes ou muito pequenos de uma maneira mais concisa e conveniente. Ela é frequentemente usada em campos científicos e matemáticos para lidar com números extremamente grandes ou pequenos, como nas áreas da física, química e astronomia.
                         <br>
                         <br><span class="space"></span>A notação científica é baseada no uso de potências de 10. Um número é expresso como um produto entre um número entre 1 e 10 (chamado de mantissa ou coeficiente) e uma potência de 10. A potência de 10 indica quantas casas decimais o número deve ser movido para a esquerda ou direita para alcançar sua forma normal.
@@ -176,6 +176,7 @@
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
+              <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
             </div>
         </aside>
       </div>

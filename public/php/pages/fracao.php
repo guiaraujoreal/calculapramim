@@ -65,8 +65,8 @@
               </div>
 
               <div class="row d-flex justify-content-center ">
-                <div class="col">
-                  <p class="entrada txt">
+                <div class="col entrada">
+                  <p class="txt">
                   <span class="space"></span>Uma fração é uma forma de representar uma parte de um todo. Ela é composta por dois números: um numerador e um denominador. O numerador indica quantas partes temos, enquanto o denominador indica em quantas partes o todo foi dividido. A fração é escrita na forma a/b, onde "a" é o numerador e "b" é o denominador.
 
                       <br>Por exemplo, considere a fração 3/4. Nessa fração, o numerador é 3, o que significa que temos 3 partes do todo, e o denominador é 4, indicando que o todo foi dividido em 4 partes iguais. A fração 3/4 representa três quartos do todo.
@@ -188,6 +188,7 @@
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
+              <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
             </div>
         </aside>
       </div>

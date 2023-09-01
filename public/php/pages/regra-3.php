@@ -66,8 +66,8 @@
               </div>
 
               <div class="row d-flex justify-content-center ">
-                <div class="col">
-                  <p class="entrada txt">
+                <div class="col entrada">
+                  <p class="txt">
                   <span class="space"></span>A ideia básica por trás da regra de três é que, se existe uma proporção entre duas grandezas, essa proporção também se mantém quando a terceira grandeza é incluída. Em outras palavras, se duas grandezas são proporcionais entre si, a terceira grandeza também será proporcional a elas.
                           <br>
                           <br><span class="space"></span>Existem dois tipos comuns de regra de três: direta e inversa.
@@ -214,6 +214,7 @@
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
+              <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
             </div>
         </aside>
       </div>

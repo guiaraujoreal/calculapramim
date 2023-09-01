@@ -64,8 +64,8 @@
               </div>
 
               <div class="row d-flex justify-content-center ">
-                <div class="col">
-                  <p class="entrada txt">
+                <div class="col entrada">
+                  <p class="txt">
                   <span class="space"></span>A radiciação é uma operação matemática que envolve o cálculo de raízes de um número. Ela é o oposto da potenciação. Enquanto a potenciação envolve o cálculo de um número elevado a um expoente, a radiciação envolve encontrar o número que, elevado a um determinado índice, resulta no número original.
                   <br><span class="space"></span>A notação matemática para a radiciação é o símbolo de raiz, que é um radical (√). O número dentro do radical é chamado de radicando, e o índice indica qual raiz está sendo calculada.
 
@@ -177,6 +177,7 @@
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
+              <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
             </div>
         </aside>
       </div>

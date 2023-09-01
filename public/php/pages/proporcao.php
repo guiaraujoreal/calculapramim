@@ -71,7 +71,7 @@
 <br><br><p class="entrada txt"><span class="space"></span>Proporção = Parte / Todo
 
 <br><br><p class="entrada txt"><span class="space"></span>Onde:
-<ul>
+<ul class="entrada">
   <li>"Parte" é a quantidade específica que você está considerando.</li>
   <li>"Todo" é o valor total ou o conjunto do qual a parte faz parte.</li>
 </ul>
@@ -180,6 +180,7 @@
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body botao_card">> Teorema de Pitágoras</a>
+              <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
             </div>
         </aside>
       </div>

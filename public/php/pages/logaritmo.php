@@ -64,8 +64,8 @@
               </div>
 
               <div class="row d-flex justify-content-center ">
-                <div class="col">
-                  <p class="entrada txt">
+                <div class="col entrada">
+                  <p class="txt">
                   <span class="space"></span>Um logaritmo é uma função matemática que descreve a relação entre dois números em termos de potências. Em outras palavras, ele nos diz a que expoente uma base específica deve ser elevada para obter um certo número. 
                   <br><br><span class="space"></span>A notação padrão para um logaritmo é:
                   <br><br><br><span class="space"></span>log <sub>base</sub>(número) = expoente
@@ -167,6 +167,7 @@ log<sub>10</sub>(100) = 2, porque 10<sup>2</sup> = 100. = Isso nos diz que o exp
               <a href="pi.php" class="list-group-item list-group-item-action art-body botao_card">> Número Pi</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
+              <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
             </div>
         </aside>
       </div>

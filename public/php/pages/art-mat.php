@@ -140,6 +140,15 @@
                         </div>
                     </div>
                 </div>
+                <div id="coluna" class="col-md-5 col-lg-3 col-xs-12" data-toggle="tooltip" data-placement="bottom" title="Aprenda a calcular as principais formas dos produtos notáveis!">
+                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded">
+                        <img class="card-img-top" src="../../imgs/card11.png" alt="Imagem de capa do card">
+                        <div id="card-body11" class="card-body">
+                          <h5 class="card-title"><b>Produtos Notáveis</b></h5>
+                          <a href="prod-not.php" id="botao_card11" class="botao_card btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Aprenda a calcular as principais formas dos produtos notáveis!">Vamos Aprender!</a>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
         </div>

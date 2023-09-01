@@ -79,7 +79,7 @@
 
                 <br><br><span class="space"></span>A estatística tem aplicações em diversas áreas, incluindo ciências naturais, ciências sociais, economia, medicina, engenharia, psicologia e muitas outras. Algumas aplicações comuns incluem:
 
-                <ul>
+                <ul class="entrada">
                   <li><b>Pesquisas e Estudos de Opinião:</b> A estatística é usada para coletar e analisar dados em pesquisas e estudos de opinião para tirar conclusões sobre a população em geral com base em amostras menores.</li>
 
                   <li<b>Economia:</b> Economistas usam estatísticas para analisar indicadores econômicos, como taxas de inflação, desemprego e crescimento econômico, para entender e prever tendências econômicas.</li>
@@ -186,6 +186,7 @@
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
               <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body botao_card">> Teorema de Pitágoras</a>
               <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
+              <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
             </div>
         </aside>
       </div>

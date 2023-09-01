@@ -25,7 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="../../style/pages_artigos.css" rel="stylesheet">
 
-    <title>MathLearn | Número Pi</title>
+    <title>MathLearn | Produtos Notáveis</title>
   </head>
 
   <body>
@@ -37,11 +37,11 @@
     <section id="sec0" class="container-fluid" >
 
     <?php include "../includes/overlayContAM.php"  ?>
-    
+
       <div class="row">
         <main class="col-sm-8">
           <section id="sec01" class="container-fluid">
-            <h1 class="txt-title01">Número Pi</h1>
+            <h1 class="txt-title01">Produtos Notáveis</h1>
           </section>
 
           <div class="divisory d-flex justify-content-center">
@@ -50,29 +50,45 @@
 
             <section id="sec02" class="container-fluid">
               <div class="row d-flex justify-content-center ">
-                <div class="col entrada">
-                  <p class=""><span class="space"></span>Quando falamos em cálculos envolvendo superfícies
-                  redondas ou esféricas, lembramos do Pi, número esse que possui até dia próprio para celebração. Nesta seção,
-                  vamos aprofundar sobre o quão esse número se torna útil e auxilia no cálculo de uma esfera, por exemplo. Vamos lá!
+                <div class="col">
+                  <p class="entrada"><span class="space"></span> Um conteúdo bastante estudo na área da matemática é o Produtos Notáveis. Podendo ser usado em um vasto campo de tarefas do 
+                  cotidiano, os Produtos Notáveis podem ser usados como, por exmeplo, no cálculo de volume, área e até mesmo em finanças e nas engenharias.Vamos conhecer a seguir mais detalhes sobre 
+                  o fantástico mundo dos produtos notáveis. Vamos lá! 
+                  </p>
                 </div>
               </div>
               
               <div class="row">
                 <div class="col d-flex justify-content-center">
-                  <img src="../../imgs/pi_img.jpg" class="img-fluid img-top" alt="Imagem sobre radiciação">
+                  <img src="../../imgs/prodnot.jpeg" class="img-fluid img-top" alt="Imagem sobre radiciação">
                 </div>
               </div>
 
               <div class="row d-flex justify-content-center ">
                 <div class="col entrada">
                   <p class="txt">
-                  <span class="space"></span>O Pi, representado pela letra grega π, é uma constante matemática que representa a relação entre a circunferência de um círculo e seu diâmetro. Em outras palavras, é a proporção entre o comprimento de uma circunferência e seu diâmetro.
-                  <br>
-                  <br><span class="space"></span>O valor de Pi é aproximadamente 3,14159, mas é um número irracional, o que significa que possui uma sequência infinita e não periódica de dígitos decimais. Isso quer dizer que o valor exato de Pi não pode ser expresso como uma fração simples ou como uma dízima finita.
-                  <br>
-                  <br><span class="space"></span>O Pi é uma constante amplamente utilizada em várias áreas da matemática, física, engenharia e outras disciplinas científicas. Ele aparece em fórmulas e equações para calcular áreas de círculos, volumes de esferas, perímetros de circunferências, entre outras aplicações.
-                  <br>
-                  <br><span class="space"></span>Devido à sua importância, o Dia do Pi (Pi Day) é comemorado em 14 de março (3/14 nos formatos de data usados nos Estados Unidos), em referência aos primeiros dígitos de Pi. Nesse dia, ocorrem celebrações e atividades relacionadas à matemática em várias partes do mundo.   
+                  <br><span class="space"></span>Produtos notáveis são expressões algébricas que representam fórmulas especiais que surgem frequentemente em matemática. Essas fórmulas são chamadas de "notáveis" porque são úteis e aparecem com frequência em diversos contextos matemáticos. Os produtos notáveis são úteis para simplificar e expandir expressões algébricas, tornando o trabalho com equações e polinômios mais eficiente.
+
+                  <br><span class="space"></span>Os principais produtos notáveis incluem:
+                  <ul class="entrada">
+                    <li><b>Quadrado de um binômio (a + b)<sup>2</sup>:</b> O quadrado de um binômio é dado pela fórmula (a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup>. Esse produto notável é usado para expandir expressões quadráticas.</li>
+
+                    <li><b>Quadrado da diferença (a - b)<sup>2</sup>:</b> O quadrado da diferença entre dois termos é dado por (a - b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup>. Isso também é usado para expandir expressões quadráticas.</li>
+
+                    <li><b>Produto da soma e da diferença (a + b)(a - b):</b> O produto da soma e da diferença de dois termos é dado por (a + b)(a - b) = a<sup>2</sup> - b<sup>2</sup>. Essa fórmula é chamada de diferença de quadrados e é usada para fatorar expressões quadráticas.</li>
+
+                    <li><b>Cubo de um binômio (a + b)<sup>3</sup>:</b> O cubo de um binômio é dado pela fórmula (a + b)<sup>3</sup> = a<sup>3</sup> + 3a<sup>2</sup>b + 3ab<sup>2</sup> + b<sup>3</sup>. Essa fórmula é usada para expandir expressões cúbicas.</li>
+
+                    <li><b>Cubo da diferença (a - b)<sup>3</sup>:</b> O cubo da diferença entre dois termos é dado por (a - b)<sup>3</sup> = a<sup>3</sup> - 3a<sup>2</sup>b + 3ab<sup>2</sup> - b<sup>3</sup>. Isso também é usado para expandir expressões cúbicas.</li>
+
+                    <li><b>Soma de dois cubos (a<sup>3</sup> + b<sup>3</sup>):</b> A soma de dois cubos é dada por a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> - ab + b<sup>2</sup>). Essa fórmula é usada para fatorar a soma de dois cubos.</li>
+
+                    <li><b>Diferença de dois cubos (a<sup>3</sup> - b<sup>3</sup>):</b> A diferença de dois cubos é dada por a<sup>3</sup> - b<sup>3</sup> = (a - b)(a<sup>2</sup> + ab + b<sup>2</sup>). Essa fórmula é usada para fatorar a diferença de dois cubos.</li>
+                  </ul>
+                    Conhecer essas fórmulas de produtos notáveis é fundamental para simplificar expressões algébricas, resolver equações e fatorar polinômios. Elas são ferramentas importantes em álgebra e cálculo, e sua compreensão pode facilitar muito o trabalho com matemática.
+                  
+
+
                       </p>
                   </div>
                 </div>
@@ -84,15 +100,15 @@
 
             <section id="sec03" class="container-fluid">
               <h1 class="title_sec"><b>Para aprimorar</b></h1>
-              <h2 class="subtitle_sec" >Separamos para você duas explicações mais detalhadas sobre <b>Número Pi</b>. Aproveite bastante!</h2>
+              <h2 class="subtitle_sec" >Separamos para você uma explicação mais detalhada sobre <b>Radiciação</b>. Aproveite bastante!</h2>
 
               <div class="media d-flex justify-content-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vY6965UdcLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/i48MouWbMCo?si=lCeBcB-urJRGZiAp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
 
               <h2 class="subtitle_sec">Caso queira, veja mais vídeos deste conteúdo no YouTube!</h2>
               <div class="btn_yt d-flex justify-content-center">
-                <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=pi" target="_blank">Vamos para o YouTube!</a>
+                <a class="btn btn-primary" href="https://www.youtube.com/results?search_query=produtos+notaveis" target="_blank">Vamos para o YouTube!</a>
               </div>
               <div class="d-flex justify-content-center" style="padding-top: 5px" >
                 <p style="font-size: 15px">*Ao clicar, o Youtube filtrará todos os videos deste conteúdo.</p>
@@ -109,12 +125,30 @@
               <h1 class="title_sec" ><b>Vamos praticar!</b></h1>
               <h2 class="subtitle_sec" >E aí? Que tal colocarmos em prática o que aprendemos hoje? Escolha um game abaixo.</h2>
 
+              <div class="media d-flex justify-content-center">
+                <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/f79f3230e62d45bda2877e3192000da8?themeId=46&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+              </div>
+
+              <h2 class="subtitle_sec" >Mais jogos para explorar.</h2>
+
+              <div class="divisory d-flex justify-content-center">
+                <hr class="featurette-divider-sub02">
+              </div>
               <div class="row games">
-                <div class="col-10 col-sm-6 d-flex justify-content-center">
-                  <img class="img_empty d-flex justify-content-center" src="../../imgs/empty-box.svg">
+                <div class="col">
+                    <div class="media d-flex justify-content-center">
+                  <a target="_blank" href="https://wordwall.net/pt/resource/16849598/testando-conhecimentos-sobre-potência-notação-científica-e?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/b390d9d9613f41a1a656103bcf62a509" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Jogo das cartas</b></span></a>
+                    </div>
                 </div>
                 <div class="col">
-                  <p class="subtitle_sec"> Xiiii! Não achamos nada deste conteúdo. Não fique triste conosco! Explore mais artigos.
+                  <div class="media d-flex justify-content-center">
+                    <a target="_blank" href="https://wordwall.net/pt/resource/3474097/produtos-notáveis?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/e9d480b9040d4f2c98b5f4ec2fbe7807_0" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Produtos notáveis</b></span></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="media d-flex justify-content-center">
+                  <a target="_blank" href="https://wordwall.net/pt/resource/15457818/produtos-notáveis-?ref=embed-image"><img src="https://az779572.vo.msecnd.net/screens-200/a8897c0e647e44428d73752310c224ba_43" width="200" height="150" style="border:1px solid grey;display:block;border-radius:5px" /><span class="span_game d-flex justify-content-center"><b>Mural</b></span></a>
+                  </div>
                 </div>
               </div>
             </section>
@@ -140,14 +174,14 @@
               </p>
               <a href="potenciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Potenciação</a>
               <a href="notacao-cientifica.php" class="list-group-item list-group-item-action art-body botao_card">> Notação Científica</a>
-              <a href="radiciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Radiciação</a>
-              <a href="fracao.php" class="list-group-item list-group-item-action art-body botao_card">> Fração</a>
               <a href="regra-3.php" class="list-group-item list-group-item-action art-body botao_card">> Regra de Três</a>
+              <a href="fracao.php" class="list-group-item list-group-item-action art-body botao_card">> Fração</a>
+              <a href="pi.php" class="list-group-item list-group-item-action art-body botao_card">> Número Pi</a>
               <a href="teorema-pitagoras.php" class="list-group-item list-group-item-action art-body botao_card">> Teorema de Pitágoras</a>
               <a href="logaritmo.php" class="list-group-item list-group-item-action art-body botao_card">> Logaritmo</a>
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
-              <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
+              <a href="radiciacao.php" class="list-group-item list-group-item-action art-body botao_card">> Radiciação</a>
             </div>
         </aside>
       </div>
@@ -245,7 +279,7 @@
       });
       
       window.addEventListener('focus', function() {
-        document.title = "MathLearn | Número Pi";
+        document.title = "MathLearn | Produtos Notáveis";
       });
   
     </script>
