@@ -145,6 +145,14 @@
         </div>
     </section>
 
+    <div class="divisory d-flex justify-content-center">
+    <hr class="featurette-divider">
+  </div>
+
+    <section id="sec03" class="container-fluid d-flex justify-content-center">
+      <p class="fimArtigo">Por enquanto é isso. Estamos adicionando mais e mais artigos diariamente ;)</p>
+    </section>
+
 
     <!--Alertas de alternancia de tema-->
     <div id="alertThemeLight" class="alert alert-success d-none alertIntro" role="alert">
