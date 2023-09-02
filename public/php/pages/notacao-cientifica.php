@@ -177,6 +177,7 @@
               <a href="estatistica.php" class="list-group-item list-group-item-action art-body botao_card">> Estatística</a>
               <a href="proporcao.php" class="list-group-item list-group-item-action art-body botao_card">> Proporcionalidade</a>
               <a href="prod-not.php" class="list-group-item list-group-item-action art-body botao_card">> Produtos Notáveis</a>
+              <a href="equacao.php" class="list-group-item list-group-item-action art-body botao_card">> Equações</a>
             </div>
         </aside>
       </div>
