@@ -149,6 +149,15 @@
                         </div>
                     </div>
                 </div>
+                <div id="coluna" class="col-md-5 col-lg-3 col-xs-12" data-toggle="tooltip" data-placement="bottom" title="Aprenda a calcular as principais formas dos produtos notáveis!">
+                    <div id="cards" class="card text-center mx-auto shadow bg-white rounded">
+                        <img class="card-img-top" src="../../imgs/card12.webp" alt="Imagem de capa do card">
+                        <div id="card-body12" class="card-body">
+                          <h5 class="card-title"><b>Equações</b></h5>
+                          <a href="equacao.php" id="botao_card12" class="botao_card btn btn-primary btn-block" data-toggle="tooltip" data-placement="bottom" title="Aprenda a calcular as principais formas dos produtos notáveis!">Vamos Aprender!</a>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
         </div>
