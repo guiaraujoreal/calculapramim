@@ -52,7 +52,7 @@
               <div class="carousel-caption text-start">
                 <h1 class="txt-slide"><b>Bem-vindo ao MathLearn!</b></h1>
                 <p class="subtxt-slide">Somos uma equipe de alunos buscando inovar a educação de forma prática e inclusiva.</p>
-                <p><a class="btn btn-lg btn-primary" href="conhecaProj.php">Conheça o projeto</a></p>
+                <!--<p><a class="btn btn-lg btn-primary" href="conhecaProj.php">Conheça o projeto</a></p>-->
               </div>
             </div>
           </div>
@@ -190,10 +190,10 @@
                 </div>
                 <div class="modal-body">
                   <div class="anim_modal d-flex justify-content-center">
-                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <script sdo 9° ano 01 do CTPM Curvelorc="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                     <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_F2Mv1p.json"  background="transparent"  speed="1"  style="width: 300px; height: 200px;" loop   autoplay></lottie-player>
                   </div>
-                  Estamos felizes em te ver! Nós, alunos do 9° ano 01 do CTPM Curvelo, elaboramos este site 
+                  Estamos felizes em te ver! Nós, alunos do Senac Curvelo, elaboramos este site 
                   para facilitar sua relação com alguns cálculos matemáticos no seu dia a dia. Aproveite!
                 </div>
                 <div class="modal-footer">

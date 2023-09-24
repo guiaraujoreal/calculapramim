@@ -21,31 +21,32 @@
                 <p class="sub_text_flogo">Conteúdo</p>
                 <p class="text_link"><a href="../pages/ias.php">#Converse com nossa I.A</a></p>
                 <p class="text_link"><a href="../pages/art-mat.php">#Artigos matemáticos</a></p>
-        </div>
+        </div> <!--
         <div class="col col_ftext">
                 <p class="sub_text_flogo">Credenciais</p>
                 <p class="text_link"><a href="../pages/conhecaProj.php#sec4">#Quem somos nós?</a></p>
                 <p class="text_link"><a href="../pages/conhecaProj.php">#Nosso objetivo</a></p>
                 <p class="text_link"><a href="../pages/conhecaProj.php#sec1">#O que estamos trazendo</a></p>
-        </div>
+        </div> -->
     </div>
     
     <div class="row">
         <div class="col text_id">
-            <p>-- Turma 9° ano 01 do Colégio Tiradentes da PMMG unidade Curvelo --</p>
+            <p>-- MathLearn Education - Parceria com a turma 901 do CTPM Curvelo --</p>
         </div>
     </div>
     
     <div class="row copy_bot">
-            <div class="col_copy col d-flex justify-content-start">
-                <p class="copy"><tag class="dev_tag">&copy;2023 Copyright - Todos os direitos reservados | Desenvolvido por </tag> João Guilherme</p>
+            <div class="col_copy col d-flex justify-content-center">
+                <p class="copy"><tag class="dev_tag">&copy;2023 Copyright - Todos os direitos reservados</tag></p>
             </div>
+            <!--
             <div class="col_icons col d-flex justify-content-end align-items-center">
                 <div class="row justify-content-around">
                     <a class="col col-2" href="https://www.instagram.com/guiaraujo.real" target="_blank"><img class="icons_rs" src="../../imgs/instagram.png"></a>
                     <a class="col col-2" href="https://www.linkedin.com/in/jo%C3%A3o-guilherme-ara%C3%BAjo-viana-aab649221/" target="_blank"><img class="icons_rs" src="../../imgs/linkedin.png"></a>
                     <a class="col col-2" href="https://wa.me/553899612613" target="_blank"><img class="icons_rs" src="../../imgs/whatsapp.png"></a>
                 </div>
-            </div>
+            </div> -->
     </div>
 </div>
