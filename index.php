@@ -14,14 +14,14 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
 
     <title>MathLearn Education</title>
-    <link rel="stylesheet" href="style/index.css">
-    <link rel="shortcut icon" href="imgs/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="public/style/index.css">
+    <link rel="shortcut icon" href="public/imgs/ico.png" type="image/x-icon">
 </head>
 <body>
     <section id="sec01" class="container-fluid d-flex justify-content-center align-items-center">
         <div class="row d-flex justify-content-center align-items-center flex-column">
             <div class="col-12  d-flex justify-content-center">
-              <img class="img-fluid img" src="imgs/logo_corp.png" alt="Logo da MathLearn Education">  
+              <img class="img-fluid img" src="public/imgs/logo_corp.png" alt="Logo da MathLearn Education">  
             </div>
             <div class="col-10  d-flex justify-content-center ">
               <p id="txtLoading" class="txt" ></p>  
@@ -30,14 +30,14 @@
     </section>
     <div id="overlayWhite"></div>
 
-    <script src="js/animate_indexIntro.js" ></script>
+    <script src="public/js/animate_indexIntro.js" ></script>
 
     <script>
         setTimeout(() =>{
             const overlay = document.getElementById("overlayWhite");
             overlay.style.display = "block";
             setTimeout(() =>{
-                window.location.href = "php/pages/home.php";
+                window.location.href = "public/php/pages/home.php";
             },3000);
         }, 7000);
     </script>

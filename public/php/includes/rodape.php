@@ -38,7 +38,7 @@
     
     <div class="row copy_bot">
             <div class="col_copy col d-flex justify-content-center">
-                <p class="copy"><tag class="dev_tag">&copy;2023 Copyright - Todos os direitos reservados</tag></p>
+                <p class="copy"><tag class="dev_tag">&copy;2023 Copyright - Todos os direitos reservados.</tag></p>
             </div>
             <!--
             <div class="col_icons col d-flex justify-content-end align-items-center">
